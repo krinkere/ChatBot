@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Me Me"/>
+<meta name="language" content="en"/>
+
+<!-- The <category> tag: The basic knowledge blocks of AIML are called categories. Each category block consists -->
+<!--   of two sections. One is the user input in the form of a sentence and the other is a corresponding response -->
+<!--   to user input which comes from robot. The category tag is represented using the opening <category> tag and -->
+<!--   the closing tag is represented using the </category> tag. -->
+<!--   These categories must be inside the <aiml> and </aiml> tags. The category tags consist of two tags, namely, -->
+<!--   the <pattern> tag and the <template> tag. The input given by users is inside the <pattern> tag and the -->
+<!--   answers are in the <template> tag -->
+<category>
+    <pattern>START BROWSER</pattern>
+    <template>
+        starting browser
+    </template>
+</category>
+
+<category>
+    <pattern> MEET OUR GUEST * AND * </pattern>
+    <template>
+        NICE TO MEET YOU <star index="1"/> AND <star index="2"/>.
+    </template>
+</category>
+
+<category>
+    <pattern> MEET OUR GUEST _ AND _ </pattern>
+    <template>
+        VERY NICE TO MEET YOU <star index="1"/> AND <star index="2"/>.
+    </template>
+</category>
+
+</aiml>

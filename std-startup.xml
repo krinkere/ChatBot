@@ -1,0 +1,15 @@
+<aiml version="1.0">
+
+    <category>
+        <pattern>LOAD AIML B</pattern>
+        <template>
+            <!-- Load standard AIML set -->
+            <learn>knowledge_core/standard/std-*.aiml</learn>
+            <!-- Load aiml-en-us-foundation-alice AIML set -->
+            <learn>knowledge_core/aiml-en-us-foundation-alice/*.aiml</learn>
+            <!-- Load misc AIML set -->
+            <!--<learn>knowledge_core/misc/*.aiml</learn>-->
+        </template>
+    </category>
+
+</aiml>
