@@ -1,10 +1,46 @@
 from flask import Flask, render_template, request, jsonify
+from flask_sqlalchemy import SQLAlchemy
 from chatbot_init import give_bot_personality
 import aiml
 import os
+import logging
+from tornado.wsgi import WSGIContainer
+from tornado.httpserver import HTTPServer
+from tornado.ioloop import IOLoop
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///botchat_transcript.sqlite3'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db = SQLAlchemy(app)
+
+http_server = HTTPServer(WSGIContainer(app))
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+# create a file handler
+handler = logging.FileHandler('chatter.log')
+handler.setLevel(logging.DEBUG)
+# create a logging format
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+# add the handlers to the logger
+logger.addHandler(handler)
+
 global bot_kernel
+
+
+class BotChatTranscript(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    question = db.Column(db.String(120))
+    answer = db.Column(db.String(120))
+
+    def __init__(self, question, answer):
+        self.question = question
+        self.answer = answer
+
+    def __repr__(self):
+        return '[Question: %r][Answer: %r]' % (self.question, self.answer)
 
 
 def initialize_chatbot():
@@ -32,13 +68,21 @@ def chat():
     message = str(request.form['messageText'])
     global bot_kernel
 
-    while True:
-        if message == "quit":
-            exit()
-        else:
-            chatbot_response = bot_kernel.respond(message)
-            return jsonify({'status': 'OK', 'answer': chatbot_response})
+    if message == "quit":
+        exit()
+    else:
+        chatbot_response = bot_kernel.respond(message)
+
+        # Log and save to database for future analysis
+        botchattranscript = BotChatTranscript(message, chatbot_response)
+        logger.info(botchattranscript)
+        db.session.add(botchattranscript)
+        db.session.commit()
+
+        return jsonify({'status': 'OK', 'answer': chatbot_response})
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True)
+    http_server.listen(5000)
+    IOLoop.instance().start()
+    # app.run(host='0.0.0.0', debug=True)

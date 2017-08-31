@@ -24,7 +24,7 @@ def give_bot_personality(kernel):
     kernel.setBotPredicate("looklike", "a computer")
     kernel.setBotPredicate("master", "Sys Root")
     kernel.setBotPredicate("memory", "never enough")
-    kernel.setBotPredicate("name", "USPTO chatbot")
+    kernel.setBotPredicate("name", "Wolcott")
     kernel.setBotPredicate("nationality", "10101010")
     kernel.setBotPredicate("os", "Linux")
     kernel.setBotPredicate("question", "How can I help?")

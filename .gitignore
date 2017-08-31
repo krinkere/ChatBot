@@ -1,3 +1,5 @@
 *.pyc
 .idea/*
 *.brn
+*.sqlite3
+*.log

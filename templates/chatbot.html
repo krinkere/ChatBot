@@ -54,8 +54,9 @@
     <body>
         <div class="container">
             <div class="row">
-                <h3 class="text-center"><small><strong>Welcome to USPTO Chatbot service</strong></small></h3>
-                <div class="col-md-8 col-md-offset-2">
+
+                    <h3 class="text-left"> <img src="{{ url_for('static', filename='img/OCTO_Logo.png') }}">
+                    <small><strong>&nbsp;&nbsp;Welcome to USPTO Chatbot service</strong></small></h3>
                     <div id="chatPanel" class="panel panel-info">
                         <div class="panel-heading">
                             <strong><span class="glyphicon glyphicon-globe"></span> How can I help you?</strong>
@@ -75,7 +76,7 @@
                             </form>
                         </div>
                     </div>
-                </div>
+
             </div>
         </div>
 
@@ -91,7 +92,7 @@
             $('#chatbot-form').submit(function(e) {
                 e.preventDefault();
                 var message = $('#messageText').val();
-                $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + 'User: ' + message + '<hr/></div></div></div></li>');
+                $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + '<font color="yellow">User:</font> ' + message + '<hr/></div></div></div></li>');
                 $.ajax({
                     type: "POST",
                     url: "/ask",
@@ -100,7 +101,7 @@
                         $('#messageText').val('');
                         var answer = response.answer;
                         const chatPanel = document.getElementById("chatPanel");
-                        $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + 'Bot: ' + answer + '<hr/></div></div></div></li>');
+                        $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + '<font color="red">Wolcott:</font> ' + answer + '<hr/></div></div></div></li>');
                         $(".fixed-panel").stop().animate({ scrollTop: $(".fixed-panel")[0].scrollHeight}, 1000);
                     },
                     error: function(error) {
@@ -110,5 +111,13 @@
             });
         });
         </script>
+        <div class="container">
+            The purpose of this chatbot service is to provide its users with quick answers from
+            <b>Manual of Patent Examining Procedure (MPEP)</b> (the more comprehensive answers will be found in the MPEP
+            itself.<br><br>
+            <i>* The <a href="https://www.uspto.gov/web/offices/pac/mpep/index.html">MPEP</a> is published by the United
+            States Patent and Trademark Office (USPTO) for use by patent attorneys and examiners. It describes all of
+                the laws and regulations that must be followed in the examination of U.S. patent applications.</i>
+        </div>
     </body>
 </html>
