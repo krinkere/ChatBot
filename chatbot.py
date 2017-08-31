@@ -68,18 +68,15 @@ def chat():
     message = str(request.form['messageText'])
     global bot_kernel
 
-    if message == "quit":
-        exit()
-    else:
-        chatbot_response = bot_kernel.respond(message)
+    chatbot_response = bot_kernel.respond(message)
 
-        # Log and save to database for future analysis
-        botchattranscript = BotChatTranscript(message, chatbot_response)
-        logger.info(botchattranscript)
-        db.session.add(botchattranscript)
-        db.session.commit()
+    # Log and save to database for future analysis
+    botchattranscript = BotChatTranscript(message, chatbot_response)
+    logger.info(botchattranscript)
+    db.session.add(botchattranscript)
+    db.session.commit()
 
-        return jsonify({'status': 'OK', 'answer': chatbot_response})
+    return jsonify({'status': 'OK', 'answer': chatbot_response})
 
 
 if __name__ == "__main__":
