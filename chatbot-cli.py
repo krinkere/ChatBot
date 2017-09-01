@@ -25,7 +25,7 @@ while True:
     if input == "quit":
         sys.exit(0)
     response = k.respond(input)
-    print 'Bot: ', response
+    print 'Wolcott: ', response
 
     if response == "starting browser":
         url = 'http://docs.python.org/'
