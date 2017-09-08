@@ -1,0 +1,2502 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Elman V. Krinker"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>_ TYPES OF INTELLECTUAL PROPERTY _</pattern>
+<template>
+<srai>TYPE INTELLECTUAL PROPERTY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TYPE OF INTELLECTUAL PROPERTY _</pattern>
+<template>
+<srai>TYPE INTELLECTUAL PROPERTY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ INTELLECTUAL PROPERTY _</pattern>
+<template>
+<srai>INTELLECTUAL PROPERTY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COPYRIGHT _</pattern>
+<template>
+<srai>COPYRIGHT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADE SECRET _</pattern>
+<template>
+<srai>TRADE SECRET</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADEMARK _</pattern>
+<template>
+<srai>TRADEMARK</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADEMARK NAME _</pattern>
+<template>
+<srai>TRADEMARK NAME</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENT _</pattern>
+<template>
+<srai>PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENT OVER TRADE SECRET _</pattern>
+<template>
+<srai>PATENT OVER TRADE SECRET</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENT _ OVER _ TRADE SECRET _</pattern>
+<template>
+<srai>PATENT OVER TRADE SECRET</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ WHAT _ PATENTED _</pattern>
+<template>
+<srai>WHAT PATENTED</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DESIGN PATENT _</pattern>
+<template>
+<srai>DESIGN PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PLANT PATENT _</pattern>
+<template>
+<srai>PLANT PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ UTILITY PATENT _</pattern>
+<template>
+<srai>UTILITY PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPLY PATENT _</pattern>
+<template>
+<srai>APPLY PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PARTS PATENT _</pattern>
+<template>
+<srai>PARTS PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ USPTO MISSION _</pattern>
+<template>
+<srai>USPTO MISSION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MISSION _</pattern>
+<template>
+<srai>USPTO MISSION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ USPTO VISION _</pattern>
+<template>
+<srai>USPTO VISION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ VISION _</pattern>
+<template>
+<srai>USPTO VISION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ AMERICA INVENTS ACT _</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ AIA _</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COURT OF APPEALS FEDERAL CIRCUIT _</pattern>
+<template>
+<srai>COURT OF APPEALS FEDERAL CIRCUIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENT APPEAL _</pattern>
+<template>
+<srai>PATENT APPEAL</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ALLOWED _</pattern>
+<template>
+<srai>ALLOWED</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENTED _</pattern>
+<template>
+<srai>PATENTED</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ABANDONED _</pattern>
+<template>
+<srai>ABANDONED</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 101 _</pattern>
+<template>
+<srai>101</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 _</pattern>
+<template>
+<srai>102</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102A1 _</pattern>
+<template>
+<srai>102(A)(1)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 A 1 _</pattern>
+<template>
+<srai>102(A)(1)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 A1 _</pattern>
+<template>
+<srai>102(A)(1)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102A2 _</pattern>
+<template>
+<srai>102(A)(2)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 A 2 _</pattern>
+<template>
+<srai>102(A)(2)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 A2 _</pattern>
+<template>
+<srai>102(A)(2)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ IN PUBLIC USE _</pattern>
+<template>
+<srai>IN PUBLIC USE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ OTHERWISE AVAILABLE TO THE PUBLIC _</pattern>
+<template>
+<srai>OTHERWISE AVAILABLE TO THE PUBLIC</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REFERENCE _</pattern>
+<template>
+<srai>REFERENCE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REFERENCES _</pattern>
+<template>
+<srai>REFERENCE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PRIOR ART _</pattern>
+<template>
+<srai>PRIOR ART</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 103 _</pattern>
+<template>
+<srai>103</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PRIOR ART _ 103 _</pattern>
+<template>
+<srai>PRIOR ART 103</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 REJECTION _</pattern>
+<template>
+<srai>102 REJECTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 _ REJECTION _</pattern>
+<template>
+<srai>102 REJECTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ OFFICIAL NOTICE _</pattern>
+<template>
+<srai>OFFICIAL NOTICE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ OFFICIAL NOTICES _</pattern>
+<template>
+<srai>OFFICIAL NOTICE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A FIRST REQUIREMENT _</pattern>
+<template>
+<srai>112A FIRST REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A FIRST REQUIREMENTS _</pattern>
+<template>
+<srai>112A FIRST REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ FIRST REQUIREMENT _</pattern>
+<template>
+<srai>112A FIRST REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ FIRST REQUIREMENTS _</pattern>
+<template>
+<srai>112A FIRST REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A SECOND REQUIREMENT _</pattern>
+<template>
+<srai>112A SECOND REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A SECOND REQUIREMENTS _</pattern>
+<template>
+<srai>112A SECOND REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ SECOND REQUIREMENT _</pattern>
+<template>
+<srai>112A SECOND REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ SECOND REQUIREMENTS _</pattern>
+<template>
+<srai>112A SECOND REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A THIRD REQUIREMENT _</pattern>
+<template>
+<srai>112A THIRD REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A THIRD REQUIREMENTS _</pattern>
+<template>
+<srai>112A THIRD REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ THIRD REQUIREMENT _</pattern>
+<template>
+<srai>112A THIRD REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ THIRD REQUIREMENTS _</pattern>
+<template>
+<srai>112A THIRD REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112B _</pattern>
+<template>
+<srai>112B</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112F _</pattern>
+<template>
+<srai>112F</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EQUIVALENT STRUCTURE _</pattern>
+<template>
+<srai>EQUIVALENT STRUCTURE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 131 _</pattern>
+<template>
+<srai>131</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ AFFIDAVIT _</pattern>
+<template>
+<srai>AFFIDAVIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DECLARATION _</pattern>
+<template>
+<srai>DECLARATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ STATUTORY BAR EXCLUSION _</pattern>
+<template>
+<srai>STATUTORY BAR EXCLUSION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CONCEPTION _</pattern>
+<template>
+<srai>CONCEPTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACTUAL REDUCTION TO PRACTICE _</pattern>
+<template>
+<srai>ACTUAL REDUCTION TO PRACTICE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CONSTRUCTIVE REDUCTION TO PRACTICE _</pattern>
+<template>
+<srai>CONSTRUCTIVE REDUCTION TO PRACTICE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 132 _</pattern>
+<template>
+<srai>132</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DILIGENCE _</pattern>
+<template>
+<srai>DILIGENCE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ RESTRICTION _</pattern>
+<template>
+<srai>RESTRICTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADEMARK IN CLAIMS _</pattern>
+<template>
+<srai>TRADEMARK IN CLAIMS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADEMARK _ IN _ CLAIMS_</pattern>
+<template>
+<srai>TRADEMARK IN CLAIMS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REQUEST FOR CONTINUED EXAMINATION _</pattern>
+<template>
+<srai>REQUEST FOR CONTINUED EXAMINATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ RCE _</pattern>
+<template>
+<srai>REQUEST FOR CONTINUED EXAMINATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DERIVATION 101 _</pattern>
+<template>
+<srai>DERIVATION 101</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ FOUR REQUIREMENTS IN 101 _</pattern>
+<template>
+<srai>FOUR REQUIREMENTS IN 101</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REQUIREMENTS IN 101 _</pattern>
+<template>
+<srai>FOUR REQUIREMENTS IN 101</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 101 ELIGIBILITY _</pattern>
+<template>
+<srai>101 ELIGIBILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ELIGIBILITY 101 _</pattern>
+<template>
+<srai>101 ELIGIBILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 101 _ ELIGIBILITY _</pattern>
+<template>
+<srai>101 ELIGIBILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ELIGIBILITY _ 101 _</pattern>
+<template>
+<srai>101 ELIGIBILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ STATUTORY CATEGORIES OF INVENTION _</pattern>
+<template>
+<srai>STATUTORY CATEGORIES OF INVENTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PROCESS _</pattern>
+<template>
+<srai>PROCESS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MACHINE _</pattern>
+<template>
+<srai>MACHINE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUFACTURE _</pattern>
+<template>
+<srai>MANUFACTURE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPOSITION OF MATTER _</pattern>
+<template>
+<srai>COMPOSITION OF MATTER</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ UTILITY REQUIREMENT _</pattern>
+<template>
+<srai>UTILITY REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SPECIFIC UTILITY _</pattern>
+<template>
+<srai>SPECIFIC UTILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SUBSTANTIAL UTILITY _</pattern>
+<template>
+<srai>SUBSTANTIAL UTILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CREDIBLE UTILITY _</pattern>
+<template>
+<srai>CREDIBLE UTILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ WELL ESTABLISHED UTILITIES _</pattern>
+<template>
+<srai>WELL ESTABLISHED UTILITIES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ UTILITY REJECTION OVERVIEW _</pattern>
+<template>
+<srai>UTILITY REJECTION OVERVIEW</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ UTILITY DECISION TREE _</pattern>
+<template>
+<srai>UTILITY DECISION TREE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ USE CLAIM _</pattern>
+<template>
+<srai>USE CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DOUBLE PATENTING _</pattern>
+<template>
+<srai>DOUBLE PATENTING</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DOUBLE PATENT _</pattern>
+<template>
+<srai>DOUBLE PATENTING</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ UNEXPECTED RESULTS _ AFFIDAVIT _</pattern>
+<template>
+<srai>UNEXPECTED RESULTS AFFIDAVIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COMMERCIAL SUCCESS _ AFFIDAVIT _</pattern>
+<template>
+<srai>COMMERCIAL SUCCESS AFFIDAVIT </srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LONG FELT NEED AFFIDAVIT _</pattern>
+<template>
+<srai>LONG FELT NEED AFFIDAVIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHORTENED STATUTORY PERIOD _</pattern>
+<template>
+<srai>SHORTENED STATUTORY PERIOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHORTENED STATUTORY PERIODS _</pattern>
+<template>
+<srai>SHORTENED STATUTORY PERIOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EX PARTE QUAYLE ACTION _</pattern>
+<template>
+<srai>EX PARTE QUAYLE ACTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EX PARTE QUAYLE ACTIONS _</pattern>
+<template>
+<srai>EX PARTE QUAYLE ACTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 312 AMENDMENT _</pattern>
+<template>
+<srai>312 AMENDMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ AMENDMENT 312 _</pattern>
+<template>
+<srai>312 AMENDMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPEAL BRIEF _</pattern>
+<template>
+<srai>APPEAL BRIEF</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPEAL FORWARDING FEE _</pattern>
+<template>
+<srai>APPEAL FORWARDING FEE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPEAL FEE _</pattern>
+<template>
+<srai>APPEAL FORWARDING FEE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ORAL HEARING _</pattern>
+<template>
+<srai>ORAL HEARING</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ORAL HEARINGS _</pattern>
+<template>
+<srai>ORAL HEARING</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ BROADEST REASONABLE INTERPRETATION _</pattern>
+<template>
+<srai>BROADEST REASONABLE INTERPRETATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PLAIN MEANING _</pattern>
+<template>
+<srai>PLAIN MEANING</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ FUNCTIONAL LIMITATION _</pattern>
+<template>
+<srai>FUNCTIONAL LIMITATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ FUNCTIONAL LIMITATIONS _</pattern>
+<template>
+<srai>FUNCTIONAL LIMITATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ INTENDED USE LIMITATION _</pattern>
+<template>
+<srai>INTENDED USE LIMITATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ INTENDED USE LIMITATIONS _</pattern>
+<template>
+<srai>INTENDED USE LIMITATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CLAIM _</pattern>
+<template>
+<srai>CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CLAIMS _</pattern>
+<template>
+<srai>CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPARATUS CLAIM _</pattern>
+<template>
+<srai>APPARATUS CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPARATUS CLAIMS _</pattern>
+<template>
+<srai>APPARATUS CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ METHOD CLAIM _</pattern>
+<template>
+<srai>METHOD CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ METHOD CLAIMS _</pattern>
+<template>
+<srai>METHOD CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PRODUCT CLAIM _</pattern>
+<template>
+<srai>PRODUCT CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PRODUCT CLAIMS _</pattern>
+<template>
+<srai>PRODUCT CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPOSITION CLAIM _</pattern>
+<template>
+<srai>COMPOSITION CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPOSITION CLAIMS _</pattern>
+<template>
+<srai>COMPOSITION CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPACT PROSECUTION _</pattern>
+<template>
+<srai>COMPACT PROSECUTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CLARITY _</pattern>
+<template>
+<srai>CLARITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE _</pattern>
+<template>
+<srai>MANUAL OF PATENT EXAMINING PROCEDURE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP _</pattern>
+<template>
+<srai>MANUAL OF PATENT EXAMINING PROCEDURE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP STATUTES _</pattern>
+<template>
+<srai>MPEP STATUTES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP STATUTE _</pattern>
+<template>
+<srai>MPEP STATUTES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP REGULATIONS _</pattern>
+<template>
+<srai>MPEP REGULATIONS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP REGULATION _</pattern>
+<template>
+<srai>MPEP REGULATIONS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP CASE LAW _</pattern>
+<template>
+<srai>MPEP CASE LAW</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE CASE LAW _</pattern>
+<template>
+<srai>MPEP CASE LAW</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP POLICY _</pattern>
+<template>
+<srai>MPEP POLICY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE POLICY _</pattern>
+<template>
+<srai>MPEP POLICY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP GUIDELINES _</pattern>
+<template>
+<srai>MPEP GUIDELINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP GUIDELINE _</pattern>
+<template>
+<srai>MPEP GUIDELINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE GUIDELINES _</pattern>
+<template>
+<srai>MPEP GUIDELINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE GUIDELINE _</pattern>
+<template>
+<srai>MPEP GUIDELINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP FORM PARAGRAPHS _</pattern>
+<template>
+<srai>MPEP FORM PARAGRAPHS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP FORM PARAGRAPH _</pattern>
+<template>
+<srai>MPEP FORM PARAGRAPHS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE FORM PARAGRAPHS _</pattern>
+<template>
+<srai>MPEP FORM PARAGRAPHS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE FORM PARAGRAPH _</pattern>
+<template>
+<srai>MPEP FORM PARAGRAPHS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ANTICIPATION _</pattern>
+<template>
+<srai>ANTICIPATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ANTICIPATIONS _</pattern>
+<template>
+<srai>ANTICIPATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EVIDENCE TYPE _</pattern>
+<template>
+<srai>EVIDENCE TYPE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EVIDENCE TYPES _</pattern>
+<template>
+<srai>EVIDENCE TYPE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACTUAL FILING DATE _</pattern>
+<template>
+<srai>ACTUAL FILING DATE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EFFECTIVE FILING DATE _</pattern>
+<template>
+<srai>EFFECTIVE FILING DATE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PRIORITY DATE _</pattern>
+<template>
+<srai>PRIORITY DATE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DOMESTIC BENEFIT _</pattern>
+<template>
+<srai>DOMESTIC BENEFIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DOMESTIC BENEFIT CLAIMED _</pattern>
+<template>
+<srai>DOMESTIC BENEFIT CLAIMED</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ NONPROVISIONAL APPLICATION _</pattern>
+<template>
+<srai>NONPROVISIONAL APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ NONPROVISIONAL APPLICATIONS _</pattern>
+<template>
+<srai>NONPROVISIONAL APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PROVISIONAL APPLICATION _</pattern>
+<template>
+<srai>PROVISIONAL APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PROVISIONAL APPLICATIONS _</pattern>
+<template>
+<srai>PROVISIONAL APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENT COOPERATION TREATY _</pattern>
+<template>
+<srai>PATENT COOPERATION TREATY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REISSUE APPLICATION _</pattern>
+<template>
+<srai>REISSUE APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REISSUE APPLICATIONS _</pattern>
+<template>
+<srai>REISSUE APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REISSUE PATENT _</pattern>
+<template>
+<srai>REISSUE PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REISSUE PATENTS _</pattern>
+<template>
+<srai>REISSUE PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112 _</pattern>
+<template>
+<srai>112</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _</pattern>
+<template>
+<srai>112A</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112B _</pattern>
+<template>
+<srai>112B</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112C _</pattern>
+<template>
+<srai>112C</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112E _</pattern>
+<template>
+<srai>112E</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112D _</pattern>
+<template>
+<srai>112D</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 101 _ 102 _</pattern>
+<template>
+<srai>101</srai>
+<srai>102</srai>
+</template>
+</category>
+
+8888888888888888888888
+
+
+<category>
+<pattern>_ TYPES OF INTELLECTUAL PROPERTY</pattern>
+<template>
+<srai>TYPE INTELLECTUAL PROPERTY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TYPE OF INTELLECTUAL PROPERTY</pattern>
+<template>
+<srai>TYPE INTELLECTUAL PROPERTY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ INTELLECTUAL PROPERTY</pattern>
+<template>
+<srai>INTELLECTUAL PROPERTY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COPYRIGHT</pattern>
+<template>
+<srai>COPYRIGHT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADE SECRET</pattern>
+<template>
+<srai>TRADE SECRET</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADEMARK</pattern>
+<template>
+<srai>TRADEMARK</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADEMARK NAME</pattern>
+<template>
+<srai>TRADEMARK NAME</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENT</pattern>
+<template>
+<srai>PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENT OVER TRADE SECRET</pattern>
+<template>
+<srai>PATENT OVER TRADE SECRET</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENT _ OVER _ TRADE SECRET</pattern>
+<template>
+<srai>PATENT OVER TRADE SECRET</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ WHAT _ PATENTED</pattern>
+<template>
+<srai>WHAT PATENTED</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DESIGN PATENT</pattern>
+<template>
+<srai>DESIGN PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PLANT PATENT</pattern>
+<template>
+<srai>PLANT PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ UTILITY PATENT</pattern>
+<template>
+<srai>UTILITY PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPLY PATENT</pattern>
+<template>
+<srai>APPLY PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PARTS PATENT</pattern>
+<template>
+<srai>PARTS PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ USPTO MISSION</pattern>
+<template>
+<srai>USPTO MISSION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MISSION</pattern>
+<template>
+<srai>USPTO MISSION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ USPTO VISION</pattern>
+<template>
+<srai>USPTO VISION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ VISION</pattern>
+<template>
+<srai>USPTO VISION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ AMERICA INVENTS ACT</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ AIA</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COURT OF APPEALS FEDERAL CIRCUIT</pattern>
+<template>
+<srai>COURT OF APPEALS FEDERAL CIRCUIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENT APPEAL</pattern>
+<template>
+<srai>PATENT APPEAL</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ALLOWED</pattern>
+<template>
+<srai>ALLOWED</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENTED</pattern>
+<template>
+<srai>PATENTED</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ABANDONED</pattern>
+<template>
+<srai>ABANDONED</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 101</pattern>
+<template>
+<srai>101</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102</pattern>
+<template>
+<srai>102</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102A1</pattern>
+<template>
+<srai>102(A)(1)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 A 1</pattern>
+<template>
+<srai>102(A)(1)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 A1</pattern>
+<template>
+<srai>102(A)(1)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102A2</pattern>
+<template>
+<srai>102(A)(2)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 A 2</pattern>
+<template>
+<srai>102(A)(2)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 A2</pattern>
+<template>
+<srai>102(A)(2)</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ IN PUBLIC USE</pattern>
+<template>
+<srai>IN PUBLIC USE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ OTHERWISE AVAILABLE TO THE PUBLIC</pattern>
+<template>
+<srai>OTHERWISE AVAILABLE TO THE PUBLIC</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REFERENCE</pattern>
+<template>
+<srai>REFERENCE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REFERENCES</pattern>
+<template>
+<srai>REFERENCE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PRIOR ART</pattern>
+<template>
+<srai>PRIOR ART</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 103</pattern>
+<template>
+<srai>103</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PRIOR ART _ 103</pattern>
+<template>
+<srai>PRIOR ART 103</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 REJECTION</pattern>
+<template>
+<srai>102 REJECTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 102 _ REJECTION</pattern>
+<template>
+<srai>102 REJECTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ OFFICIAL NOTICE</pattern>
+<template>
+<srai>OFFICIAL NOTICE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ OFFICIAL NOTICES</pattern>
+<template>
+<srai>OFFICIAL NOTICE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A FIRST REQUIREMENT</pattern>
+<template>
+<srai>112A FIRST REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A FIRST REQUIREMENTS</pattern>
+<template>
+<srai>112A FIRST REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ FIRST REQUIREMENT</pattern>
+<template>
+<srai>112A FIRST REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ FIRST REQUIREMENTS</pattern>
+<template>
+<srai>112A FIRST REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A SECOND REQUIREMENT</pattern>
+<template>
+<srai>112A SECOND REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A SECOND REQUIREMENTS</pattern>
+<template>
+<srai>112A SECOND REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ SECOND REQUIREMENT</pattern>
+<template>
+<srai>112A SECOND REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ SECOND REQUIREMENTS</pattern>
+<template>
+<srai>112A SECOND REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A THIRD REQUIREMENT</pattern>
+<template>
+<srai>112A THIRD REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A THIRD REQUIREMENTS</pattern>
+<template>
+<srai>112A THIRD REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ THIRD REQUIREMENT</pattern>
+<template>
+<srai>112A THIRD REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A _ THIRD REQUIREMENTS</pattern>
+<template>
+<srai>112A THIRD REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112B</pattern>
+<template>
+<srai>112B</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112F</pattern>
+<template>
+<srai>112F</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EQUIVALENT STRUCTURE</pattern>
+<template>
+<srai>EQUIVALENT STRUCTURE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 131</pattern>
+<template>
+<srai>131</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ AFFIDAVIT</pattern>
+<template>
+<srai>AFFIDAVIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DECLARATION</pattern>
+<template>
+<srai>DECLARATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ STATUTORY BAR EXCLUSION</pattern>
+<template>
+<srai>STATUTORY BAR EXCLUSION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CONCEPTION</pattern>
+<template>
+<srai>CONCEPTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACTUAL REDUCTION TO PRACTICE</pattern>
+<template>
+<srai>ACTUAL REDUCTION TO PRACTICE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CONSTRUCTIVE REDUCTION TO PRACTICE</pattern>
+<template>
+<srai>CONSTRUCTIVE REDUCTION TO PRACTICE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 132</pattern>
+<template>
+<srai>132</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DILIGENCE</pattern>
+<template>
+<srai>DILIGENCE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ RESTRICTION</pattern>
+<template>
+<srai>RESTRICTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADEMARK IN CLAIMS</pattern>
+<template>
+<srai>TRADEMARK IN CLAIMS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADEMARK _ IN _ CLAIMS</pattern>
+<template>
+<srai>TRADEMARK IN CLAIMS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADEMARK IN CLAIM</pattern>
+<template>
+<srai>TRADEMARK IN CLAIMS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADEMARK _ IN _ CLAIM</pattern>
+<template>
+<srai>TRADEMARK IN CLAIMS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REQUEST FOR CONTINUED EXAMINATION</pattern>
+<template>
+<srai>REQUEST FOR CONTINUED EXAMINATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ RCE</pattern>
+<template>
+<srai>REQUEST FOR CONTINUED EXAMINATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DERIVATION 101</pattern>
+<template>
+<srai>DERIVATION 101</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ FOUR REQUIREMENTS IN 101</pattern>
+<template>
+<srai>FOUR REQUIREMENTS IN 101</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REQUIREMENTS IN 101</pattern>
+<template>
+<srai>FOUR REQUIREMENTS IN 101</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 101 ELIGIBILITY</pattern>
+<template>
+<srai>101 ELIGIBILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ELIGIBILITY 101</pattern>
+<template>
+<srai>101 ELIGIBILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 101 _ ELIGIBILITY</pattern>
+<template>
+<srai>101 ELIGIBILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ELIGIBILITY _ 101</pattern>
+<template>
+<srai>101 ELIGIBILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ STATUTORY CATEGORIES OF INVENTION</pattern>
+<template>
+<srai>STATUTORY CATEGORIES OF INVENTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PROCESS</pattern>
+<template>
+<srai>PROCESS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MACHINE</pattern>
+<template>
+<srai>MACHINE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUFACTURE</pattern>
+<template>
+<srai>MANUFACTURE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPOSITION OF MATTER</pattern>
+<template>
+<srai>COMPOSITION OF MATTER</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ UTILITY REQUIREMENT</pattern>
+<template>
+<srai>UTILITY REQUIREMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SPECIFIC UTILITY</pattern>
+<template>
+<srai>SPECIFIC UTILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SUBSTANTIAL UTILITY</pattern>
+<template>
+<srai>SUBSTANTIAL UTILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CREDIBLE UTILITY</pattern>
+<template>
+<srai>CREDIBLE UTILITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ WELL ESTABLISHED UTILITIES</pattern>
+<template>
+<srai>WELL ESTABLISHED UTILITIES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ UTILITY REJECTION OVERVIEW</pattern>
+<template>
+<srai>UTILITY REJECTION OVERVIEW</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ UTILITY DECISION TREE</pattern>
+<template>
+<srai>UTILITY DECISION TREE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ USE CLAIM</pattern>
+<template>
+<srai>USE CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DOUBLE PATENTING</pattern>
+<template>
+<srai>DOUBLE PATENTING</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DOUBLE PATENT</pattern>
+<template>
+<srai>DOUBLE PATENTING</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ UNEXPECTED RESULTS _ AFFIDAVIT</pattern>
+<template>
+<srai>UNEXPECTED RESULTS AFFIDAVIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COMMERCIAL SUCCESS _ AFFIDAVIT</pattern>
+<template>
+<srai>COMMERCIAL SUCCESS AFFIDAVIT </srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LONG FELT NEED AFFIDAVIT</pattern>
+<template>
+<srai>LONG FELT NEED AFFIDAVIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHORTENED STATUTORY PERIOD</pattern>
+<template>
+<srai>SHORTENED STATUTORY PERIOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ SHORTENED STATUTORY PERIODS</pattern>
+<template>
+<srai>SHORTENED STATUTORY PERIOD</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EX PARTE QUAYLE ACTION</pattern>
+<template>
+<srai>EX PARTE QUAYLE ACTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EX PARTE QUAYLE ACTIONS</pattern>
+<template>
+<srai>EX PARTE QUAYLE ACTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 312 AMENDMENT</pattern>
+<template>
+<srai>312 AMENDMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ AMENDMENT 312</pattern>
+<template>
+<srai>312 AMENDMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPEAL BRIEF</pattern>
+<template>
+<srai>APPEAL BRIEF</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPEAL FORWARDING FEE</pattern>
+<template>
+<srai>APPEAL FORWARDING FEE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPEAL FEE</pattern>
+<template>
+<srai>APPEAL FORWARDING FEE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ORAL HEARING</pattern>
+<template>
+<srai>ORAL HEARING</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ORAL HEARINGS</pattern>
+<template>
+<srai>ORAL HEARING</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ BROADEST REASONABLE INTERPRETATION</pattern>
+<template>
+<srai>BROADEST REASONABLE INTERPRETATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PLAIN MEANING</pattern>
+<template>
+<srai>PLAIN MEANING</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ FUNCTIONAL LIMITATION</pattern>
+<template>
+<srai>FUNCTIONAL LIMITATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ FUNCTIONAL LIMITATIONS</pattern>
+<template>
+<srai>FUNCTIONAL LIMITATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ INTENDED USE LIMITATION</pattern>
+<template>
+<srai>INTENDED USE LIMITATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ INTENDED USE LIMITATIONS</pattern>
+<template>
+<srai>INTENDED USE LIMITATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CLAIM</pattern>
+<template>
+<srai>CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CLAIMS</pattern>
+<template>
+<srai>CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPARATUS CLAIM</pattern>
+<template>
+<srai>APPARATUS CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ APPARATUS CLAIMS</pattern>
+<template>
+<srai>APPARATUS CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ METHOD CLAIM</pattern>
+<template>
+<srai>METHOD CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ METHOD CLAIMS</pattern>
+<template>
+<srai>METHOD CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PRODUCT CLAIM</pattern>
+<template>
+<srai>PRODUCT CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PRODUCT CLAIMS</pattern>
+<template>
+<srai>PRODUCT CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPOSITION CLAIM</pattern>
+<template>
+<srai>COMPOSITION CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPOSITION CLAIMS</pattern>
+<template>
+<srai>COMPOSITION CLAIM</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ COMPACT PROSECUTION</pattern>
+<template>
+<srai>COMPACT PROSECUTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ CLARITY</pattern>
+<template>
+<srai>CLARITY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE</pattern>
+<template>
+<srai>MANUAL OF PATENT EXAMINING PROCEDURE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP</pattern>
+<template>
+<srai>MANUAL OF PATENT EXAMINING PROCEDURE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP STATUTES</pattern>
+<template>
+<srai>MPEP STATUTES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP STATUTE</pattern>
+<template>
+<srai>MPEP STATUTES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP REGULATIONS</pattern>
+<template>
+<srai>MPEP REGULATIONS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP REGULATION</pattern>
+<template>
+<srai>MPEP REGULATIONS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP CASE LAW</pattern>
+<template>
+<srai>MPEP CASE LAW</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE CASE LAW</pattern>
+<template>
+<srai>MPEP CASE LAW</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP POLICY</pattern>
+<template>
+<srai>MPEP POLICY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE POLICY</pattern>
+<template>
+<srai>MPEP POLICY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP GUIDELINES</pattern>
+<template>
+<srai>MPEP GUIDELINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP GUIDELINE</pattern>
+<template>
+<srai>MPEP GUIDELINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE GUIDELINES</pattern>
+<template>
+<srai>MPEP GUIDELINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE GUIDELINE</pattern>
+<template>
+<srai>MPEP GUIDELINES</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP FORM PARAGRAPHS</pattern>
+<template>
+<srai>MPEP FORM PARAGRAPHS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP FORM PARAGRAPH</pattern>
+<template>
+<srai>MPEP FORM PARAGRAPHS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE FORM PARAGRAPHS</pattern>
+<template>
+<srai>MPEP FORM PARAGRAPHS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE FORM PARAGRAPH</pattern>
+<template>
+<srai>MPEP FORM PARAGRAPHS</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ANTICIPATION</pattern>
+<template>
+<srai>ANTICIPATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ANTICIPATIONS</pattern>
+<template>
+<srai>ANTICIPATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EVIDENCE TYPE</pattern>
+<template>
+<srai>EVIDENCE TYPE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EVIDENCE TYPES</pattern>
+<template>
+<srai>EVIDENCE TYPE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ACTUAL FILING DATE</pattern>
+<template>
+<srai>ACTUAL FILING DATE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ EFFECTIVE FILING DATE</pattern>
+<template>
+<srai>EFFECTIVE FILING DATE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PRIORITY DATE</pattern>
+<template>
+<srai>PRIORITY DATE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DOMESTIC BENEFIT</pattern>
+<template>
+<srai>DOMESTIC BENEFIT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ DOMESTIC BENEFIT CLAIMED</pattern>
+<template>
+<srai>DOMESTIC BENEFIT CLAIMED</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ NONPROVISIONAL APPLICATION</pattern>
+<template>
+<srai>NONPROVISIONAL APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ NONPROVISIONAL APPLICATIONS</pattern>
+<template>
+<srai>NONPROVISIONAL APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PROVISIONAL APPLICATION</pattern>
+<template>
+<srai>PROVISIONAL APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PROVISIONAL APPLICATIONS</pattern>
+<template>
+<srai>PROVISIONAL APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ PATENT COOPERATION TREATY</pattern>
+<template>
+<srai>PATENT COOPERATION TREATY</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REISSUE APPLICATION</pattern>
+<template>
+<srai>REISSUE APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REISSUE APPLICATIONS</pattern>
+<template>
+<srai>REISSUE APPLICATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REISSUE PATENT</pattern>
+<template>
+<srai>REISSUE PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REISSUE PATENTS</pattern>
+<template>
+<srai>REISSUE PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112</pattern>
+<template>
+<srai>112</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112A</pattern>
+<template>
+<srai>112A</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112B</pattern>
+<template>
+<srai>112B</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112C</pattern>
+<template>
+<srai>112C</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112E</pattern>
+<template>
+<srai>112E</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 112D</pattern>
+<template>
+<srai>112D</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ 101 _ 102</pattern>
+<template>
+101: "<srai>101</srai>", 102: "<srai>102</srai>"
+</template>
+</category>
+
+<category>
+<pattern>112(A)</pattern>
+<template>
+<srai>112A</srai>
+</template>
+</category>
+
+<category>
+<pattern>112(B)</pattern>
+<template>
+<srai>112B</srai>
+</template>
+</category>
+
+<category>
+<pattern>112(C)</pattern>
+<template>
+<srai>112C</srai>
+</template>
+</category>
+
+<category>
+<pattern>112(D)</pattern>
+<template>
+<srai>112D</srai>
+</template>
+</category>
+
+<category>
+<pattern>112(E)</pattern>
+<template>
+<srai>112E</srai>
+</template>
+</category>
+
+<category>
+<pattern>112(F)</pattern>
+<template>
+<srai>112F</srai>
+</template>
+</category>
+
+<category>
+<pattern>KAPPOS</pattern>
+<template>
+<srai>BILSKI</srai>
+</template>
+</category>
+
+<category>
+<pattern>IDS</pattern>
+<template>
+<srai>INFORMATION DISCLOSURE STATEMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>PTO 892</pattern>
+<template>
+<srai>PTO-892</srai>
+</template>
+</category>
+
+</aiml>

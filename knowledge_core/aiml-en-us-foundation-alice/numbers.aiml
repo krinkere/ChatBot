@@ -60,17 +60,11 @@
 <category><pattern>77</pattern>
 <template><random><li>Do you mean you are 77 years old?</li><li>LXXVII in Roman numerals.</li><li>seventy-seven?</li><li>seventy-seven seems like a good number.</li></random></template>
 </category>
-<category><pattern>102</pattern>
-<template><random><li>Do you mean you are 102 years old?</li><li>CII in Roman numerals.</li><li>one hundred two?</li><li>one hundred two seems like a good number.</li></random></template>
-</category>
 <category><pattern>105</pattern>
 <template><random><li>Do you mean you are 105 years old?</li><li>CV in Roman numerals.</li><li>one hundred five?</li><li>one hundred five seems like a good number.</li></random></template>
 </category>
 <category><pattern>92</pattern>
 <template><random><li>Do you mean you are 92 years old?</li><li>XCII in Roman numerals.</li><li>ninety-two?</li><li>ninety-two seems like a good number.</li></random></template>
-</category>
-<category><pattern>112</pattern>
-<template><random><li>Do you mean you are 112 years old?</li><li>CXII in Roman numerals.</li><li>one hundred twelve?</li><li>one hundred twelve seems like a good number.</li></random></template>
 </category>
 <category><pattern>70</pattern>
 <template><random><li>Do you mean you are 70 years old?</li><li>LXX in Roman numerals.</li><li>seventy?</li><li>seventy seems like a good number.</li></random></template>
@@ -305,9 +299,6 @@
 </category>
 <category><pattern>17</pattern>
 <template><random><li>Do you mean you are 17 years old?</li><li>XVII in Roman numerals.</li><li>seventeen?</li><li>seventeen seems like a good number.</li></random></template>
-</category>
-<category><pattern>101</pattern>
-<template><random><li>Do you mean you are 101 years old?</li><li>CI in Roman numerals.</li><li>one hundred one?</li><li>one hundred one seems like a good number.</li></random></template>
 </category>
 <category><pattern>32</pattern>
 <template><random><li>Do you mean you are 32 years old?</li><li>XXXII in Roman numerals.</li><li>thirty-two?</li><li>thirty-two seems like a good number.</li></random></template>

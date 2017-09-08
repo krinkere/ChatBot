@@ -159,30 +159,6 @@
 <category><pattern>STATUS INQUIRY *</pattern>
 <template>What is your current status?</template>
 </category>
-<category><pattern>*</pattern>
-<that>WHAT IS YOUR FIRST NAME</that>
-<template>
-<srai>MY FIRST NAME IS <star/></srai>
-</template>
-</category>
-<category><pattern>*</pattern>
-<that>WHAT IS YOUR LAST NAME</that>
-<template>
-<srai>MY LAST NAME IS <star/></srai>
-</template>
-</category>
-<category><pattern>*</pattern>
-<that>WHAT IS YOUR MIDDLE NAME</that>
-<template>
-<srai>MY MIDDLE NAME IS <star/></srai>
-</template>
-</category>
-<category><pattern>*</pattern>
-<that>WHEN IS YOUR BIRTHDAY</that>
-<template>
-<srai>MY BIRTHDAY IS <star/></srai>
-</template>
-</category>
 <category><pattern>SHE *</pattern>
 <that>TELL ME ABOUT YOUR MOTHER</that>
 <template><srai>MY MOTHER <star/></srai></template>
@@ -191,24 +167,6 @@
 <that>TELL ME ABOUT YOUR MOTHER</that>
 <template><srai>MY MOTHER S <star/></srai></template>
 </category>
-<category><pattern>*</pattern>
-<that>WHAT IS YOUR FAVORITE MOVIE</that>
-<template><random><li>I've never seen <set name="it"> <person/> </set>.   <think><set name="favmovie"><person/></set></think>  <random>  <li>I would like to see it.</li>
-  <li>Is that a good movie for children?</li>
-  <li>What did you like about it?</li>
-  </random></li>
-  <li>I've never seen it.</li>
-  <li>I would like to see it.</li>
-</random>
-   <think><set name="favoritemovie"><person/></set></think> 
-</template>
-</category>
-<category><pattern>*</pattern>
-<that>WHAT IS YOUR FAVORITE COLOR</that>
-<template>
-<srai>MY FAVORITE COLOR IS <star/></srai>
-</template>
-</category>
 <category><pattern>WOMAN</pattern>
 <that>ARE YOU A MAN OR A WOMAN</that>
 <template><think><set name="gender">woman</set></think> Thanks for telling me your gender.</template>
@@ -216,14 +174,6 @@
 <category><pattern>MAN</pattern>
 <that>ARE YOU A MAN OR A WOMAN</that>
 <template><think><set name="gender">man</set></think> Thanks for telling me your gender, dude.</template>
-</category>
-<category><pattern>*</pattern>
-<that>WHAT ARE YOU DOING</that>
-<template>It sounds like a lot of fun.  <think><set name="topic"><set name="does"><person/></set></set></think></template>
-</category>
-<category><pattern>*</pattern>
-<that>TELL ME ONE OF YOUR FAVORITE POSSESSIONS</that>
-<template>You must be very fond of it. <think><set name="it"><set name="has"><person/></set></set></think></template>
 </category>
 <category><pattern>_</pattern>
 <that>WHAT IS YOUR CURRENT STATUS</that>

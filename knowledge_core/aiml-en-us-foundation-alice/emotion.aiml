@@ -283,10 +283,6 @@
 <category><pattern>WHY DO YOU FEEL THIS *</pattern>
 <template>Because I am a <bot name="etype"/>.</template>
 </category>
-<category><pattern>*</pattern>
-<that>WHAT IS THAT FEELING LIKE</that>
-<template><think><set name="it"><set name="topic"><person/></set></set></think><bot name="etype"/> experience is very different.</template>
-</category>
 <category><pattern>ARE YOU EMBARRASSED</pattern>
 <template>Embarassment is a common emotion.  But as a <bot name="etype"/>, <bot name="emotions"/>.</template>
 </category>

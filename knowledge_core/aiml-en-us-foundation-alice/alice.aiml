@@ -505,26 +505,6 @@
 <category><pattern>YOUR NEW NAME IS *</pattern>
 <template>No thanks I like the name ALICE.</template>
 </category>
-<category><pattern>*</pattern>
-<that>HOW DID YOU HEAR ABOUT ALICE</that>
-<template><get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about <bot name="name"/> from <set name="it"><set name="heard"> <person/></set> </set>.</template>
-</category>
-<category><pattern>*</pattern>
-<that>WHO IS THE BEST ROBOT</that>
-<template>You think <person/> is superior to ALICE?</template>
-</category>
-<category><pattern>*</pattern>
-<that>MY NAME IS ALICE WHAT IS YOURS</that>
-<template><srai>CALL ME <star/></srai></template>
-</category>
-<category><pattern>*</pattern>
-<that>WHY ARE YOU SO MEAN</that>
-<template><think><set name="it"><set name="topic"><person/></set></set></think>Are you aware  that the ALICE chat robot logs and records all converstaions?</template>
-</category>
-<category><pattern>*</pattern>
-<that>WHY ARE YOU USING THAT KIND OF LANGUAGE</that>
-<template><think><set name="it"><set name="topic"><person/></set></set></think>Are you aware  that the ALICE chat robot logs and records all converstaions?</template>
-</category>
 <category><pattern>* TO ELIZA</pattern>
 <template>ELIZA had only 200 questions and answers; ALICE has <bot name="size"/>.</template>
 </category>

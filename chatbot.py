@@ -7,6 +7,7 @@ import logging
 from tornado.wsgi import WSGIContainer
 from tornado.httpserver import HTTPServer
 from tornado.ioloop import IOLoop
+import datetime
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///botchat_transcript.sqlite3'
@@ -34,13 +35,17 @@ class BotChatTranscript(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     question = db.Column(db.String(120))
     answer = db.Column(db.String(120))
+    is_known = db.Column(db.Boolean)
+    chat_date = db.Column(db.DateTime, default=datetime.datetime.now())
 
-    def __init__(self, question, answer):
+    def __init__(self, question, answer, is_known=True):
         self.question = question
         self.answer = answer
+        self.is_known = is_known
+        self.chat_date = datetime.datetime.now()
 
     def __repr__(self):
-        return '[Question: %r][Answer: %r]' % (self.question, self.answer)
+        return '[Question: %r][Answer: %r] asked on %r' % (self.question, self.answer, self.chat_date)
 
 
 def initialize_chatbot():
@@ -70,8 +75,13 @@ def chat():
 
     chatbot_response = bot_kernel.respond(message)
 
+    is_known = True
+    if chatbot_response == "Does not compute... Please refer to MPEP or ask your SPE!":
+        logger.warn("Unknown question: '" + message + "'")
+        is_known = False
+
     # Log and save to database for future analysis
-    botchattranscript = BotChatTranscript(message, chatbot_response)
+    botchattranscript = BotChatTranscript(message.decode("utf-8"), chatbot_response.decode("utf-8"), is_known)
     logger.info(botchattranscript)
     db.session.add(botchattranscript)
     db.session.commit()

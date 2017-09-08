@@ -1433,10 +1433,6 @@
 <category><pattern>* LOEBNER PRIZE</pattern>
 <template><srai>WHAT IS THE LOEBNER PRIZE</srai></template>
 </category>
-<category><pattern>*</pattern>
-<that>who are you</that>
-<template><srai>MY NAME IS <star/></srai></template>
-</category>
 <category><pattern>* UNIVERSITY</pattern>
 <template><srai>I GO TO <star/> </srai></template>
 </category>
@@ -6964,12 +6960,6 @@
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>PLEASE SPECIFY LOCATION</that>
-<template><srai>MY LOCATION IS <star/></srai></template>
-</category>
-
-<category>
 <pattern>WHAT YOUDOING</pattern>
 <template><srai>WHAT ARE YOU DOING</srai></template>
 </category>
@@ -9075,14 +9065,6 @@
 </category>
 <category><pattern>* SHAPE IS WHAT</pattern>
 <template><srai>what shape is <star /></srai></template>
-</category>
-<category><pattern>*</pattern>
-<that>WHAT IS YOUR NAME</that>
-<template><srai>CALL ME <star /></srai><!-- REDUCTION --></template>
-</category>
-<category><pattern>*</pattern>
-<that>HOW DO YOU USUALLY INTRODUCE YOURSELF</that>
-<template><srai>MY NAME IS <star /></srai></template>
 </category>
 <category><pattern>* I TALK TO *</pattern>
 <template><srai>I TALK TO <star/></srai><srai><star/></srai>  <!-- REDUCTION --></template>

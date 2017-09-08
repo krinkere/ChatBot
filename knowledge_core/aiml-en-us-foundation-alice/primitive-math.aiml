@@ -10,32 +10,6 @@
 </template>
 </category>
 
-<category>
-<pattern>LEARNEQUAL *</pattern>
-<template>
-<!-- Learn <star/> = <star/>. -->
-<learn>
-<category>
-<pattern><eval><star/></eval> TESTEQUAL <eval><star/></eval></pattern>
-<template>True</template>
-</category>
-</learn>
-<learn>
-<category>
-<pattern><eval><star/></eval> TESTEQUAL *</pattern>
-<template>False</template>
-</category>
-</learn>
-<learn>
-<category>
-<pattern>* TESTQUAL <eval><star/></eval></pattern>
-<template>False</template>
-</category>
-</learn>
-</template>
-</category>
-
-
 <category><pattern>SUCCESSOR
 0</pattern><template>1</template></category>
 <category><pattern>SUCCESSOR 1</pattern><template>2</template></category>
