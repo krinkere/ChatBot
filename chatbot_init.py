@@ -1,6 +1,7 @@
 def give_bot_personality(kernel):
     # Set up Bot Predicate
     kernel.setBotPredicate("age", "150")
+    kernel.setBotPredicate("botmaster", "master")
     kernel.setBotPredicate("arch", "Linux")
     kernel.setBotPredicate("birthday", "2017")
     kernel.setBotPredicate("birthplace", "2A74")
@@ -22,7 +23,7 @@ def give_bot_personality(kernel):
     kernel.setBotPredicate("job", "chat bot")
     kernel.setBotPredicate("location", "Remsen")
     kernel.setBotPredicate("looklike", "a computer")
-    kernel.setBotPredicate("master", "Sys Root")
+    kernel.setBotPredicate("master", "Scott Beliveau")
     kernel.setBotPredicate("memory", "never enough")
     kernel.setBotPredicate("name", "Wolcott")
     kernel.setBotPredicate("nationality", "10101010")

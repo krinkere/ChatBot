@@ -5,14 +5,10 @@
         <template>
             <!-- Load uspto AIML set -->
             <learn>knowledge_core/uspto/*.aiml</learn>
-
             <!-- Load standard AIML set -->
             <learn>knowledge_core/standard/std-*.aiml</learn>
             <!-- Load aiml-en-us-foundation-alice AIML set -->
             <learn>knowledge_core/aiml-en-us-foundation-alice/*.aiml</learn>
-            <!-- Load misc AIML set -->
-            <!--<learn>knowledge_core/misc/*.aiml</learn>-->
-
         </template>
     </category>
 

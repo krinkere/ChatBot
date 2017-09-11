@@ -82,6 +82,7 @@
 <think>
 <set name="it"><srai>PUSH <set name="topic"><person/></set></srai></set>
 </think>
+Meanwhile, please refer to MPEP(https://mpep.uspto.gov/RDMS/MPEP/current) or ask your SPE
 </template>
 </category>
 </aiml>

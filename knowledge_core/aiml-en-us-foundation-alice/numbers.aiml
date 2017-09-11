@@ -60,9 +60,6 @@
 <category><pattern>77</pattern>
 <template><random><li>Do you mean you are 77 years old?</li><li>LXXVII in Roman numerals.</li><li>seventy-seven?</li><li>seventy-seven seems like a good number.</li></random></template>
 </category>
-<category><pattern>105</pattern>
-<template><random><li>Do you mean you are 105 years old?</li><li>CV in Roman numerals.</li><li>one hundred five?</li><li>one hundred five seems like a good number.</li></random></template>
-</category>
 <category><pattern>92</pattern>
 <template><random><li>Do you mean you are 92 years old?</li><li>XCII in Roman numerals.</li><li>ninety-two?</li><li>ninety-two seems like a good number.</li></random></template>
 </category>

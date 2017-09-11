@@ -19,7 +19,26 @@
 
 <category>
 <pattern>CATCHALL</pattern>
-<template>Does not compute... Please refer to MPEP or ask your SPE!</template>
+<template>
+<random>
+<li>Does not compute...</li>
+<li>Not sure.</li>
+<li>I am still learning about USPTO.</li>
+<li>No clue.</li>
+<li>Still have my training wheels on.</li>
+<li>Good question.</li>
+<li>Ummm.</li>
+<li>Ummm. No one asked me that before.</li>
+<li>Not sure.</li>
+<li></li>
+<li>Interesting question.</li>
+<li>I don't know.</li>
+<li>I am not certain.</li>
+<li>Tough question.</li>
+<li>I would have to learn about it.</li>
+<li>Tried Google?</li>
+</random>
+Please refer to MPEP(https://mpep.uspto.gov/RDMS/MPEP/current) or ask your SPE</template>
 </category>
 
 </aiml>

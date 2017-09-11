@@ -332,7 +332,7 @@
 <category>
     <pattern>112C</pattern>
     <template>
-        (c) FORM.—A claim may be written in independent or, if the nature of the case admits, in dependent or multiple dependent form.
+        (c) FORM. A claim may be written in independent or, if the nature of the case admits, in dependent or multiple dependent form.
     </template>
 </category>
 
@@ -961,7 +961,7 @@
 
 
 <category>
-    <pattern>112e</pattern>
+    <pattern>112E</pattern>
     <template>
         (e) REFERENCE IN MULTIPLE DEPENDENT FORM.—A claim in multiple dependent form shall contain a reference, in the alternative only, to more than one claim previously set forth and then specify a further limitation of the subject matter claimed. A multiple dependent claim shall not serve as a basis for any other multiple dependent claim. A multiple dependent claim shall be construed to incorporate by reference all the limitations of the particular claim in relation to which it is being considered.
     </template>

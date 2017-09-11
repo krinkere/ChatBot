@@ -53,6 +53,27 @@
 </category>
 
 <category>
+<pattern>_ TRADEMARKS _</pattern>
+<template>
+<srai>TRADEMARK</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ TRADEMARKS</pattern>
+<template>
+<srai>TRADEMARK</srai>
+</template>
+</category>
+
+<category>
+<pattern>TRADEMARKS</pattern>
+<template>
+<srai>TRADEMARK</srai>
+</template>
+</category>
+
+<category>
 <pattern>_ TRADEMARK NAME _</pattern>
 <template>
 <srai>TRADEMARK NAME</srai>
@@ -2487,6 +2508,13 @@
 
 <category>
 <pattern>IDS</pattern>
+<template>
+<srai>INFORMATION DISCLOSURE STATEMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ IDS</pattern>
 <template>
 <srai>INFORMATION DISCLOSURE STATEMENT</srai>
 </template>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Elman V. Krinker"/>
+<meta name="language" content="en"/>
+
+<category>
+    <pattern>REASONS FOR ALLOWANCE</pattern>
+    <template>
+        Reasons for allowance. If the examiner believes that the record of the prosecution as a whole does not make clear his or her reasons for allowing a claim or claims, the examiner may set forth such reasoning. The reasons shall be incorporated into an Office action rejecting other claims of the application or patent under reexamination or be the subject of a separate communication to the applicant or patent owner. The applicant or patent owner may file a statement commenting on the reasons for allowance within such time as may be specified by the examiner. Failure by the examiner to respond to any statement commenting on reasons for allowance does not give rise to any implication.
+        More information is available here: https://www.uspto.gov/web/offices/pac/mpep/s1302.html#d0e132661
+    </template>
+</category>
+
+<category>
+<pattern>_ REASONS FOR ALLOWANCE _</pattern>
+<template>
+<srai>REASONS FOR ALLOWANCE</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ REASONS FOR ALLOWANCE</pattern>
+<template>
+<srai>REASONS FOR ALLOWANCE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MPEP LINK</pattern>
+    <template>
+        Here you go: https://mpep.uspto.gov/RDMS/MPEP/current
+    </template>
+</category>
+
+<category>
+<pattern>_ MPEP LINK</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MPEP LINK _</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK TO MPEP LINK</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK TO MPEP _</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE LINK</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE LINK _</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK TO MANUAL OF PATENT EXAMINING PROCEDURE</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ LINK TO MANUAL OF PATENT EXAMINING PROCEDURE _</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+
+<category>
+    <pattern>WOLCOTT</pattern>
+    <template>
+        MPEP has a heritage dating back to 1920 to what became known as "Wolcott's Manual". "One of the most fruitful endeavors of the [Patent and Trademark Office] Society in the area of education was the publication of the first Manual of Patent Office Procedure. The first Manual was written by two employees of the Office and was published in 1920 by the Society. This Manual, with its eight revisions, often referred to as Wolcott's Manual, was the only procedural manual available until 1949 when the Patent Office assumed the publication of the Manual of Patent Examining Procedure."
+        Since 1920 the Manual and predecessor publication known as "Wolcott's Manual" have been the primary guidance for the Patent Examiner as to everything procedural going on at the Patent Office. In fact, the Manual was not a brand new endeavor but, rather, the continuation of the work of Clinton Leroy Wolcott who was the author of the major procedural work of the then Patent Office Society (later restyled as the Patent and Trademark Office Society), a voluntary professional organization comprised of Commerce Department employees.
+    </template>
+</category>
+
+<category>
+<pattern>_ WOLCOTT</pattern>
+<template>
+<srai>WOLCOTT</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ WOLCOTT _</pattern>
+<template>
+<srai>WOLCOTT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>NON FINAL REJECTION</pattern>
+    <template>
+        Please refer to https://www.uspto.gov/web/offices/pac/mpep/s2266.html#d0e231548
+    </template>
+</category>
+
+<category>
+<pattern>_ NON FINAL REJECTION</pattern>
+<template>
+<srai>NON FINAL REJECTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>_ NON FINAL REJECTION _</pattern>
+<template>
+<srai>NON FINAL REJECTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>HOW MANY PAGES IN THE MPEP</pattern>
+    <template>
+        Over 3000 pages.
+    </template>
+</category>
+
+<category>
+<pattern>HOW LONG IS MPEP</pattern>
+<template>
+<srai>HOW MANY PAGES IN THE MPEP</srai>
+</template>
+</category>
+
+<category>
+    <pattern>HOW DO I EXAMINE A PATENT</pattern>
+    <template>
+        This seems like a good write up: http://www.coconutheadphones.com/googles-patent-applications-how-to-examine-them-yourself/
+    </template>
+</category>
+
+<category>
+<pattern>HOW DO I EXAMINE A PATENT *</pattern>
+<template>
+<srai>HOW DO I EXAMINE A PATENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS EXAMINATION OF A PATENT</pattern>
+<template>
+<srai>HOW DO I EXAMINE A PATENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ALLOWANCE</pattern>
+    <template>
+        You can find more information here https://www.uspto.gov/web/offices/pac/mpep/s1303.html
+    </template>
+</category>
+<category>
+<pattern>_ ALLOWANCE</pattern>
+<template>
+<srai>ALLOWANCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ALLOWANCE _</pattern>
+<template>
+<srai>ALLOWANCE</srai>
+</template>
+</category>
+
+
+<category>
+    <pattern>CAN I DO A 2ND ACTION NON FINAL</pattern>
+    <template>
+        Not to my knowledge.
+    </template>
+</category>
+
+<category>
+    <pattern>REQUIREMENT FOR INFORMATION</pattern>
+    <template>
+        Refer to this article: https://www.uspto.gov/web/offices/pac/mpep/s704.html
+    </template>
+</category>
+<category>
+<pattern>_ REQUIREMENT FOR INFORMATION</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>RULE 105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>RULE 1.105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+
+</aiml>
