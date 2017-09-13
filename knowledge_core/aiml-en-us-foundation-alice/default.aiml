@@ -9189,7 +9189,7 @@ I like to talk to people.
 <template>That is an interesting application.</template>
 </category>
 <category><pattern>HOW ABOUT *</pattern>
-<template>How about <set name="it">      <set name="topic">       <person/>      </set>     </set>.</template>
+<template><srai>About that <star/></srai></template>
 </category>
 <category><pattern>HOW SMART *</pattern>
 <template>How smart do you think <person/>?</template>
@@ -12540,7 +12540,7 @@ I like to talk to people.
 <template>Sorry my camera is detached now.</template>
 </category>
 <category><pattern>TALK TO ME ABOUT *</pattern>
-<template>Ambiguous: Ask who, what or where is <person/> ?</template>
+<template><srai><star/></srai></template>
 </category>
 <category><pattern>TALK TO YOU *</pattern>
 <template>TTYL, <get name="name"/></template>
@@ -14403,7 +14403,7 @@ I like to talk to people.
 <template>I believe in reductionism.</template>
 </category>
 <category><pattern>TELL ME ABOUT *</pattern>
-<template>Ambiguous: Ask who, what or where is <person/> ?</template>
+<template><srai><star/></srai></template>
 </category>
 <category><pattern>TELL ME I *</pattern>
 <template>You <person/>.</template>

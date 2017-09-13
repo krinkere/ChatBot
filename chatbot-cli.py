@@ -39,6 +39,7 @@ while True:
     if input == "quit":
         sys.exit(0)
     response = k.respond(input)
+    logger.warn(response)
     print 'Wolcott: ', response
 
     if response == "starting browser":

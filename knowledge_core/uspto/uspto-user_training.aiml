@@ -14,19 +14,17 @@
     <pattern>REASONS FOR ALLOWANCE</pattern>
     <template>
         Reasons for allowance. If the examiner believes that the record of the prosecution as a whole does not make clear his or her reasons for allowing a claim or claims, the examiner may set forth such reasoning. The reasons shall be incorporated into an Office action rejecting other claims of the application or patent under reexamination or be the subject of a separate communication to the applicant or patent owner. The applicant or patent owner may file a statement commenting on the reasons for allowance within such time as may be specified by the examiner. Failure by the examiner to respond to any statement commenting on reasons for allowance does not give rise to any implication.
-        More information is available here: https://www.uspto.gov/web/offices/pac/mpep/s1302.html#d0e132661
+        <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s1302.html#d0e132661">More information</a>]]>
     </template>
 </category>
-
 <category>
-<pattern>_ REASONS FOR ALLOWANCE _</pattern>
+<pattern>_ REASONS FOR ALLOWANCE</pattern>
 <template>
 <srai>REASONS FOR ALLOWANCE</srai>
 </template>
 </category>
-
 <category>
-<pattern>_ REASONS FOR ALLOWANCE</pattern>
+<pattern>_ REASONS FOR ALLOWANCE *</pattern>
 <template>
 <srai>REASONS FOR ALLOWANCE</srai>
 </template>
@@ -35,61 +33,53 @@
 <category>
     <pattern>MPEP LINK</pattern>
     <template>
-        Here you go: https://mpep.uspto.gov/RDMS/MPEP/current
+        Here you go: <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current">MPEP</a>]]>
     </template>
 </category>
-
 <category>
 <pattern>_ MPEP LINK</pattern>
 <template>
 <srai>MPEP LINK</srai>
 </template>
 </category>
-
 <category>
-<pattern>_ MPEP LINK _</pattern>
+<pattern>_ MPEP LINK *</pattern>
 <template>
 <srai>MPEP LINK</srai>
 </template>
 </category>
-
 <category>
-<pattern>_ LINK TO MPEP LINK</pattern>
+<pattern>LINK TO MPEP</pattern>
 <template>
 <srai>MPEP LINK</srai>
 </template>
 </category>
-
 <category>
-<pattern>_ LINK TO MPEP _</pattern>
+<pattern>_ LINK TO MPEP</pattern>
 <template>
 <srai>MPEP LINK</srai>
 </template>
 </category>
-
+<category>
+<pattern>_ LINK TO MPEP *</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
+<category>
+<pattern>MANUAL OF PATENT EXAMINING PROCEDURE LINK</pattern>
+<template>
+<srai>MPEP LINK</srai>
+</template>
+</category>
 <category>
 <pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE LINK</pattern>
 <template>
 <srai>MPEP LINK</srai>
 </template>
 </category>
-
 <category>
-<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE LINK _</pattern>
-<template>
-<srai>MPEP LINK</srai>
-</template>
-</category>
-
-<category>
-<pattern>_ LINK TO MANUAL OF PATENT EXAMINING PROCEDURE</pattern>
-<template>
-<srai>MPEP LINK</srai>
-</template>
-</category>
-
-<category>
-<pattern>_ LINK TO MANUAL OF PATENT EXAMINING PROCEDURE _</pattern>
+<pattern>_ MANUAL OF PATENT EXAMINING PROCEDURE LINK *</pattern>
 <template>
 <srai>MPEP LINK</srai>
 </template>
@@ -102,16 +92,14 @@
         Since 1920 the Manual and predecessor publication known as "Wolcott's Manual" have been the primary guidance for the Patent Examiner as to everything procedural going on at the Patent Office. In fact, the Manual was not a brand new endeavor but, rather, the continuation of the work of Clinton Leroy Wolcott who was the author of the major procedural work of the then Patent Office Society (later restyled as the Patent and Trademark Office Society), a voluntary professional organization comprised of Commerce Department employees.
     </template>
 </category>
-
 <category>
 <pattern>_ WOLCOTT</pattern>
 <template>
 <srai>WOLCOTT</srai>
 </template>
 </category>
-
 <category>
-<pattern>_ WOLCOTT _</pattern>
+<pattern>_ WOLCOTT *</pattern>
 <template>
 <srai>WOLCOTT</srai>
 </template>
@@ -120,19 +108,17 @@
 <category>
     <pattern>NON FINAL REJECTION</pattern>
     <template>
-        Please refer to https://www.uspto.gov/web/offices/pac/mpep/s2266.html#d0e231548
+        Please refer to <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s2266.html#d0e231548">NON FINAL REJECTION</a>]]>
     </template>
 </category>
-
 <category>
 <pattern>_ NON FINAL REJECTION</pattern>
 <template>
 <srai>NON FINAL REJECTION</srai>
 </template>
 </category>
-
 <category>
-<pattern>_ NON FINAL REJECTION _</pattern>
+<pattern>_ NON FINAL REJECTION *</pattern>
 <template>
 <srai>NON FINAL REJECTION</srai>
 </template>
@@ -144,7 +130,6 @@
         Over 3000 pages.
     </template>
 </category>
-
 <category>
 <pattern>HOW LONG IS MPEP</pattern>
 <template>
@@ -155,17 +140,9 @@
 <category>
     <pattern>HOW DO I EXAMINE A PATENT</pattern>
     <template>
-        This seems like a good write up: http://www.coconutheadphones.com/googles-patent-applications-how-to-examine-them-yourself/
+        This seems like a good write up: <![CDATA[<a target="_new" href="http://www.coconutheadphones.com/googles-patent-applications-how-to-examine-them-yourself/">Googles Patent Applications and How to Examine them yourself</a>]]>
     </template>
 </category>
-
-<category>
-<pattern>HOW DO I EXAMINE A PATENT *</pattern>
-<template>
-<srai>HOW DO I EXAMINE A PATENT</srai>
-</template>
-</category>
-
 <category>
 <pattern>WHAT IS EXAMINATION OF A PATENT</pattern>
 <template>
@@ -176,7 +153,7 @@
 <category>
     <pattern>ALLOWANCE</pattern>
     <template>
-        You can find more information here https://www.uspto.gov/web/offices/pac/mpep/s1303.html
+        You can find more information here <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s1303.html">ALLOWANCE</a>]]>
     </template>
 </category>
 <category>
@@ -186,7 +163,25 @@
 </template>
 </category>
 <category>
-<pattern>_ ALLOWANCE _</pattern>
+<pattern>_ ALLOWANCE *</pattern>
+<template>
+<srai>ALLOWANCE</srai>
+</template>
+</category>
+<category>
+    <pattern>ISSUE</pattern>
+    <template>
+        <srai>ALLOWANCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ISSUE</pattern>
+<template>
+<srai>ALLOWANCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ISSUE *</pattern>
 <template>
 <srai>ALLOWANCE</srai>
 </template>
@@ -203,7 +198,7 @@
 <category>
     <pattern>REQUIREMENT FOR INFORMATION</pattern>
     <template>
-        Refer to this article: https://www.uspto.gov/web/offices/pac/mpep/s704.html
+        Refer to this article: <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s704.html">37 CFR 1.105  Requirements for information</a>]]>
     </template>
 </category>
 <category>
@@ -212,33 +207,131 @@
 <srai>REQUIREMENT FOR INFORMATION</srai>
 </template>
 </category>
-
+<category>
+<pattern>_ REQUIREMENT FOR INFORMATION *</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
 <category>
 <pattern>105</pattern>
 <template>
 <srai>REQUIREMENT FOR INFORMATION</srai>
 </template>
 </category>
-
+<category>
+<pattern>_ 105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ 105 *</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
 <category>
 <pattern>RULE 105</pattern>
 <template>
 <srai>REQUIREMENT FOR INFORMATION</srai>
 </template>
 </category>
-
 <category>
-<pattern>105</pattern>
+<pattern>_ RULE 105</pattern>
 <template>
 <srai>REQUIREMENT FOR INFORMATION</srai>
 </template>
 </category>
-
+<category>
+<pattern>_ RULE 105 *</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
 <category>
 <pattern>RULE 1.105</pattern>
 <template>
 <srai>REQUIREMENT FOR INFORMATION</srai>
 </template>
 </category>
+<category>
+<pattern>_ RULE 1.105</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ RULE 1.105 *</pattern>
+<template>
+<srai>REQUIREMENT FOR INFORMATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FIRST TO FILE</pattern>
+    <template>
+        In a first-to-file system, the right to the grant of a patent for a given invention lies with the first person to file a patent application for protection of that invention, regardless of the date of actual invention.
+    </template>
+</category>
+<category>
+<pattern>_ FIRST TO FILE</pattern>
+<template>
+<srai>FIRST TO FILE</srai>
+</template>
+</category>
+<category>
+<pattern>_ FIRST TO FILE *</pattern>
+<template>
+<srai>FIRST TO FILE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FIRST TO DISCLOSE</pattern>
+    <template>
+        The concept of a "grace" period, under which early disclosure does not prevent the discloser from later filing and obtaining a patent, must be distinguished here from the FTI system. Germany and the UK formerly had a concept of grace period. Both FTI and grace period systems afforded the early discloser protection against later filers. The FTI system allowed non-disclosers to overturn established parties, whereas the grace system only protects early disclosers. The US moved to a grace system on 16 March 2013, which has been termed "first-to-disclose" by some writers
+    </template>
+</category>
+<category>
+<pattern>_ FIRST TO DISCLOSE</pattern>
+<template>
+<srai>FIRST TO DISCLOSE</srai>
+</template>
+</category>
+<category>
+<pattern>_ FIRST TO DISCLOSE *</pattern>
+<template>
+<srai>FIRST TO DISCLOSE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FIRST TO INVENT</pattern>
+    <template>
+        Canada, the Philippines, and the United States had been among the only countries to use first-to-invent systems, but each switched to first-to-file in 1989, 1998, and 2013 respectively.
+
+        Invention in the U.S. is generally defined to comprise two steps: (1) conception of the invention and (2) reduction to practice of the invention. When an inventor conceives of an invention and diligently reduces the invention to practice (by filing a patent application, by practicing the invention, etc.), the inventor's date of invention will be the date of conception. Thus, provided an inventor is diligent in actually reducing an application to practice, he or she will be the first inventor and the inventor entitled to a patent, even if another files a patent application, constructively reducing the invention to practice, before the inventor.
+
+        However, the first applicant to file has the prima facie right to the grant of a patent. Under the first-to-invent system, when two people claim the same invention, the USPTO would conduct an interference proceeding between them to review evidence of conception, reduction to practice and diligence. Interference can be an expensive and time-consuming process.
+    </template>
+</category>
+<category>
+<pattern>_ FIRST TO INVENT</pattern>
+<template>
+<srai>FIRST TO INVENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ FIRST TO INVENT *</pattern>
+<template>
+<srai>FIRST TO INVENT</srai>
+</template>
+</category>
+
+
+
+
+
 
 </aiml>

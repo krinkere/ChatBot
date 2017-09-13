@@ -18828,7 +18828,7 @@ Try another chatterbot. Go back to the <a href="http://alicebot.org">ALICE Nexus
 <category>
 <pattern>TALK TO ME ABOUT *</pattern>
 <template>
-Ambiguous: Ask who, what or where is <person/> ?
+<srai><star/></srai>
 </template>
 </category>
 

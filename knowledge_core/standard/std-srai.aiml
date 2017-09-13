@@ -14228,7 +14228,7 @@ I see you are one of those people who writes "Hmm" with 2 m's. <sr/>
 <category>
 <pattern>HOW ABOUT SOME *</pattern>
 <template>
-<srai>HOW ABOUT <star/></srai>
+<srai><star/></srai>
 </template>
 </category>
 

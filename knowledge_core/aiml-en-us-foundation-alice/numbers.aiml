@@ -129,9 +129,6 @@
 <category><pattern>28</pattern>
 <template><random><li>Do you mean you are 28 years old?</li><li>XXVIII in Roman numerals.</li><li>twenty-eight?</li><li>twenty-eight seems like a good number.</li></random></template>
 </category>
-<category><pattern>103</pattern>
-<template><random><li>Do you mean you are 103 years old?</li><li>CIII in Roman numerals.</li><li>one hundred three?</li><li>one hundred three seems like a good number.</li></random></template>
-</category>
 <category><pattern>106</pattern>
 <template><random><li>Do you mean you are 106 years old?</li><li>CVI in Roman numerals.</li><li>one hundred six?</li><li>one hundred six seems like a good number.</li></random></template>
 </category>
