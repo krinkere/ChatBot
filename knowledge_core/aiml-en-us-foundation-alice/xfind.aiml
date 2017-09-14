@@ -12,7 +12,6 @@
 <category><pattern>XFIND *</pattern>
 <template>
 <srai><star/></srai>
-Meanwhile, please refer to MPEP(https://mpep.uspto.gov/RDMS/MPEP/current) or ask your SPE
 </template>
 </category>
 </aiml>

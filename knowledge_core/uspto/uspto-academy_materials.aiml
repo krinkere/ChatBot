@@ -492,6 +492,24 @@
     </template>
 </category>
 
+<category>
+    <pattern>101 SIGNIFICANTLY MORE</pattern>
+    <template>
+        Refer to this guide: <![CDATA[<a target="_new" href="https://rdms-mpep-vip.uspto.gov/RDMS/MPEP/current#/result/d0e197244.html?q=significantly%20more&ccb=on&ncb=off&icb=off&fcb=off&ver=current&syn=adj&results=compact&sort=relevance&cnt=10&index=1">Reference</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ 101 SIGNIFICANTLY MORE</pattern>
+<template>
+<srai>101 SIGNIFICANTLY MORE</srai>
+</template>
+</category>
+<category>
+<pattern>_ 101 SIGNIFICANTLY MORE *</pattern>
+<template>
+<srai>101 SIGNIFICANTLY MORE</srai>
+</template>
+</category>
 
 <category>
     <pattern>102</pattern>
@@ -881,13 +899,13 @@
     </template>
 </category>
 <category>
-<pattern>_ 112F</pattern>
+<pattern>* * 112F</pattern>
 <template>
-<srai>112F</srai>
+<srai><star index="1"/> <star index="2"/> 112F</srai>
 </template>
 </category>
 <category>
-<pattern>_ 112F *</pattern>
+<pattern>* 112F</pattern>
 <template>
 <srai>112F</srai>
 </template>
@@ -1098,6 +1116,13 @@
     <template>
         Restriction is the practice of requiring an applicant to elect a single claimed invention for examination when two or more independent and/or two or more distinct inventions are claimed in an application.
         See MPEP $802.02
+
+        Refer to these guides for more details:
+        <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/E9_R-11.2013/d0e97826.html">Chapter	800 - Restriction in Applications Filed Under 35 U.S.C. 111; Double Patenting</a>]]>
+
+        <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/E9_R-11.2013/d0e105812.html">808    Reasons for Insisting Upon Restriction [R-08.2012]</a>]]>
+
+        <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/E9_R-11.2013/d0e98006.html">802.02   Definition of Restriction [R-08.2012]</a>]]>
     </template>
 </category>
 <category>
