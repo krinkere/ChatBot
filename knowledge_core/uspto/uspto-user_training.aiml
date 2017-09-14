@@ -404,6 +404,134 @@
 </template>
 </category>
 
+<category>
+    <pattern>DUTY TO DISCLOSURE</pattern>
+    <template>
+        MPEP 2181 also Refer to this guide: <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s2001.html">Duty to disclosure</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ DUTY TO DISCLOSURE</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ DUTY TO DISCLOSURE *</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
+<category>
+    <pattern>CANDOR</pattern>
+    <template>
+        <srai>DUTY TO DISCLOSURE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CANDOR</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CANDOR *</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
+<category>
+    <pattern>GOOD FAITH</pattern>
+    <template>
+        <srai>DUTY TO DISCLOSURE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ GOOD FAITH</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ GOOD FAITH *</pattern>
+<template>
+<srai>DUTY TO DISCLOSURE</srai>
+</template>
+</category>
 
+<category>
+    <pattern>QUAYLE</pattern>
+    <template>
+        A Quayle action closes prosecution and is done when an application is in condition for allowance save for minor, typically typographical type, errors
+    </template>
+</category>
+<category>
+<pattern>* * QUAYLE</pattern>
+<template>
+<srai><star index="1"/> <star index="2"/> QUAYLE</srai>
+</template>
+</category>
+<category>
+    <pattern>* QUAYLE</pattern>
+    <template>
+        <srai>QUAYLE</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>FINAL ACTION</pattern>
+    <template>
+        MPEP 2181 also Refer to this guide: <![CDATA[<a target="_new" href="https://www.uspto.gov/web/offices/pac/mpep/s2271.html">Final Action</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ FINAL ACTION</pattern>
+<template>
+<srai>FINAL ACTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ FINAL ACTION *</pattern>
+<template>
+<srai>FINAL ACTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PERIOD FOR RESPONSE</pattern>
+    <template>
+        MPEP 2181 also Refer to this guide: <![CDATA[<a target="_new" href="https://www.uspto.gov/trademarks-getting-started/process-overview/response-time-period">Response Time Period</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PERIOD FOR RESPONSE</pattern>
+<template>
+<srai>PERIOD FOR RESPONSE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PERIOD FOR RESPONSE *</pattern>
+<template>
+<srai>PERIOD FOR RESPONSE</srai>
+</template>
+</category>
+<category>
+    <pattern>RESPONSE TIME PERIOD</pattern>
+    <template>
+        <srai>PERIOD FOR RESPONSE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ RESPONSE TIME PERIOD</pattern>
+<template>
+<srai>PERIOD FOR RESPONSE</srai>
+</template>
+</category>
+<category>
+<pattern>_ RESPONSE TIME PERIOD *</pattern>
+<template>
+<srai>PERIOD FOR RESPONSE</srai>
+</template>
+</category>
 
 </aiml>
