@@ -28,8 +28,6 @@ handler.setFormatter(formatter)
 # add the handlers to the logger
 logger.addHandler(handler)
 
-global bot_kernel
-
 
 class BotChatTranscript(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -49,7 +47,6 @@ class BotChatTranscript(db.Model):
 
 
 def initialize_chatbot():
-    global bot_kernel
     bot_kernel = aiml.Kernel()
     # If there is a brain file named brain.brn, Kernel() will initialize using bootstrap() method
     if os.path.isfile("brain.brn"):
@@ -60,6 +57,7 @@ def initialize_chatbot():
         bot_kernel.saveBrain("brain.brn")
 
     give_bot_personality(kernel=bot_kernel)
+    return bot_kernel
 
 
 @app.route("/")
@@ -67,11 +65,12 @@ def chatbot():
     initialize_chatbot()
     return render_template('chatbot.html')
 
+bot_kernel = initialize_chatbot()
+
 
 @app.route("/ask", methods=['POST'])
 def chat():
     message = str(request.form['messageText'])
-    global bot_kernel
 
     chatbot_response = bot_kernel.respond(message)
 

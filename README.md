@@ -32,3 +32,23 @@ Since the goal of this chatbot is to be able to operate in a limited (USPTO) dom
 ```
 
 In this very simple example, we define a rule (category) that would take input from a user saying 'Hello Robot!' (pattern) and would respond with 'Hello back, Human!' (template). For more options, training data, etc visit [Official A.L.I.C.E. homepage](http://www.alicebot.org/documentation/)
+
+
+Installation notes:
+- Create virtual environment inside of ChatBot folder
+sudo pip install virtualenv
+virtualenv chatbotenv
+
+- Activate it and install dependencies
+source chatbotenv/bin/activate
+pip install -r requirements-pip.txt
+
+- At this point you can envoke the app by issuing following command. It would serve the app on url:5000
+chatbotenv/bin/python chatbot.py
+
+- To test if gunicorn works, use. It would serve the app on url:8000
+chatbotenv/bin/gunicorn --bind 0.0.0.0:8000 wsgi
+
+- To run gunicorn modify files in gunicorn-conf-files accordingly and start it
+
+
