@@ -534,4 +534,188 @@
 </template>
 </category>
 
+<category>
+    <pattern>PATENTABLE</pattern>
+    <template>
+        Section 101  of title 35, United States Code, provides: "Whoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title." <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e197004.html">MPEP 2103</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ PATENTABLE</pattern>
+<template>
+<srai>PATENTABLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENTABLE *</pattern>
+<template>
+<srai>PATENTABLE</srai>
+</template>
+</category>
+<category>
+    <pattern>PATENTABILITY</pattern>
+    <template>
+        <srai>PATENTABLE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PATENTABILITY</pattern>
+<template>
+<srai>PATENTABLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENTABILITY *</pattern>
+<template>
+<srai>PATENTABLE</srai>
+</template>
+</category>
+</aiml>
+
+<category>
+    <pattern>TYPES OF PATENTS</pattern>
+    <template>
+        Patent applications can be directed to three broad types of subject matter: 
+
+        (A) applications for patents as provided for by 35 U.S.C. 101  relating to a "new and useful process, machine, manufacture, or composition of matter," etc.;
+        (B) applications for plant patents as provided for by 35 U.S.C. 161; and
+        (C) applications for design patents as provided for by 35 U.S.C. 171.
+        The first type of patent application is sometimes referred to as a "utility" patent applications when being contrasted with a plant or design patent application. The specialized procedure which pertains to the examination of applications for design and plant patents are treated in detail in Chapters 1500 and 1600, respectively. <![CDATA[<a target="_new" href="https://rdms-mpep-vip.uspto.gov/RDMS/MPEP/current#/current/d0e4510.html">MPEP 201</a>]]>
+    </template>
+</category>
+<category>
+<pattern>_ TYPES OF PATENTS</pattern>
+<template>
+<srai>TYPES OF PATENTS</srai>
+</template>
+</category>
+<category>
+<pattern>_ TYPES OF PATENTS *</pattern>
+<template>
+<srai>TYPES OF PATENTS</srai>
+</template>
+</category>
+<category>
+    <pattern>PATENT TYPES</pattern>
+    <template>
+        <srai>TYPES OF PATENTS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PATENT TYPES</pattern>
+<template>
+<srai>TYPES OF PATENTS</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT TYPES *</pattern>
+<template>
+<srai>TYPES OF PATENTS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INFORMATION REASONABLY REQUIRED</pattern>
+    <template>
+        37 CFR 1.105(a)(1)(i)-(viii)  list specific examples of information that may be reasonably required. Other examples, not meant to be exhaustive, of information that may be reasonably required for examination of an application include:
+
+        (A) The name and citation of any particularly relevant indexed journal, or treatise.
+        (B) The trade name of any goods or services the claimed subject matter is embodied in.
+        (C) The citation for, the dates initially published and copies of any advertising and promotional literature prepared for any goods or services the claimed subject matter has been embodied in.
+        (D) The citation for and copies of any journal articles describing any goods or services the claimed subject matter has been embodied in.
+        (E) The trade names and providers of any goods or services in competition with the goods or services the claimed subject matter has been embodied in.
+        (F) Any written descriptions or analyses, prepared by any of the inventors or assignees, of goods or services in competition with the goods or services the claimed subject matter has been embodied in.
+        (G) Identification of pending or abandoned applications filed by at least one of the inventors or assigned to the same assignee as the current application that disclose similar subject matter that are not otherwise identified in the current application. Regarding the identification of applications filed before June 8, 1995, 35 U.S.C. 122(a)  requires the identified applications to be kept in confidence by the Office and no information concerning the same is to be given without authority of the applicant or owner unless necessary to carry out the provisions of an Act of Congress or in such special circumstances as may be determined by the Director. See MPEP § 103 and Hyatt v. United States Patent and Trademark Office, No. 1:13-cv-1535 (E.D. Va., May 29, 2014) (2014 WL 2446176).
+        (H) A reply to a matter raised in a protest under 37 CFR 1.291.
+        (I) An explanation of technical material in a publication, such as one of the inventor’s publications.
+        (J) The identification of changes made in a reformatted continuing application filed under 37 CFR 1.53(b).
+        (K) A mark-up for a continuation-in-part application showing the subject matter added where there is an intervening reference.
+        (L) Comments on a new decision by the Federal Circuit that appears on point.
+        (M) The publication date of an undated document mentioned by applicant that may qualify as printed publication prior art (35 U.S.C. 102(a)  or pre-AIA 35 U.S.C. 102(a)  or (b) ).
+        (N) Comments on information of record which raises a question of whether applicant derived the invention from another under 35 U.S.C. 101  and 115, and pre-AIA 35 U.S.C. 102(f).
+        (O) Art related to applicant’s invention, applicant’s disclosure, or the claimed subject matter.
+        (P) Other factual information pertinent to patentability.
+        (Q) The accuracy of the examiner’s stated analysis of such items.
+        (R) Clarification of the correlation and identification of what structure, material, or acts set forth in the specification would be capable of carrying out a function recited in a means or steps plus function claim limitation. If it is not apparent to the examiner where in the specification and drawings there is support for a particular claim limitation reciting a means to accomplish a function, and if an inquiry by the examiner for such support is met by a stated lack of knowledge thereof by the applicant, the examiner could very well conclude that there is no such support and make appropriate rejections under, for example, 35 U.S.C. 112(a)  or pre-AIA 35 U.S.C. 112, first paragraph (written description) and 35 U.S.C. 112(b)  or pre-AIA 35 U.S.C. 112, second paragraph.
+        (S) Interrogatories or Stipulations.
+            (1) Of the common technical features shared among all claims, or admission that certain groups of claims do not share any common technical features,
+            (2) About the support found in the disclosure for means or steps plus function claims (35 U.S.C. 112(f)  or pre-AIA 35 U.S.C. 112, paragraph 6),
+            (3) Of precisely which portion(s) of the disclosure provide the written description and enablement support for specific claim element(s),
+            (4) Of the meaning of claim limitations or terms used in the claims, such as what teachings in the prior art would be covered by particular limitations or terms in a claim and which dictionary definitions would define a particular claim term, particularly where those terms are not used per se in the specification,
+            (5) Of which portions of each claim correspond to any admitted prior art in the specification,
+            (6) Of the specific utility provided by the claimed subject matter on a claim-by-claim basis,
+            (7) As to whether a dependent claim element is known in the prior art based on the examiner having a reasonable basis for believing so,
+            (8) Of support for added limitations in an amended claim,
+            (9) Of facts related to public use or sale situations.
+        (T) Information from the applicant regarding a third party submission under 37 CFR 1.290. In no circumstance may an examiner direct a requirement for information to the third party that submitted the paper under 37 CFR 1.290. See MPEP § 1134.
+        (U) Information from the applicant regarding rescission of a statement under 37 CFR 1.55  or 1.78. See MPEP § 704.14(a) for form paragraph 7.104.02.
+    </template>
+</category>
+<category>
+<pattern>_ INFORMATION REASONABLY REQUIRED</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+<pattern>_ INFORMATION REASONABLY REQUIRED *</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+    <pattern>REASONABLE REQUEST</pattern>
+    <template>
+        <srai>INFORMATION REASONABLY REQUIRED</srai>
+    </template>
+</category>
+<category>
+<pattern>_ REASONABLE REQUEST</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+<pattern>_ REASONABLE REQUEST *</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+    <pattern>INFORMATION REQUEST</pattern>
+    <template>
+        <srai>INFORMATION REASONABLY REQUIRED</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INFORMATION REQUEST</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+<pattern>_ INFORMATION REQUEST *</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+    <pattern>REQUEST EXAMPLE</pattern>
+    <template>
+        <srai>INFORMATION REASONABLY REQUIRED</srai>
+    </template>
+</category>
+<category>
+<pattern>_ REQUEST EXAMPLE</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+<category>
+<pattern>_ REQUEST EXAMPLE *</pattern>
+<template>
+<srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+
 </aiml>
