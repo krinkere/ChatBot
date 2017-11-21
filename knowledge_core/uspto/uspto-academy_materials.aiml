@@ -372,6 +372,42 @@
 <srai>AMERICA INVENTS ACT</srai>
 </template>
 </category>
+<category>
+    <pattern>AIA</pattern>
+    <template>
+        <srai>AMERICA INVENTS ACT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ AIA</pattern>
+<template>
+<srai>AIA</srai>
+</template>
+</category>
+<category>
+<pattern>_ AIA *</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
+<category>
+    <pattern>LEAHY–SMITH</pattern>
+    <template>
+        <srai>AMERICA INVENTS ACT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ LEAHY–SMITH</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
+<category>
+<pattern>_ LEAHY–SMITH *</pattern>
+<template>
+<srai>AMERICA INVENTS ACT</srai>
+</template>
+</category>
 
 <category>
     <pattern>COURT OF APPEALS FEDERAL CIRCUIT</pattern>

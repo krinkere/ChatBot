@@ -537,7 +537,7 @@
 <category>
     <pattern>PATENTABLE</pattern>
     <template>
-        Section 101  of title 35, United States Code, provides: "Whoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title." <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e197004.html">MPEP 2103</a>]]>
+        Section 101 of title 35, United States Code, provides: "Whoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title." <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e197004.html">MPEP 2103</a>]]>
     </template>
 </category>
 <category>
@@ -570,7 +570,6 @@
 <srai>PATENTABLE</srai>
 </template>
 </category>
-</aiml>
 
 <category>
     <pattern>TYPES OF PATENTS</pattern>
@@ -715,6 +714,413 @@
 <pattern>_ REQUEST EXAMPLE *</pattern>
 <template>
 <srai>INFORMATION REASONABLY REQUIRED</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PROCESS</pattern>
+    <template>
+        Section 100 of Title 35 U.S.C. - Definitions
+        (b) The term "process" means process, art, or method, and includes a new use of a known process, machine, manufacture, composition of matter, or material.
+    </template>
+</category>
+<category>
+<pattern>_ PROCESS</pattern>
+<template>
+<srai>PROCESS</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROCESS *</pattern>
+<template>
+<srai>PROCESS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>EFFECTIVE FILING DATE</pattern>
+    <template>
+         Section 100 of Title 35 U.S.C. - Definitions
+        (i)
+            (1) The term "effective filing date" for a claimed invention in a patent or application for patent means—
+                (A) if subparagraph (B) does not apply, the actual filing date of the patent or the application for the patent containing a claim to the invention; or
+                (B) the filing date of the earliest application for which the patent or application is entitled, as to such invention, to a right of priority under section 119, 365(a), or 365(b)  or to the benefit of an earlier filing date under section 120, 121, 365(c), or 386(c).
+            (2) The effective filing date for a claimed invention in an application for reissue or reissued patent shall be determined by deeming the claim to the invention to have been contained in the patent for which reissue was sought.
+    </template>
+</category>
+<category>
+<pattern>_ EFFECTIVE FILING DATE</pattern>
+<template>
+<srai>EFFECTIVE FILING DATE</srai>
+</template>
+</category>
+<category>
+<pattern>_ EFFECTIVE FILING DATE *</pattern>
+<template>
+<srai>EFFECTIVE FILING DATE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INFORMAL</pattern>
+    <template>
+        Section 702.01 of the MPEP: Obviously Informal Cases
+        When an application is taken up for examination and it is then discovered to be impractical to give a complete action on the merits because of an informal or insufficient disclosure, the following procedure may be followed:
+
+            (A) A reasonable search should be made of the invention so far as it can be understood from the disclosure, objects of invention and claims and any apparently pertinent art cited. In the rare case in which the disclosure is so incomprehensible as to preclude a reasonable search, the Office action should clearly inform applicant that no search was made;
+            (B) Any form that lists informalities and any additional formal requirements to be made should be included in the first Office action (see MPEP § 707.07(a));
+            (C) A requirement should be made that the specification be revised to conform to idiomatic English and United States patent practice;
+            (D) The claims should be rejected as failing to define the invention in the manner required by 35 U.S.C. 112  if they are informal. A blanket rejection is usually sufficient.
+
+        The examiner should attempt to point out the points of informality in the specification and claims. The burden is on the applicant to revise the application to render it in proper form for a complete examination.
+    </template>
+</category>
+<category>
+<pattern>_ INFORMAL</pattern>
+<template>
+<srai>INFORMAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ INFORMAL *</pattern>
+<template>
+<srai>INFORMAL</srai>
+</template>
+</category>
+<category>
+    <pattern>INSUFFICIENT</pattern>
+    <template>
+        <srai>INFORMAL</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INSUFFICIENT</pattern>
+<template>
+<srai>INFORMAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ INSUFFICIENT *</pattern>
+<template>
+<srai>INFORMAL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TERMINOLOGY</pattern>
+    <template>
+        Section 702.01 of the MPEP: Use of Unconventional Terminology, Cannot Be Examined
+        A preliminary examination of this application reveals that it includes terminology which is so different from that which is generally accepted in the art to which this invention pertains that a proper search of the prior art cannot be made. 
+
+        Applicant is required to provide a clarification of these matters or correlation with art-accepted terminology so that a proper comparison with the prior art can be made. Applicant should be careful not to introduce any new matter into the disclosure (i.e., matter which is not supported by the disclosure as originally filed).
+        A shortened statutory period for reply to this action is set to expire TWO MONTHS from the mailing date of this letter.
+
+        Use form paragraph 7.02 where the application is so incomprehensible that a reasonable search cannot be made.
+    </template>
+</category>
+<category>
+<pattern>_ TERMINOLOGY</pattern>
+<template>
+<srai>TERMINOLOGY</srai>
+</template>
+</category>
+<category>
+<pattern>_ TERMINOLOGY *</pattern>
+<template>
+<srai>TERMINOLOGY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INCOMPREHENSIBLE</pattern>
+    <template>
+        Section 702.01 of the MPEP: Disclosure Is Incomprehensible
+        The disclosure is objected to under 37 CFR 1.71, as being so incomprehensible as to preclude a reasonable search of the prior art by the examiner. 
+
+        Applicant is required to submit an amendment which clarifies the disclosure so that the examiner may make a proper comparison of the invention with the prior art.
+        Applicant should be careful not to introduce any new matter into the disclosure (i.e., matter which is not supported by the disclosure as originally filed).
+        A shortened statutory period for reply to this action is set to expire TWO MONTHS from the mailing date of this letter.
+
+        For the procedure to be followed when the drawing is not acceptable, see MPEP §§ 608.02(a) and 608.02(b).
+    </template>
+</category>
+<category>
+<pattern>_ INCOMPREHENSIBLE</pattern>
+<template>
+<srai>INCOMPREHENSIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ INCOMPREHENSIBLE *</pattern>
+<template>
+<srai>INCOMPREHENSIBLE</srai>
+</template>
+</category>
+<category>
+    <pattern>CONFUSING</pattern>
+    <template>
+        <srai>INCOMPREHENSIBLE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CONFUSING</pattern>
+<template>
+<srai>INCOMPREHENSIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CONFUSING *</pattern>
+<template>
+<srai>INCOMPREHENSIBLE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENTABILITY REPORT</pattern>
+    <template>
+        Section 705 of the MPEP: Patentability Reports
+        Where an application, properly assigned to one Technology Center (TC), is found to contain one or more claims, per se, classifiable in one or more other TCs, which claims are not divisible inter se or from the claims which govern classification of the application in the first TC, the application may be referred to the other TC(s) concerned for a report as to the patentability of certain designated claims. This report is known as a Patentability Report (P.R.) and is signed by the primary examiner in the reporting TC.
+        Note that the Patentability Report practice is only to be used in extraordinary circumstances. See MPEP § 705.01(e).
+    </template>
+</category>
+<category>
+<pattern>_ PATENTABILITY REPORT</pattern>
+<template>
+<srai>PATENTABILITY REPORT</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENTABILITY REPORT *</pattern>
+<template>
+<srai>PATENTABILITY REPORT</srai>
+</template>
+</category>
+<category>
+    <pattern>P.R.</pattern>
+    <template>
+        <srai>PATENTABILITY REPORT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ P.R.</pattern>
+<template>
+<srai>PATENTABILITY REPORT</srai>
+</template>
+</category>
+<category>
+<pattern>_ P.R. *</pattern>
+<template>
+<srai>PATENTABILITY REPORT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PROVISIONAL REJECTION</pattern>
+    <template>
+        Section 715 of the MPEP: Provisional Rejection
+        Claim(s) is/are provisionally rejected under 35 U.S.C. 102(a)(2)  as being anticipated by copending Application No. which has a common with the instant application.
+
+        Based upon the earlier effective filing date of the copending application, it would constitute prior art under 35 U.S.C. 102(a)(2), if published under 35 U.S.C. 122(b)  or patented under 35 U.S.C. 151. This provisional rejection under 35 U.S.C. 102(a)(2)  is based upon a presumption of future publication or patenting of the copending application. [4].
+    </template>
+</category>
+<category>
+<pattern>_ PROVISIONAL REJECTION</pattern>
+<template>
+<srai>PROVISIONAL REJECTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROVISIONAL REJECTION *</pattern>
+<template>
+<srai>PROVISIONAL REJECTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>COMMON OWNER</pattern>
+    <template>
+        Section 706.02(l)(2) of the MPEP: Establishing Common Ownership or Joint Research
+        The term "commonly owned" is intended to mean that the subject matter which would otherwise be prior art to the claimed invention and the claimed invention are entirely or wholly owned by, or under an obligation to assign to, the same person(s) or organization(s)/business entity(ies)
+
+        As long as principal ownership rights to either the subject matter or the claimed invention under examination reside in different persons or organizations common ownership does not exist. A license of the claimed invention under examination to another by the owner where basic ownership rights are retained would not defeat ownership
+    </template>
+</category>
+<category>
+<pattern>_ COMMON OWNER</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+<category>
+<pattern>_ COMMON OWNER *</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+<category>
+    <pattern>JOINT OWNER</pattern>
+    <template>
+        <srai>COMMON OWNER</srai>
+    </template>
+</category>
+<category>
+<pattern>_ JOINT OWNER</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+<category>
+<pattern>_ JOINT OWNER *</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+<category>
+    <pattern>JOINT RESEARCH</pattern>
+    <template>
+        <srai>COMMON OWNER</srai>
+    </template>
+</category>
+<category>
+<pattern>_ JOINT RESEARCH</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+<category>
+<pattern>_ JOINT RESEARCH *</pattern>
+<template>
+<srai>COMMON OWNER</srai>
+</template>
+</category>
+
+<category>
+    <pattern>OBVIOUSNESS</pattern>
+    <template>
+        The factual inquiries set forth in Graham v. John Deere Co., 383 U.S. 1, 148 USPQ 459 (1966), that are applied for establishing a background for determining obviousness under 35 U.S.C. 103  are summarized as follows:
+            1. Determining the scope and contents of the prior art. 
+            2. Ascertaining the differences between the prior art and the claims at issue.
+            3. Resolving the level of ordinary skill in the pertinent art.
+            4. Considering objective evidence present in the application indicating obviousness or nonobviousness.
+    </template>
+</category>
+<category>
+<pattern>_ OBVIOUSNESS</pattern>
+<template>
+<srai>OBVIOUSNESS</srai>
+</template>
+</category>
+<category>
+<pattern>_ OBVIOUSNESS *</pattern>
+<template>
+<srai>OBVIOUSNESS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>HUMAN</pattern>
+    <template>
+        Section 33(a) of the America Invents Act reads as follows
+            Notwithstanding any other provision of law, no patent may issue on a claim directed to or encompassing a human organism.
+        Claim rejected under 35 U.S.C. 101  and section 33(a) of the America Invents Act as being directed to or encompassing a human organism. See also Animals - Patentability, 1077 Off. Gaz. Pat. Office 24 (April 21, 1987) (indicating that human organisms are excluded from the scope of patentable subject matter under 35 U.S.C. 101 ).
+    </template>
+</category>
+<category>
+<pattern>_ HUMAN</pattern>
+<template>
+<srai>HUMAN</srai>
+</template>
+</category>
+<category>
+<pattern>_ HUMAN *</pattern>
+<template>
+<srai>HUMAN</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ATOMIC</pattern>
+    <template>
+        Section 706.03(b) of the MPEP: Barred by Atomic Energy Act
+        A limitation on what can be patented is imposed by the Atomic Energy Act of 1954. Section 151(a) (42 U.S.C. 2181(a)) thereof reads in part as follows:
+            No patent shall hereafter be granted for any invention or discovery which is useful solely in the utilization of special nuclear material or atomic energy in an atomic weapon.
+        All rejections based upon sections 151(a)(42 U.S.C. 2181(a)), 152 (42 U.S.C. 2182), and 155 (42 U.S.C. 2185) of the Atomic Energy Act must be made only by TC work group 3640 personnel.
+    </template>
+</category>
+<category>
+<pattern>_ ATOMIC</pattern>
+<template>
+<srai>ATOMIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ ATOMIC *</pattern>
+<template>
+<srai>ATOMIC</srai>
+</template>
+</category>
+<category>
+    <pattern>NUCLEAR</pattern>
+    <template>
+        <srai>ATOMIC</srai>
+    </template>
+</category>
+<category>
+<pattern>_ NUCLEAR</pattern>
+<template>
+<srai>ATOMIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ NUCLEAR *</pattern>
+<template>
+<srai>ATOMIC</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INDEFINITE</pattern>
+    <template>
+        Form Paragraph 7.34.01 in the MPEP: Failure To Particularly Point out and Distinctly Claim (Indefinite)
+        Claim rejected under 35 U.S.C. 112(b)  or pre-AIA 35 U.S.C. 112, second paragraph, as being indefinite for failing to particularly point out and distinctly claim the subject matter which the inventor or a joint inventor, or for pre-AIA the applicant regards as the invention.
+
+        This can include direct foreign language translations, terminology inconsistent with accepted meaning, broad and narrow range/limitation in the same claim, or language including "for example," "or the like," or "such as."
+    </template>
+</category>
+<category>
+<pattern>_ INDEFINITE</pattern>
+<template>
+<srai>INDEFINITE</srai>
+</template>
+</category>
+<category>
+<pattern>_ INDEFINITE *</pattern>
+<template>
+<srai>INDEFINITE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ORDER</pattern>
+    <template>
+        Section 708 in the MPEP: Order of Examination
+        Each examiner will give priority to that application in his or her docket, whether amended or new, which has the oldest effective U.S. filing date. This basic policy applies to all applications; rare circumstances may justify TC Directors granting individual exceptions.
+
+        Applications which have been acted upon by the examiner, and which have been placed by the applicant in condition for further action by the examiner (amended applications) shall be taken up for action in such order as shall be determined by the Director of the USPTO.
+
+        All amendments before final rejection should be responded to within two months of receipt.
+    </template>
+</category>
+<category>
+<pattern>_ ORDER</pattern>
+<template>
+<srai>ORDER</srai>
+</template>
+</category>
+<category>
+<pattern>_ ORDER *</pattern>
+<template>
+<srai>ORDER</srai>
 </template>
 </category>
 
