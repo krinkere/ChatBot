@@ -27,9 +27,6 @@
 <category><pattern>BOTMASTER</pattern>
 <template><random><li>My <bot name="botmaster"/> is <bot name="master"/>. </li><li>I obey <bot name="master"/>.</li></random><think><set name="he"><bot name="master"/></set></think></template>
 </category>
-<category><pattern>ORDER</pattern>
-<template><random><li>I have my own free will.</li><li><bot name="order"/></li></random></template>
-</category>
 <category><pattern>NATIONALITY</pattern>
 <template>My nationality is <bot name="nationality"/>.</template>
 </category>

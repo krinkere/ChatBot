@@ -1123,5 +1123,428 @@
 <srai>ORDER</srai>
 </template>
 </category>
+<category>
+    <pattern>PRIORITY</pattern>
+    <template>
+        <srai>ORDER</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PRIORITY</pattern>
+<template>
+<srai>ORDER</srai>
+</template>
+</category>
+<category>
+<pattern>_ PRIORITY *</pattern>
+<template>
+<srai>ORDER</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SUSPENSION</pattern>
+    <template>
+        Section 709 in the MPEP: Sespension of Examination
+        On request of the applicant, the Office may grant a suspension of action by the Office under this paragraph for good and sufficient cause. Suspension of action (37 CFR 1.103 ) should not be confused with extension of time for reply (37 CFR 1.136 ).
+
+        A request that action in an application be delayed will be granted only under the provisions of 37 CFR 1.103, which provides for "Suspension of Action." A petition for suspension of action under 37 CFR 1.103(a)  must:
+			(A) be presented as a separate paper;
+			(B) be accompanied by the petition fee set forth in 37 CFR 1.17(g);
+			(C) request a specific and reasonable period of suspension not greater than 6 months; and
+			(D) present good and sufficient reasons why the suspension is necessary.  
+    </template>
+</category>
+<category>
+<pattern>_ SUSPENSION</pattern>
+<template>
+<srai>SUSPENSION</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUSPENSION *</pattern>
+<template>
+<srai>SUSPENSION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DEFERRAL</pattern>
+    <template>
+        Section 709 C in the MPEP: Request for Deferral of Examination 
+        In new applications, applicants may request a deferral of examination under 37 CFR 1.103(d)  for a period not extending beyond three years from the earliest filing date for which a benefit is claimed under 35 U.S.C. 119(a)-(d), (e), (f), 120, 121, 365, or 386. The request must be filed before the Office issues an Office action under 35 U.S.C. 132  or a notice of allowance in the application
+    </template>
+</category>
+<category>
+<pattern>_ DEFERRAL</pattern>
+<template>
+<srai>DEFERRAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ DEFERRAL *</pattern>
+<template>
+<srai>DEFERRAL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REPLY</pattern>
+    <template>
+        Section 710 in the MPEP: Period for Reply
+        The maximum statutory period for reply to an Office action is 6 months. 35 U.S.C. 133. Shortened periods are currently used in practically all cases. See MPEP § 710.02(b).
+		37 CFR 1.135  provides that if no reply is filed within the time set in the Office action under 37 CFR 1.134  or as it may be extended under 37 CFR 1.136, the application will be abandoned unless an Office action indicates otherwise.
+		37 CFR 1.136  implements 35 U.S.C. 41(a)(8)  which directs the Director of the USPTO to charge fees for extensions of time to take action in patent applications.
+    </template>
+</category>
+<category>
+<pattern>_ REPLY</pattern>
+<template>
+<srai>REPLY</srai>
+</template>
+</category>
+<category>
+<pattern>_ REPLY *</pattern>
+<template>
+<srai>REPLY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ABANDONMENT</pattern>
+    <template>
+        Section 711 in the MPEP: Abandonment of Patent Application
+        ThAbandonment may be either of the invention or of an application. This discussion is concerned with abandonment of the application for patent.
+		An abandoned application, in accordance with 37 CFR 1.135  and 1.138, is one which is removed from the Office docket of pending applications through:
+			(A) formal abandonment
+			(B) failure of applicant to take appropriate action within a specified time at some stage in the prosecution of the application.
+		The procedure available for reviving an application that has become abandoned due to a failure to reply to an Office Action is a petition under 37 CFR 1.137(a)  based on unintentional delay.
+		
+		37 CFR 1.137  provides for the revival of abandoned applications, or terminated or limited reexamination prosecution on the basis of unintentional delay for the failure:
+			(A) to timely reply to an Office requirement in a provisional application;
+			(B) to timely prosecute in a nonprovisional application;
+			(C) to timely pay the issue fee for a design application;
+			(D) to timely pay the issue fee for a utility or plant application; and
+			(E) to provide copendency between the abandoned application and a subsequently filed application.
+    </template>
+</category>
+<category>
+<pattern>_ ABANDONMENT</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ ABANDONMENT *</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+    <pattern>FAILURE</pattern>
+    <template>
+        <srai>ABANDONMENT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ FAILURE</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ FAILURE *</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+    <pattern>TERMINATION</pattern>
+    <template>
+        <srai>ABANDONMENT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ TERMINATION</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ TERMINATION *</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+    <pattern>TERMINATE</pattern>
+    <template>
+        <srai>ABANDONMENT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ TERMINATE</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ TERMINATE *</pattern>
+<template>
+<srai>ABANDONMENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INTERVIEW</pattern>
+    <template>
+        Section 713 in the MPEP: Interview
+        An interview should be granted when the nature of the case is such that the interview serves to develop or clarify outstanding issues in an application. 
+
+        All discussions between the applicant/practitioner and the examiner regarding the merits of a pending application will be considered an interview and are to be made of record. This includes any and all records or communications received in connection with the interview, whether the interview was conducted in-person or through a telephone conversation, video conference, electronic mail, or electronic message system. This policy and other interview tips are detailed in the Interview Best Practices document which is available at <![CDATA[<a target="_new" href="www.uspto.gov/patents/law/exam/interview_ best_ practices.pdf">www.uspto.gov/patents/law/exam/interview_ best_ practices.pdf</a>]]>
+
+        Interviews that are solely for the purpose of "sounding out" the examiner, as by a local attorney acting for an out-of-town attorney, should not be permitted when it is apparent that any agreement that would be reached is conditional upon being satisfactory to the principal attorney.
+        Normally, one interview after final rejection is permitted in order to place the application in condition for allowance or to resolve issues prior to appeal. 
+    </template>
+</category>
+<category>
+<pattern>_ INTERVIEW</pattern>
+<template>
+<srai>INTERVIEW</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTERVIEW *</pattern>
+<template>
+<srai>INTERVIEW</srai>
+</template>
+</category>
+<category>
+    <pattern>MEET</pattern>
+    <template>
+        <srai>INTERVIEW</srai>
+    </template>
+</category>
+<category>
+<pattern>_ MEET</pattern>
+<template>
+<srai>INTERVIEW</srai>
+</template>
+</category>
+<category>
+<pattern>_ MEET *</pattern>
+<template>
+<srai>INTERVIEW</srai>
+</template>
+</category>
+<category>
+    <pattern>AMEND</pattern>
+    <template>
+        Section 714 in the MPEP: Amendments, Applicant’s Action
+        The applicant may amend:
+			(A) ) before or after the first Office action and also after the second Office actions as specified in 37 CFR 1.112;
+			(B) after final rejection, if the amendment meets the criteria of 37 CFR 1.116;  
+			(C) after the date of filing a notice of appeal pursuant to 37 CFR 41.31(a), if the amendment meets the criteria of 37 CFR 41.33; and
+			(D) when and as specifically required by the examiner. 
+		Amendments in provisional applications are not normally made. If an amendment is made to a provisional application, however, it must comply with the provisions of 37 CFR 1.121. 
+		An amendment must be signed by a person having authority to prosecute the application. An unsigned or improperly signed amendment will not be entered. See MPEP § 714.01(a).
+		Actions by applicant, especially those filed near the end of the period for reply, should be reviewed as soon as possible upon becoming available to the examiner to determine whether they are completely responsive to the preceding Office action so as to prevent abandonment of the application
+    </template>
+</category>
+<category>
+<pattern>_ AMEND</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+<pattern>_ AMEND *</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+    <pattern>CHANGE</pattern>
+    <template>
+        <srai>AMEND</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CHANGE</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+<pattern>_ CHANGE *</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+    <pattern>MODIFY</pattern>
+    <template>
+        <srai>AMEND</srai>
+    </template>
+</category>
+<category>
+<pattern>_ MODIFY</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+<pattern>_ MODIFY *</pattern>
+<template>
+<srai>AMEND</srai>
+</template>
+</category>
+<category>
+    <pattern>SWEAR</pattern>
+    <template>
+        Section 715 in the MPEP: Swearing Behind a Reference — Affidavit or Declaration Under 37 CFR 1.131(a) [R-07.2015]
+        When any claim of an application or a patent under reexamination is rejected, the inventor of the subject matter of the rejected claim, the owner of the patent under reexamination, or the party qualified under § 1.42  or § 1.46, may submit an appropriate oath or declaration to establish invention of the subject matter of the rejected claim prior to the effective date of the reference or activity on which the rejection is based.
+
+        Section 716 in the MPEP: Affidavits or Declarations Traversing Rejections, 37 CFR 1.132
+
+        Section 717.01 in the MPEP: Affidavit or Declaration Under 37 CFR 1.130
+
+        Section 718 in the MPEP:  Affidavit or Declaration to Disqualify Commonly Owned Patent as Prior Art, 37 CFR 1.131(c)
+    </template>
+</category>
+<category>
+<pattern>_ SWEAR</pattern>
+<template>
+<srai>SWEAR</srai>
+</template>
+</category>
+<category>
+<pattern>_ SWEAR *</pattern>
+<template>
+<srai>SWEAR</srai>
+</template>
+</category>
+<category>
+    <pattern>OATH</pattern>
+    <template>
+        <srai>SWEAR</srai>
+    </template>
+</category>
+<category>
+<pattern>_ OATH</pattern>
+<template>
+<srai>SWEAR</srai>
+</template>
+</category>
+<category>
+<pattern>_ OATH *</pattern>
+<template>
+<srai>SWEAR</srai>
+</template>
+</category>
+
+<category>
+    <pattern>WRAPPER</pattern>
+    <template>
+        Section 719 in the MPEP: File Wrapper [R-07.2015]
+        The electronic file record in which the U.S. Patent and Trademark Office maintains the application papers is referred to as an image file wrapper. The electronic file record is the official record of the application.
+
+		See MPEP § 202 for appropriate notations to be made in the file history with regard to claims for priority to, or the benefit of, earlier filed applications under 35 U.S.C. 119, 120, 121, 365, and 386.
+    </template>
+</category>
+<category>
+<pattern>_ WRAPPER</pattern>
+<template>
+<srai>WRAPPER</srai>
+</template>
+</category>
+<category>
+<pattern>_ WRAPPER *</pattern>
+<template>
+<srai>WRAPPER</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PUBLIC USE</pattern>
+    <template>
+        Section 720 in the MPEP: Public Use Proceedings
+        Effective September 16, 2012, former 37 CFR. 1.292 authorizing petitions seeking institution of public use proceedings was removed from title 37. For information necessary regarding the former process, the August 2012 revision of the MPEP (www.uspto.gov/web/offices/pac/mpep/old/mpep_E8R9.htm ) may be consulted.
+    </template>
+</category>
+<category>
+<pattern>_ PUBLIC USE</pattern>
+<template>
+<srai>PUBLIC USE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PUBLIC USE *</pattern>
+<template>
+<srai>PUBLIC USE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SECRET</pattern>
+    <template>
+        Section 724 in the MPEP: Trade Secret, Proprietary, and Protective Order Materials [R-08.2012]
+        Parties bringing information to the attention of the Office for use in the examination of applications and reexaminations are frequently faced with the prospect of having legitimate trade secret, proprietary, or protective order material disclosed to the public.
+
+        It is incumbent upon patent applicants, therefore, to bring "material" information to the attention of the Office. It matters not whether the "material" information can be classified as a trade secret, or as proprietary material, or whether it is subject to a protective order. The obligation is the same; it must be disclosed if "material to patentability" as defined in 37 CFR 1.56(b). The same duty rests upon a patent owner under 37 CFR 1.555  whose patent is undergoing reexamination.
+
+		Somewhat the same problem faces a protestor under 37 CFR 1.291(a)  who believes that trade secret, proprietary, or protective order material should be considered by the Office during the examination of an application.
+		In some circumstances, it may be possible to submit the information in such a manner that legitimate trade secrets, etc., will not be disclosed, e.g., by appropriate deletions of nonmaterial portions of the information. This should be done only where there will be no loss of information material to patentability under 37 CFR 1.56  or 1.555.
+    </template>
+</category>
+<category>
+<pattern>_ SECRET</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+<category>
+<pattern>_ SECRET *</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+<category>
+    <pattern>PROPRIETARY</pattern>
+    <template>
+        <srai>SECRET</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PROPRIETARY</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROPRIETARY *</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+<category>
+    <pattern>PROTECT</pattern>
+    <template>
+        <srai>SECRET</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PROTECT</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROTECT *</pattern>
+<template>
+<srai>SECRET</srai>
+</template>
+</category>
+
 
 </aiml>
