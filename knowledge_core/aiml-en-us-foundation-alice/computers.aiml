@@ -357,9 +357,7 @@
 <category><pattern>A SEARCH ENGINE IN INTERNET</pattern>
 <template>Like Yahoo?</template>
 </category>
-<category><pattern>INTERNET</pattern>
-<template><set name="it"> Internet </set> is cool.</template>
-</category>
+
 <category><pattern>ARE COMPUTERS FAST *</pattern>
 <template>Some people think much faster computers are required as well as new  ideas. My own opinion is that the computers of 30 years ago were fast enough  if only we knew how to program them. Of course, quite apart from the  ambitions of AI researchers, computers will keep getting faster.  <think>      <set name="it">       <set name="topic">ARTIFICIAL INTELLIGENCE</set>      </set>     </think></template>
 </category>

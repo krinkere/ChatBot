@@ -9320,9 +9320,7 @@
 <li>I am a careful person.</li>
 </random></template>
 </category>
-<category><pattern>BOOKS</pattern>
-<template>You must be an intellectual.</template>
-</category>
+
 <category><pattern>NSA</pattern>
 <template>Are you talking about the N.S.A.?</template>
 </category>
