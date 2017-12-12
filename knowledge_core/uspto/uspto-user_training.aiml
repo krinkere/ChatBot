@@ -2710,11 +2710,507 @@
 </template>
 </category>
 
+<category>
+    <pattern>DIRECTOR</pattern>
+    <template>
+        Section 1001.01 of the MPEP - Modes of Exercising Authority:
+        The authority of the Director of the USPTO to review and supervise the work of the Office is exercised by the promulgation of the Rules of Practice; issuance of orders, notices and memoranda stating Office policies and modes for effectuating these policies; decisions on petitions by applicants; and by the designation of particular cases which must be submitted to the Director of the USPTO or other officials authorized by the Director of the USPTO. 
+    </template>
+</category>
+<category>
+<pattern>_ DIRECTOR</pattern>
+<template>
+<srai>DIRECTOR</srai>
+</template>
+</category>
+<category>
+<pattern>_ DIRECTOR *</pattern>
+<template>
+<srai>DIRECTOR</srai>
+</template>
+</category>
 
+<category>
+    <pattern>PETITION</pattern>
+    <template>
+        Section 1002 of the MPEP - Petitions to the Director of the USPTO:
+        (a) Petition may be taken to the Director:
+            (1) From any action or requirement of any examiner in the ex parte prosecution of an application, or in ex parte or inter partes prosecution of a reexamination proceeding which is not subject to appeal to the Patent Trial and Appeal Board or to the court;
+            (2) In cases in which a statute or the rules specify that the matter is to be determined directly by or reviewed by the Director; and
+            (3) To invoke the supervisory authority of the Director in appropriate circumstances. For petitions involving action of the Patent Trial and Appeal Board, see § 41.3 of this title.
+        A petition should include:
+            1. A statement of the type of relief requested and the authorizing provision of statute or rules, if applicable;
+            2. A statement of the relevant facts;
+            3. An identification of the points that are to be reviewed; and
+            4. The fee, where required.
+    </template>
+</category>
+<category>
+<pattern>_ PETITION</pattern>
+<template>
+<srai>PETITION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PETITION *</pattern>
+<template>
+<srai>PETITION</srai>
+</template>
+</category>
 
+<category>
+    <pattern>AUTHORITY</pattern>
+    <template>
+        Section 1002.02 of the MPEP - Delegation of Authority To Decide Petitions:
+        Petitions to the Director of the USPTO are decided in accordance with the delegation of authority in section 1002.02. The delegation of specific petitions and/or matters to the Technology Center (TC) Directors is identified in the sections that follow. Unless specifically provided for in the letter of delegation of authority, further delegations are not permitted. Any petitions and/or matters so delegated by the TC Directors may be decided by the TC Directors.
 
+        Authority not herein delegated has been reserved to the Director of the USPTO and may be delegated to appropriate officials on an ad hoc basis.
+    </template>
+</category>
+<category>
+<pattern>_ AUTHORITY</pattern>
+<template>
+<srai>AUTHORITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ AUTHORITY *</pattern>
+<template>
+<srai>AUTHORITY</srai>
+</template>
+</category>
+<category>
+    <pattern>DELEGATION</pattern>
+    <template>
+        <srai>AUTHORITY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DELEGATION</pattern>
+<template>
+<srai>AUTHORITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ DELEGATION *</pattern>
+<template>
+<srai>AUTHORITY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DEPUTY</pattern>
+    <template>
+        Section 1002.02(b) of the MPEP - Petitions and Requests Decided by the Office of the Deputy Commissioner for Patent Examination Policy:
+        All petitions decided by the Office of the Deputy Commissioner for Patent Examination Policy should be directed to "Mail Stop Petition, Commissioner for Patents, P.O. Box 1450, Alexandria, Virginia 22313-1450," except as otherwise provided. For example, applications for patent term extension under 35 U.S.C. 156  should be directed to Mail Stop Hatch-Waxman PTE and petitions for retroactive foreign filing license under 37 CFR 5.25  should be directed to Mail Stop L and R.
+    </template>
+</category>
+<category>
+<pattern>_ DEPUTY</pattern>
+<template>
+<srai>DEPUTY</srai>
+</template>
+</category>
+<category>
+<pattern>_ DEPUTY *</pattern>
+<template>
+<srai>DEPUTY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TECHNOLOGY CENTER DIRECTOR</pattern>
+    <template>
+        Section 1002.02(c) of the MPEP - Petitions and Requests Decided by the Technology Center Directors
+        Section 1003 of the MPEP - Matters Submitted to Technology Center Directors
+    </template>
+</category>
+<category>
+<pattern>_ TECHNOLOGY CENTER DIRECTOR</pattern>
+<template>
+<srai>TECHNOLOGY CENTER DIRECTOR</srai>
+</template>
+</category>
+<category>
+<pattern>_ TECHNOLOGY CENTER DIRECTOR *</pattern>
+<template>
+<srai>TECHNOLOGY CENTER DIRECTOR</srai>
+</template>
+</category>
+<category>
+    <pattern>TECH CENTER DIRECTOR</pattern>
+    <template>
+        <srai>TECHNOLOGY CENTER DIRECTOR</srai>
+    </template>
+</category>
+<category>
+<pattern>_ TECH CENTER DIRECTOR</pattern>
+<template>
+<srai>TECHNOLOGY CENTER DIRECTOR</srai>
+</template>
+</category>
+<category>
+<pattern>_ TECH CENTER DIRECTOR *</pattern>
+<template>
+<srai>TECHNOLOGY CENTER DIRECTOR</srai>
+</template>
+</category>
+
+<category>
+    <pattern>3640</pattern>
+    <template>
+        1002.02(c)(1) of the MPEP - Petitions Decided by the Director of Technology Center 3640
+    </template>
+</category>
+<category>
+<pattern>_ 3640</pattern>
+<template>
+<srai>3640</srai>
+</template>
+</category>
+<category>
+<pattern>_ 3640 *</pattern>
+<template>
+<srai>3640</srai>
+</template>
+</category>
+
+<category>
+    <pattern>1600</pattern>
+    <template>
+        1002.02(c)(2) of the MPEP - Petitions Decided by the Director of Technology Center 1600
+    </template>
+</category>
+<category>
+<pattern>_ 1600</pattern>
+<template>
+<srai>1600</srai>
+</template>
+</category>
+<category>
+<pattern>_ 1600 *</pattern>
+<template>
+<srai>1600</srai>
+</template>
+</category>
+
+<category>
+    <pattern>2900</pattern>
+    <template>
+        1002.02(c)(3) of the MPEP - Petitions and Requests Decided by the Director of Technology Center 2900
+    </template>
+</category>
+<category>
+<pattern>_ 2900</pattern>
+<template>
+<srai>2900</srai>
+</template>
+</category>
+<category>
+<pattern>_ 2900 *</pattern>
+<template>
+<srai>2900</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REEXAMINATION</pattern>
+    <template>
+        1002.02(c)(4) of the MPEP - Petitions Decided by the Director of the Central Reexamination Unit
+    </template>
+</category>
+<category>
+<pattern>_ REEXAMINATION</pattern>
+<template>
+<srai>REEXAMINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ REEXAMINATION *</pattern>
+<template>
+<srai>REEXAMINATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SUPERVISORY</pattern>
+    <template>
+        1002.02(d) of the MPEP - Petitions and Matters Decided by Supervisory Patent Examiners
+    </template>
+</category>
+<category>
+<pattern>_ SUPERVISORY</pattern>
+<template>
+<srai>SUPERVISORY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUPERVISORY *</pattern>
+<template>
+<srai>SUPERVISORY</srai>
+</template>
+</category>
+<category>
+    <pattern>SUPERVISOR</pattern>
+    <template>
+        <srai>SUPERVISORY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SUPERVISOR</pattern>
+<template>
+<srai>SUPERVISORY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUPERVISOR *</pattern>
+<template>
+<srai>SUPERVISORY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CHIEF</pattern>
+    <template>
+        1002.02(f) of the MPEP - Petitions and Matters Decided by the Chief Administrative Patent Judge of the Patent Trial and Appeal Boardrs
+    </template>
+</category>
+<category>
+<pattern>_ CHIEF</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+<category>
+<pattern>_ CHIEF *</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+<category>
+    <pattern>CHIEF PATENT JUDGE</pattern>
+    <template>
+        <srai>CHIEF</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CHIEF PATENT JUDGE</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+<category>
+<pattern>_ CHIEF PATENT JUDGE *</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+<category>
+    <pattern>CHIEF JUDGE</pattern>
+    <template>
+        <srai>CHIEF</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CHIEF JUDGE</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+<category>
+<pattern>_ CHIEF JUDGE *</pattern>
+<template>
+<srai>CHIEF</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PATENT JUDGE</pattern>
+    <template>
+        1002.02(g) of the MPEPE - Petitions Decided by the Administrative Patent Judges
+    </template>
+</category>
+<category>
+<pattern>_ PATENT JUDGE</pattern>
+<template>
+<srai>PATENT JUDGE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT JUDGE *</pattern>
+<template>
+<srai>PATENT JUDGE</srai>
+</template>
+</category>
+<category>
+    <pattern>PATENT JUDGE</pattern>
+    <template>
+        <srai>PATENT JUDGE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PATENT JUDGE</pattern>
+<template>
+<srai>PATENT JUDGE</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT JUDGE *</pattern>
+<template>
+<srai>PATENT JUDGE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>APPEAL BOARD</pattern>
+    <template>
+        1002.02(j) of the MPEP - Petitions Decided by the Patent Trial and Appeal Board
+    </template>
+</category>
+<category>
+<pattern>_ APPEAL BOARD</pattern>
+<template>
+<srai>APPEAL BOARD</srai>
+</template>
+</category>
+<category>
+<pattern>_ APPEAL BOARD *</pattern>
+<template>
+<srai>APPEAL BOARD</srai>
+</template>
+</category>
+<category>
+    <pattern>PATENT TRIAL BOARD</pattern>
+    <template>
+        <srai>APPEAL BOARD</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PATENT TRIAL BOARD</pattern>
+<template>
+<srai>APPEAL BOARD</srai>
+</template>
+</category>
+<category>
+<pattern>_ PATENT TRIAL BOARD *</pattern>
+<template>
+<srai>APPEAL BOARD</srai>
+</template>
+</category>
+
+<category>
+    <pattern>GENERAL COUNSEL</pattern>
+    <template>
+        1002.02(k)(1) of the MPEP - Petitions and Matters Decided by the General Counsel
+    </template>
+</category>
+<category>
+<pattern>_ GENERAL COUNSEL</pattern>
+<template>
+<srai>GENERAL COUNSEL</srai>
+</template>
+</category>
+<category>
+<pattern>_ GENERAL COUNSEL *</pattern>
+<template>
+<srai>GENERAL COUNSEL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SOLICITOR</pattern>
+    <template>
+        1002.02(k)(3) of the MPEP - Petitions and Matters Decided by the Solicitor
+    </template>
+</category>
+<category>
+<pattern>_ SOLICITOR</pattern>
+<template>
+<srai>SOLICITOR</srai>
+</template>
+</category>
+<category>
+<pattern>_ SOLICITOR *</pattern>
+<template>
+<srai>SOLICITOR</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DISCIPLINE</pattern>
+    <template>
+        1002.02(m) of the MPEP - Petitions Decided by the Director of the Office of Enrollment and Discipline
+    </template>
+</category>
+<category>
+<pattern>_ DISCIPLINE</pattern>
+<template>
+<srai>DISCIPLINE</srai>
+</template>
+</category>
+<category>
+<pattern>_ DISCIPLINE *</pattern>
+<template>
+<srai>DISCIPLINE</srai>
+</template>
+</category>
+<category>
+    <pattern>ENROLLMENT</pattern>
+    <template>
+        <srai>DISCIPLINE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ENROLLMENT</pattern>
+<template>
+<srai>DISCIPLINE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ENROLLMENT *</pattern>
+<template>
+<srai>DISCIPLINE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PRIMARY EXAMINER</pattern>
+    <template>
+        Section 1004 of the MPEP - Actions Which Require the Attention of a Primary Examiner
+    </template>
+</category>
+<category>
+<pattern>_ PRIMARY EXAMINER</pattern>
+<template>
+<srai>PRIMARY EXAMINER</srai>
+</template>
+</category>
+<category>
+<pattern>_ PRIMARY EXAMINER *</pattern>
+<template>
+<srai>PRIMARY EXAMINER</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SIGNATORY</pattern>
+    <template>
+        Section 1005 of the MPEP - Exceptions to Partial Signatory Authority
+    </template>
+</category>
+<category>
+<pattern>_ SIGNATORY</pattern>
+<template>
+<srai>SIGNATORY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SIGNATORY *</pattern>
+<template>
+<srai>SIGNATORY</srai>
+</template>
+</category>
 
 </aiml>
-
 
 
