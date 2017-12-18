@@ -572,8 +572,202 @@
 </category>
 
 <category>
+    <pattern>CONFIDENCE</pattern>
+    <template>
+    Chapter	100 of the MPEP - Secrecy, Access, National Security, and Foreign Filing:
+        All U.S. Patent and Trademark Office employees are legally obligated to preserve pending applications for patents in confidence until they are published or patented in accordance with 35 U.S.C. 122  and 37 CFR 1.14. 35 U.S.C. 122  and 18 U.S.C. 2071 impose statutory requirements which cover the handling of patent applications and related documents. Suspension, removal, and even criminal penalties may be imposed for violations of these statutes.
+
+		Any employee having custody of a patent application or related documents will be responsible for maintaining confidentiality and otherwise conforming with the requirements of law. No part of any application or paper related thereto should be reproduced or copied except for official purposes. Application files must not be displayed or handled so as to permit perusal or inspection by any unauthorized member of the public.
+    </template>
+</category>
+<category>
+<pattern>_ CONFIDENCE</pattern>
+<template>
+<srai>CONFIDENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CONFIDENCE *</pattern>
+<template>
+<srai>CONFIDENCE</srai>
+</template>
+</category>
+<category>
+    <pattern>CONFIDENTIALITY</pattern>
+    <template>
+        <srai>CONFIDENCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CONFIDENTIALITY</pattern>
+<template>
+<srai>CONFIDENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CONFIDENTIALITY *</pattern>
+<template>
+<srai>CONFIDENCE</srai>
+</template>
+</category>
+<category>
+    <pattern>CONFIDENTIAL</pattern>
+    <template>
+        <srai>CONFIDENCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CONFIDENTIAL</pattern>
+<template>
+<srai>CONFIDENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CONFIDENTIAL *</pattern>
+<template>
+<srai>CONFIDENCE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PUBLISHED</pattern>
+    <template>
+    Section 103 of the MPEP - Right of Public To Inspect Patent Files and Some Application Files:
+        If a patent application has been published pursuant to 35 U.S.C. 122(b), then a copy of the specification, drawings, and all papers relating to the file of that published application (whether abandoned or pending) may be provided to any person upon written request and payment of the fee set forth in 37 CFR 1.19(b). See 37 CFR 1.14(a)(1)(ii) and (iii). Pursuant to 35 U.S.C. 374  and 35 U.S.C. 390, the publication by the International Bureau of an international application under the PCT or an international design application designating the United States under the Hague Agreement is deemed to be a publication under 35 U.S.C. 122(b). Note that the U.S. is automatically designated in all international applications under the PCT filed on or after January 1, 2004.
+    </template>
+</category>
+<category>
+<pattern>_ PUBLISHED</pattern>
+<template>
+<srai>PUBLISHED</srai>
+</template>
+</category>
+<category>
+<pattern>_ PUBLISHED *</pattern>
+<template>
+<srai>PUBLISHED</srai>
+</template>
+</category>
+<category>
+    <pattern>PUBLIC</pattern>
+    <template>
+        <srai>PUBLISHED</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PUBLIC</pattern>
+<template>
+<srai>PUBLISHED</srai>
+</template>
+</category>
+<category>
+<pattern>_ PUBLIC *</pattern>
+<template>
+<srai>PUBLISHED</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INSPECT</pattern>
+    <template>
+    Section 104 of the MPEP - Power to Inspect Application:
+        For applications filed on or after September 16, 2012, the applicant, a patent practitioner of record, the assignee or an assignee of an undivided part interest, or an inventor may provide a written authority for access to a pending or abandoned application kept in confidence under 35 U.S.C. 122(a), except as provided in 37 CFR 1.11, 1.14, 41.6, or 42.412. 
+
+		A person acting in a representative capacity under 37 CFR 1.34  may execute a power to inspect an application only if the patent practitioner was named in the application transmittal papers filed under 37 CFR 1.53  or the national stage documents filed under 37 CFR 1.495  and a power of attorney has not been appointed under 37 CFR 1.32.
+    </template>
+</category>
+<category>
+<pattern>_ INSPECT</pattern>
+<template>
+<srai>INSPECT</srai>
+</template>
+</category>
+<category>
+<pattern>_ INSPECT *</pattern>
+<template>
+<srai>INSPECT</srai>
+</template>
+</category>
+<category>
+    <pattern>ACCESS</pattern>
+    <template>
+        <srai>INSPECT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ACCESS</pattern>
+<template>
+<srai>INSPECT</srai>
+</template>
+</category>
+<category>
+<pattern>_ ACCESS *</pattern>
+<template>
+<srai>INSPECT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SECRECY</pattern>
+    <template>
+    Section 115 of the MPEP -  Review of Applications for National Security and Property Rights Issues:
+        For those applications in which the Government has a property interest (including applications indicating national security classified subject matter), responsibility for notifying the Commissioner for Patents of the need for a Secrecy Order resides with the agency having that interest. Applications that are national security classified (see 37 CFR 1.9(i) ) may be so indicated by use of authorized national security markings (e.g., "Confidential," "Secret," or "Top Secret"). National security classified documents filed in the USPTO must be either hand-carried to Licensing and Review or mailed to the Office in compliance with 37 CFR 5.1(a)  and Executive Order 13526 of December 29, 2009. However, the Office will accept such applications filed with the USPTO via the Department of Defense Secret Internet Protocol Router Network (SIPRNET) and consider them as filed via the USPTO’s electronic filing system for purposes of 37 CFR 1.16(t)  and 37 CFR 1.445(a)(ii). As set forth in 37 CFR 5.1(d), the applicant in a national security classified patent application must obtain a secrecy order from the appropriate defense agency or provide authority to cancel the markings. A list of contacts at the appropriate defense agency can be obtained by contacting Licensing and Review.
+    </template>
+</category>
+<category>
+<pattern>_ SECRECY</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SECRECY *</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+    <pattern>SECURITY</pattern>
+    <template>
+        <srai>SECRECY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SECURITY</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SECURITY *</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+    <pattern>DEFENSE</pattern>
+    <template>
+        <srai>SECRECY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DEFENSE</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+<category>
+<pattern>_ DEFENSE *</pattern>
+<template>
+<srai>SECRECY</srai>
+</template>
+</category>
+
+<category>
     <pattern>TYPES OF PATENTS</pattern>
     <template>
+    Section 201 of the MPEP -  Types of Applications:   
+
         Patent applications can be directed to three broad types of subject matter: 
 
         (A) applications for patents as provided for by 35 U.S.C. 101  relating to a "new and useful process, machine, manufacture, or composition of matter," etc.;
@@ -628,6 +822,369 @@
 <pattern>_ TYPE *</pattern>
 <template>
 <srai>TYPES OF PATENTS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PROVISIONAL</pattern>
+    <template>
+    Section 201.04 of the MPEP -  Provisional Application:   
+        Effective December 18, 2013, the Patent Law Treaties Implementation Act of 2012 (PLTIA), title II, amended 35 U.S.C. 111(b)  to more closely align the corresponding provisions for nonprovisional applications in 35 U.S.C. 111(a)  and provisional applications in 35 U.S.C. 111(b). The corresponding provision in 37 CFR 1.53(c)  was revised accordingly.
+		A provisional application is a regular national filing that starts the Paris Convention priority year. Foreign filings must be made within 12 months of the filing date of the provisional application if applicant wishes to rely on the filing date of the provisional application in the foreign filed application.
+    </template>
+</category>
+<category>
+<pattern>_ PROVISIONAL</pattern>
+<template>
+<srai>PROVISIONAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROVISIONAL *</pattern>
+<template>
+<srai>PROVISIONAL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DIVISIONAL</pattern>
+    <template>
+    Section 201.06 of the MPEP -  Divisional Application:   
+        The divisional application should set forth at least the portion of the earlier disclosure that is germane to the invention as claimed in the divisional application. A continuation-in-part application should not be designated as a divisional application.
+    </template>
+</category>
+<category>
+<pattern>_ DIVISIONAL</pattern>
+<template>
+<srai>DIVISIONAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ DIVISIONAL *</pattern>
+<template>
+<srai>DIVISIONAL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CONTINUING</pattern>
+    <template>
+    Section 201.06(c) of the MPEP -  37 CFR 1.53(b) and 37 CFR 1.63(d) Divisional-Continuation Procedure:   
+        For applications filed on or after September 16, 2012, the filing of a continuing application by all or by fewer than all of the inventors named in a prior application without a newly executed oath or declaration is permitted provided that an oath or declaration in compliance with 37 CFR 1.63, or a substitute statement under 37 CFR 1.64, was executed by or with respect to such inventor and was filed in the earlier-filed application, and a copy of such oath, declaration, or substitute statement showing the signature or an indication thereon that it was executed, is submitted in the continuing application. The inventor’s oath or declaration must state that the inventor (1) is an original inventor of the claimed invention; and (2) authorized the filing of the patent application for the claimed invention. The inventor’s oath or declaration also must contain an acknowledgement that any willful false statement made in such declaration is punishable under section 1001  of U.S. Code title 18 by fine or imprisonment of not more than 5 years, or both.
+
+        Effective July 14, 2003, continued prosecution application (CPA) practice has been eliminated as to utility and plant applications. Applicants who wish to continue examination of the same claimed invention after the prosecution of a utility or plant application is closed should consider filing a request for continued examination (RCE) under 37 CFR 1.114.
+    </template>
+</category>
+<category>
+<pattern>_ CONTINUING</pattern>
+<template>
+<srai>CONTINUING</srai>
+</template>
+</category>
+<category>
+<pattern>_ CONTINUING *</pattern>
+<template>
+<srai>CONTINUING</srai>
+</template>
+</category>
+<category>
+    <pattern>CPA</pattern>
+    <template>
+        <srai>CONTINUING</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CPA</pattern>
+<template>
+<srai>CONTINUING</srai>
+</template>
+</category>
+<category>
+<pattern>_ CPA *</pattern>
+<template>
+<srai>CONTINUING</srai>
+</template>
+</category>
+
+<category>
+    <pattern>NEW</pattern>
+    <template>
+    Section 203.01 of the MPEP -  Status of Applications - New:   
+        A "new" application is a nonprovisional application that has not yet received an action by the examiner. An amendment filed prior to the first Office Action does not alter the status of a "new" application. Note that a request for continued examination (RCE)(see 37 CFR 1.114 ) is not a type of new application filing. See MPEP § 706.07(h).
+    </template>
+</category>
+<category>
+<pattern>_ NEW</pattern>
+<template>
+<srai>NEW</srai>
+</template>
+</category>
+<category>
+<pattern>_ NEW *</pattern>
+<template>
+<srai>NEW</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REJECTED</pattern>
+    <template>
+    Section 203.02 of the MPEP -  Status of Applications - Rejected:   
+        A nonprovisional application which, during its prosecution in the examining group and before allowance, contains an unanswered examiner’s action is designated as a "rejected" application. Its status as a "rejected" application continues as such until acted upon by the applicant in reply to the examiner’s action (within the allotted reply period), or until it becomes abandoned.
+    </template>
+</category>
+<category>
+<pattern>_ REJECTED</pattern>
+<template>
+<srai>REJECTED</srai>
+</template>
+</category>
+<category>
+<pattern>_ REJECTED *</pattern>
+<template>
+<srai>REJECTED</srai>
+</template>
+</category>
+
+<category>
+    <pattern>AMENDED</pattern>
+    <template>
+    Section 203.03 of the MPEP -  Status of Applications - Amended:   
+        An "amended" nonprovisional application is one that having been acted on by the examiner, has in turn been acted on by the applicant in reply to the examiner’s action. The applicant’s reply may be confined to an election, a traverse of the action taken by the examiner or may include an amendment of the application.
+    </template>
+</category>
+<category>
+<pattern>_ AMENDED</pattern>
+<template>
+<srai>AMENDED</srai>
+</template>
+</category>
+<category>
+<pattern>_ AMENDED *</pattern>
+<template>
+<srai>AMENDED</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ALLOW</pattern>
+    <template>
+    Section 203.04 of the MPEP -  Status of Applications - Allowed or in Issue:   
+        An "allowed" nonprovisional application or an application "in issue" is one which has been examined and determined to meet all statutory requirements, and in which a notice of allowance has been sent to the applicant. Its status as an "allowed" application continues from the date of the notice of allowance until it issues as a patent, unless it is withdrawn from issue (37 CFR 1.313 ), or becomes abandoned for failure to pay the issue fee and any required publication fee (37 CFR 1.314  and 1.316 ).
+    </template>
+</category>
+<category>
+<pattern>_ ALLOW</pattern>
+<template>
+<srai>ALLOW</srai>
+</template>
+</category>
+<category>
+<pattern>_ ALLOW *</pattern>
+<template>
+<srai>ALLOW</srai>
+</template>
+</category>
+<category>
+    <pattern>IN ISSUE</pattern>
+    <template>
+        <srai>ALLOW</srai>
+    </template>
+</category>
+<category>
+<pattern>_ IN ISSUE</pattern>
+<template>
+<srai>ALLOW</srai>
+</template>
+</category>
+<category>
+<pattern>_ IN ISSUE *</pattern>
+<template>
+<srai>ALLOW</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ABANDON</pattern>
+    <template>
+    Section 203.05 of the MPEP -  Status of Applications - Abandoned:   
+        An abandoned application is, inter alia, one which is removed from the Office docket of pending applications:
+		(A) through formal abandonment by the applicant or by the attorney or agent of record;
+		(B) through failure of applicant to take appropriate action at some stage in the prosecution of a nonprovisional application;
+		(C) for failure to pay the issue fee (MPEP § 711 to § 711.05); or
+		(D) in the case of a provisional application, no later than 12 months after the filing date of the provisional application (see MPEP § 711.03(c) and 35 U.S.C. 111(b)(5) ).1.316 ).
+    </template>
+</category>
+<category>
+<pattern>_ ABANDON</pattern>
+<template>
+<srai>ABANDON</srai>
+</template>
+</category>
+<category>
+<pattern>_ ABANDON *</pattern>
+<template>
+<srai>ABANDON</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TRANSITION</pattern>
+    <template>
+    Section 210 of the MPEP -  Priority to, or the Benefit of, the Filing Date of a Prior-Filed Application:   
+        Transition applications are nonprovisional applications that:
+			(A) are filed on or after March 16, 2013; and
+			(B) claim foreign priority to, or domestic benefit of, an application filed before March 16, 2013.  
+		Transition applications are either pre-AIA first-to-invent applications or AIA first-inventor-to-file applications depending on the effective filing date of the claimed invention(s).
+    </template>
+</category>
+<category>
+<pattern>_ TRANSITION</pattern>
+<template>
+<srai>TRANSITION</srai>
+</template>
+</category>
+<category>
+<pattern>_ TRANSITION *</pattern>
+<template>
+<srai>TRANSITION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>BENEFIT</pattern>
+    <template>
+    Section 210 of the MPEP -  Priority to, or the Benefit of, the Filing Date of a Prior-Filed Application:   
+        Under certain conditions and on fulfilling certain requirements, a later-filed application for patent filed in the United States may claim the benefit of, or priority to, a prior application filed in the United States (see 35 U.S.C. 119(e), 120, 121, 365(c), and 386(c); see also 37 CFR 1.78 ) or in a foreign country (see 35 U.S.C. 119(a)-(d) and (f), 365(a) and (b), and 386(a) and (b); see also 37 CFR 1.55 ). 
+
+		As a result of recent changes to the applicable laws and rules, the procedural requirements and time frames for claiming priority to, or the benefit of, an earlier-filed application may vary based on the filing date of the later-filed nonprovisional application.
+    </template>
+</category>
+<category>
+<pattern>_ BENEFIT</pattern>
+<template>
+<srai>BENEFIT</srai>
+</template>
+</category>
+<category>
+<pattern>_ BENEFIT *</pattern>
+<template>
+<srai>BENEFIT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>OWNERSHIP</pattern>
+    <template>
+    Section 301 of the MPEP -  Ownership/Assignability of Patents and Applications - Ownership:   
+        Ownership of a patent gives the patent owner the right to exclude others from making, using, offering for sale, selling, or importing into the United States the invention claimed in the patent. 35 U.S.C. 154(a)(1). Ownership of the patent does not furnish the owner with the right to make, use, offer for sale, sell, or import the claimed invention because there may be other legal considerations precluding same (e.g., existence of another patent owner with a dominant patent, failure to obtain FDA approval of the patented invention, an injunction by a court against making the product of the invention, or a national security related issue).
+    </template>
+</category>
+<category>
+<pattern>_ OWNERSHIP</pattern>
+<template>
+<srai>OWNERSHIP</srai>
+</template>
+</category>
+<category>
+<pattern>_ OWNERSHIP *</pattern>
+<template>
+<srai>OWNERSHIP</srai>
+</template>
+</category>
+<category>
+    <pattern>OWNER</pattern>
+    <template>
+        <srai>OWNERSHIP</srai>
+    </template>
+</category>
+<category>
+<pattern>_ OWNER</pattern>
+<template>
+<srai>OWNERSHIP</srai>
+</template>
+</category>
+<category>
+<pattern>_ OWNER *</pattern>
+<template>
+<srai>OWNERSHIP</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ASSIGNMENT</pattern>
+    <template>
+    Section 301 of the MPEP -  Ownership/Assignability of Patents and Applications - ASSIGNMENT:   
+        "Assignment," in general, is the act of transferring to another the ownership of one’s property, i.e., the interest and rights to the property. In 37 CFR 3.1, assignment of patent rights is defined as "a transfer by a party of all or part of its right, title and interest in a patent [or] patent application...." An assignment of a patent, or patent application, is the transfer to another of a party’s entire ownership interest or a percentage of that party’s ownership interest in the patent or application. In order for an assignment to take place, the transfer to another must include the entirety of the bundle of rights that is associated with the ownership interest, i.e., all of the bundle of rights that are inherent in the right, title and interest in the patent or patent application.ue).
+    </template>
+</category>
+<category>
+<pattern>_ ASSIGNMENT</pattern>
+<template>
+<srai>ASSIGNMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ ASSIGNMENT *</pattern>
+<template>
+<srai>ASSIGNMENT</srai>
+</template>
+</category>
+<category>
+    <pattern>ASSIGN</pattern>
+    <template>
+        <srai>ASSIGNMENT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ASSIGN</pattern>
+<template>
+<srai>ASSIGNMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ ASSIGN *</pattern>
+<template>
+<srai>ASSIGNMENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>LICENSING</pattern>
+    <template>
+    Section 301 of the MPEP -  Ownership/Assignability of Patents and Applications - LICENSING:   
+        As compared to assignment of patent rights, the licensing of a patent transfers a bundle of rights which is less than the entire ownership interest, e.g., rights that may be limited as to time, geographical area, or field of use. A patent license is, in effect, a contractual agreement that the patent owner will not sue the licensee for patent infringement if the licensee makes, uses, offers for sale, sells, or imports the claimed invention, as long as the licensee fulfills its obligations and operates within the bounds delineated by the license agreement.
+		An exclusive license may be granted by the patent owner to a licensee. The exclusive license prevents the patent owner (or any other party to whom the patent owner might wish to sell a license) from competing with the exclusive licensee, as to the geographic region, the length of time, and/or the field of use, set forth in the license agreement.
+    </template>
+</category>
+<category>
+<pattern>_ LICENSING</pattern>
+<template>
+<srai>LICENSING</srai>
+</template>
+</category>
+<category>
+<pattern>_ LICENSING *</pattern>
+<template>
+<srai>LICENSING</srai>
+</template>
+</category>
+<category>
+    <pattern>LICENSE</pattern>
+    <template>
+        <srai>LICENSING</srai>
+    </template>
+</category>
+<category>
+<pattern>_ LICENSE</pattern>
+<template>
+<srai>LICENSING</srai>
+</template>
+</category>
+<category>
+<pattern>_ LICENSE *</pattern>
+<template>
+<srai>LICENSING</srai>
 </template>
 </category>
 
@@ -5328,7 +5885,7 @@
 </category>
 
 <category>
-    <pattern>EXAMINATION</pattern>
+    <pattern>DESIGN EXAMINATION</pattern>
     <template>
     Section 1504 of the MPEP - Examination:
         In design patent applications, ornamentality, novelty, nonobviousness enablement and definiteness are necessary prerequisites to the grant of a patent. The inventive novelty or unobviousness resides in the ornamental shape or configuration of the article in which the design is embodied or the surface ornamentation which is applied to or embodied in the design.
@@ -5336,33 +5893,33 @@
     </template>
 </category>
 <category>
-<pattern>_ EXAMINATION</pattern>
+<pattern>_ DESIGN EXAMINATION</pattern>
 <template>
-<srai>EXAMINATION</srai>
+<srai>DESIGN EXAMINATION</srai>
 </template>
 </category>
 <category>
-<pattern>_ EXAMINATION *</pattern>
+<pattern>_ DESIGN EXAMINATION *</pattern>
 <template>
-<srai>EXAMINATION</srai>
+<srai>DESIGN EXAMINATION</srai>
 </template>
 </category>
 <category>
-    <pattern>EXAMIN</pattern>
+    <pattern>DESIGN EXAMIN</pattern>
     <template>
-        <srai>EXAMINATION</srai>
+        <srai>DESIGN EXAMINATION</srai>
     </template>
 </category>
 <category>
-<pattern>_ EXAMIN</pattern>
+<pattern>_ DESIGN EXAMIN</pattern>
 <template>
-<srai>EXAMINATION</srai>
+<srai>DESIGN EXAMINATION</srai>
 </template>
 </category>
 <category>
-<pattern>_ EXAMIN *</pattern>
+<pattern>_ DESIGN EXAMIN *</pattern>
 <template>
-<srai>EXAMINATION</srai>
+<srai>DESIGN EXAMINATION</srai>
 </template>
 </category>
 
@@ -6306,6 +6863,1289 @@
 <pattern>_ INTERNATIONAL APPLICATION *</pattern>
 <template>
 <srai>PCT</srai>
+</template>
+</category>
+
+
+<category>
+    <pattern>PROTEST</pattern>
+    <template>
+    Section 1900 of the MPEP - Protest:
+       A protest may be filed by a member of the public against a pending application, and it will be matched with the application file if it adequately identifies the patent application. Any information which, in the protestor’s opinion, would make the grant of a patent improper can be relied on in a protest under 37 CFR 1.291. While prior art documents, such as patents and publications, are most often the types of information relied on in protests, 37 CFR 1.291  is not limited to prior art documents. Protests may be based on any facts or information adverse to patentability. The content and substance of the protest are more important than whether prior art documents, or some other form of evidence adverse to patentability, are being relied on. The degree of participation allowed a protestor is solely within the discretion of the Director of the USPTO. 
+    </template>
+</category>
+<category>
+<pattern>_ PROTEST</pattern>
+<template>
+<srai>PROTEST</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROTEST *</pattern>
+<template>
+<srai>PROTEST</srai>
+</template>
+</category>
+<category>
+    <pattern>PROTESTOR</pattern>
+    <template>
+        <srai>PROTEST</srai>
+    </template>
+</category>
+<category>
+<pattern>_ PROTESTOR</pattern>
+<template>
+<srai>PROTEST</srai>
+</template>
+</category>
+<category>
+<pattern>_ PROTESTOR *</pattern>
+<template>
+<srai>PROTEST</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PARTICIPATION</pattern>
+    <template>
+    Section 1901.01 of the MPEP - Protestor Participation:
+       37 CFR 1.291  does not permit protestor, or any other member of the public, to contact or receive information from the Office as to the disposition or status of the protest, or the application to which it is directed, or to participate in any Office proceedings relating to the protest. The Office does not serve copies of Office actions or other documents mailed by the Office on protestors, and does not require applicants to serve copies of papers filed with the Office on protestors. Furthermore, a protestor is not permitted to participate in interviews, appeal a decision by the examiner adverse to the protestor to the Board of Patent Appeals and Interferences, or participate in an appeal by applicant. 
+    </template>
+</category>
+<category>
+<pattern>_ PARTICIPATION</pattern>
+<template>
+<srai>PARTICIPATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PARTICIPATION *</pattern>
+<template>
+<srai>PARTICIPATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DISCLOSURE</pattern>
+    <template>
+    Section 2000 of the MPEP - Duty of Disclosure:
+       A patent by its very nature is affected with a public interest. The public interest is best served, and the most effective patent examination occurs when, at the time an application is being examined, the Office is aware of and evaluates the teachings of all information material to patentability. Each individual associated with the filing and prosecution of a patent application has a duty of candor and good faith in dealing with the Office, which includes a duty to disclose to the Office all information known to that individual to be material to patentability as defined in this section. The duty to disclose information exists with respect to each pending claim until the claim is cancelled or withdrawn from consideration, or the application becomes abandoned. 
+    </template>
+</category>
+<category>
+<pattern>_ DISCLOSURE</pattern>
+<template>
+<srai>DISCLOSURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ DISCLOSURE *</pattern>
+<template>
+<srai>DISCLOSURE</srai>
+</template>
+</category>
+<category>
+    <pattern>DISCLOSE</pattern>
+    <template>
+        <srai>DISCLOSURE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DISCLOSE</pattern>
+<template>
+<srai>DISCLOSURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ DISCLOSE *</pattern>
+<template>
+<srai>DISCLOSURE</srai>
+</template>
+</category>
+<category>
+    <pattern>DUTY</pattern>
+    <template>
+        <srai>DISCLOSURE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DUTY</pattern>
+<template>
+<srai>DISCLOSURE</srai>
+</template>
+</category>
+<category>
+<pattern>_ DUTY *</pattern>
+<template>
+<srai>DISCLOSURE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MATERIALITY</pattern>
+    <template>
+    Section 2001.05 of the MPEP - Materiality Under 37 CFR 1.56(b):
+       Under the rule, information is not material unless  (1) It establishes, by itself or in combination with other information, a prima facie case of unpatentability of a claim; or (2) It refutes, or is inconsistent with, a position the applicant takes in:(i) Opposing an argument of unpatentability relied on by the Office, or (ii) Asserting an argument of patentability.
+       If information is not material, there is no duty to disclose the information to the Office. Thus, it is theoretically possible for applicants to draft claims and a specification to avoid a prima facie case of obviousness over a reference and then to be able to withhold the reference from the examiner.
+    </template>
+</category>
+<category>
+<pattern>_ MATERIALITY</pattern>
+<template>
+<srai>MATERIALITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ MATERIALITY *</pattern>
+<template>
+<srai>MATERIALITY</srai>
+</template>
+</category>
+<category>
+    <pattern>MATERIALITY</pattern>
+    <template>
+        <srai>MATERIALITY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ MATERIAL</pattern>
+<template>
+<srai>MATERIALITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ MATERIAL *</pattern>
+<template>
+<srai>MATERIALITY</srai>
+</template>
+</category>
+ 
+<category>
+    <pattern>ESTOPPEL</pattern>
+    <template>
+    Section 2012.01 of the MPEP - COLLATERAL ESTOPPEL:
+       The Supreme Court in Blonder-Tongue Labs., Inc. v. Univ. of Ill. Found., 402 U.S. 313, 169 USPQ 513 (1971) set forth the rule that once a patent has been declared invalid via judicial inquiry, a collateral estoppel barrier is created against further litigation involving the patent, unless the patentee-plaintiff can demonstrate "that he did not have" a full and fair chance to litigate the validity of his patent in "the earlier case." 
+    </template>
+</category>
+<category>
+<pattern>_ ESTOPPEL</pattern>
+<template>
+<srai>ESTOPPEL</srai>
+</template>
+</category>
+<category>
+<pattern>_ ESTOPPEL *</pattern>
+<template>
+<srai>ESTOPPEL</srai>
+</template>
+</category>
+<category>
+    <pattern>COLLATERAL</pattern>
+    <template>
+        <srai>ESTOPPEL</srai>
+    </template>
+</category>
+<category>
+<pattern>_ COLLATERAL</pattern>
+<template>
+<srai>ESTOPPEL</srai>
+</template>
+</category>
+<category>
+<pattern>_ COLLATERAL *</pattern>
+<template>
+<srai>ESTOPPEL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FRAUD</pattern>
+    <template>
+    Section 2016 of the MPEP - Fraud, Inequitable Conduct, or Violation of Duty of Disclosure Affects All Claims:
+       A finding of "fraud," "inequitable conduct," or violation of duty of disclosure with respect to any claim in an application or patent, renders all the claims thereof unpatentable or invalid.
+
+       If the application is a reissue application, the action by the examiner may extend to a determination as to whether at least one "error" required by 35 U.S.C. 251  has been alleged, i.e., identified. Further, the examiner should determine whether applicant has averred in the reissue oath or declaration that all "errors" arose "without any deceptive intention." However, the examiner should not normally comment or question as to whether the averred statement as to lack of deceptive intention appears correct or true. See MPEP § 1414.
+    </template>
+</category>
+<category>
+<pattern>_ FRAUD</pattern>
+<template>
+<srai>FRAUD</srai>
+</template>
+</category>
+<category>
+<pattern>_ FRAUD *</pattern>
+<template>
+<srai>FRAUD</srai>
+</template>
+</category>
+<category>
+    <pattern>INEQUITABLE</pattern>
+    <template>
+        <srai>FRAUD</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INEQUITABLE</pattern>
+<template>
+<srai>FRAUD</srai>
+</template>
+</category>
+<category>
+<pattern>_ INEQUITABLE *</pattern>
+<template>
+<srai>FRAUD</srai>
+</template>
+</category>
+<category>
+    <pattern>VIOLATION</pattern>
+    <template>
+        <srai>FRAUD</srai>
+    </template>
+</category>
+<category>
+<pattern>_ VIOLATION</pattern>
+<template>
+<srai>FRAUD</srai>
+</template>
+</category>
+<category>
+<pattern>_ VIOLATION *</pattern>
+<template>
+<srai>FRAUD</srai>
+</template>
+</category>
+
+<category>
+    <pattern>EXAMINATION</pattern>
+    <template>
+    Section 2103 of the MPEP - 2103    Patent Examination Process:
+       I.   DETERMINE WHAT APPLICANT HAS INVENTED AND IS SEEKING TO PATENT
+       II.   CONDUCT A THOROUGH SEARCH OF THE PRIOR ART
+       III.   DETERMINE WHETHER THE CLAIMED INVENTION COMPLIES WITH 35 U.S.C. 101
+       IV.   EVALUATE APPLICATION FOR COMPLIANCE WITH 35 U.S.C. 112
+       V.   DETERMINE WHETHER THE CLAIMED INVENTION COMPLIES WITH 35 U.S.C. 102 AND 103
+       VI.   CLEARLY COMMUNICATE FINDINGS, CONCLUSIONS AND THEIR BASES
+    </template>
+</category>
+<category>
+<pattern>_ EXAMINATION</pattern>
+<template>
+<srai>EXAMINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ EXAMINATION *</pattern>
+<template>
+<srai>EXAMINATION</srai>
+</template>
+</category>
+<category>
+    <pattern>EXAMIN</pattern>
+    <template>
+        <srai>EXAMINATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ EXAMIN</pattern>
+<template>
+<srai>EXAMINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ EXAMIN *</pattern>
+<template>
+<srai>EXAMINATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>INVENTED</pattern>
+    <template>
+    Section 2103 of the MPEP - 2103    Patent Examination Process:
+      In order to DETERMINE WHAT APPLICANT HAS INVENTED AND IS SEEKING TO PATENT:
+       A.   Identify and Understand Any Utility for the Invention
+       B.   Review the Detailed Disclosure and Specific Embodiments of the Invention To Understand What the Applicant Has Invented
+       C.   Review the Claims: The claims define the property rights provided by a patent, and thus require careful scrutiny. The goal of claim analysis is to identify the boundaries of the protection sought by the applicant and to understand how the claims relate to and define what the applicant has indicated is the invention.
+    </template>
+</category>
+<category>
+<pattern>_ INVENTED</pattern>
+<template>
+<srai>INVENTED</srai>
+</template>
+</category>
+<category>
+<pattern>_ INVENTED *</pattern>
+<template>
+<srai>INVENTED</srai>
+</template>
+</category>
+<category>
+    <pattern>INVENTION</pattern>
+    <template>
+        <srai>INVENTED</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INVENTION</pattern>
+<template>
+<srai>INVENTED</srai>
+</template>
+</category>
+<category>
+<pattern>_ INVENTION *</pattern>
+<template>
+<srai>INVENTED</srai>
+</template>
+</category>
+<category>
+    <pattern>INVENT</pattern>
+    <template>
+        <srai>INVENTED</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INVENT</pattern>
+<template>
+<srai>INVENTED</srai>
+</template>
+</category>
+<category>
+<pattern>_ INVENT *</pattern>
+<template>
+<srai>INVENTED</srai>
+</template>
+</category>
+
+<category>
+    <pattern>LIVING</pattern>
+    <template>
+    Section 2105 of the MPEP - 2103    Patentable Subject Matter — Living Subject Matter:
+      The decision of the Supreme Court in Diamond v. Chakrabarty, 447 U.S. 303, 206 USPQ 193 (1980), held that microorganisms produced by genetic engineering are not excluded from patent protection by 35 U.S.C. 101. It is clear from Chakrabarty and subsequent judicial decisions that the question of whether or not an invention embraces living matter is irrelevant to the issue of patentability. Note, however, that Congress has excluded claims directed to or encompassing a human organism from patentability. More infomation in this section includes:
+      A.   Living Subject Matter May Be Directed To A Statutory Category
+      B.   Living Subject Matter May Be Eligible for Patent Protection
+    </template>
+</category>
+<category>
+<pattern>_ LIVING</pattern>
+<template>
+<srai>LIVING</srai>
+</template>
+</category>
+<category>
+<pattern>_ LIVING *</pattern>
+<template>
+<srai>LIVING</srai>
+</template>
+</category>
+<category>
+    <pattern>ALIVE</pattern>
+    <template>
+        <srai>LIVING</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ALIVE</pattern>
+<template>
+<srai>LIVING</srai>
+</template>
+</category>
+<category>
+<pattern>_ ALIVE *</pattern>
+<template>
+<srai>LIVING</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ELIGIBLE</pattern>
+    <template>
+    Section 2106 of the MPEP - 2103 Patent Subject Matter Eligibility:
+      There are two criteria for determining subject matter eligibility under 35 U.S.C. 101  and both must be satisfied. The claimed invention (1) must be directed to one of the four statutory categories, and (2) must not be wholly directed to subject matter encompassing a judicially recognized exception, as defined below. THE FOUR CATEGORIES OF STATUTORY SUBJECT MATTER:
+      	i. Process – an act, or a series of acts or steps.
+      	ii. Machine – a concrete thing, consisting of parts, or of certain devices and combination of devices.
+      	iii. Manufacture – an article produced from raw or prepared materials by giving to these materials new forms, qualities, properties, or combinations, whether by hand labor or by machinery.
+      	iv. Composition of matter – all compositions of two or more substances and all composite articles, whether they be the results of chemical union, or of mechanical mixture, or whether they be gases, fluids, powders or solids, for example
+    </template>
+</category>
+<category>
+<pattern>_ ELIGIBLE</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ELIGIBLE *</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+    <pattern>SUBJECT</pattern>
+    <template>
+        <srai>ELIGIBLE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SUBJECT</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUBJECT *</pattern>
+<template>
+<srai>LIVING</srai>
+</template>
+</category>
+<category>
+    <pattern>ELIGIBILITY</pattern>
+    <template>
+        <srai>ELIGIBLE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ELIGIBILITY</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ELIGIBILITY *</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>UTILITY</pattern>
+    <template>
+    Section 2107 of the MPEP - Guidelines for Examination of Applications for Compliance with the Utility Requirement:
+      The Office must examine each application to ensure compliance with the "useful invention" or utility requirement of 35 U.S.C. 101. Where an applicant has set forth a specific and substantial utility, courts have been reluctant to uphold a rejection under 35 U.S.C. 101  solely on the basis that the applicant’s opinion as to the nature of the (A) specific and (B) substantial utility was inaccurate.
+
+      A "specific utility" is specific to the subject matter claimed and can "provide a well-defined and particular benefit to the public." [A]n application must show that an invention is useful to the public as disclosed in its current form, not that it may prove useful at some future date after further research. Simply put, to satisfy the ‘substantial’ utility requirement, an asserted use must show that the claimed invention has a significant and presently available benefit to the public. No Statement of Utility for the Claimed Invention in the Specification Does Not Per Se Negate Utility
+    </template>
+</category>
+<category>
+<pattern>_ UTILITY</pattern>
+<template>
+<srai>UTILITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ UTILITY *</pattern>
+<template>
+<srai>UTILITY</srai>
+</template>
+</category>
+<category>
+    <pattern>USEFUL</pattern>
+    <template>
+        <srai>UTILITY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ USEFUL</pattern>
+<template>
+<srai>UTILITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ USEFUL *</pattern>
+<template>
+<srai>UTILITY</srai>
+</template>
+</category>
+<category>
+    <pattern>SPECIFIC</pattern>
+    <template>
+        <srai>UTILITY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SPECIFIC</pattern>
+<template>
+<srai>UTILITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SPECIFIC *</pattern>
+<template>
+<srai>UTILITY</srai>
+</template>
+</category>
+<category>
+    <pattern>SUBSTANTIAL</pattern>
+    <template>
+        <srai>UTILITY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SUBSTANTIAL</pattern>
+<template>
+<srai>UTILITY</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUBSTANTIAL *</pattern>
+<template>
+<srai>UTILITY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>APPARATUS</pattern>
+    <template>
+    Section 2114 of the MPEP - Apparatus and Article Claims — Functional Language:
+      Features of an apparatus may be recited either structurally or functionally. If an examiner concludes that a functional limitation is an inherent characteristic of the prior art, then to establish a prima case of anticipation or obviousness, the examiner should explain that the prior art structure inherently possesses the functionally defined limitations of the claimed apparatus.
+    </template>
+</category>
+<category>
+<pattern>_ APPARATUS</pattern>
+<template>
+<srai>APPARATUS</srai>
+</template>
+</category>
+<category>
+<pattern>_ APPARATUS *</pattern>
+<template>
+<srai>APPARATUS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REEXAMINATION</pattern>
+    <template>
+    Section 2210 of the MPEP - Request for Ex Parte Reexamination under 35 U.S.C. 302:
+		Any person, at any time during the period of enforceability of a patent, may file a request for ex parte reexamination by the U.S. Patent and Trademark Office of any claim of the patent based on prior art patents or printed publications, unless prohibited by the estoppel provisions of AIA 35 U.S.C. 315(e)(1)  or 35 U.S.C. 325(e)(1). 
+
+	Section 2239 of the MPEP - Reexamination Ordered at the Director’s Initiative:	
+		The Director of the USPTO may initiate reexamination without a request being filed and without a fee being paid. Such reexamination may be ordered at any time during the period of enforceability of the patent.
+
+		After the request for reexamination, including the entire fee for requesting reexamination, is received in the Office, no abandonment, withdrawal, or striking of the request is possible, regardless of who requests the same.
+    </template>
+</category>
+<category>
+<pattern>_ REEXAMINATION</pattern>
+<template>
+<srai>REEXAMINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ REEXAMINATION *</pattern>
+<template>
+<srai>REEXAMINATION</srai>
+</template>
+</category>
+<category>
+    <pattern>REEXAMIN</pattern>
+    <template>
+        <srai>REEXAMINATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ REEXAMIN</pattern>
+<template>
+<srai>REEXAMINATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ REEXAMIN *</pattern>
+<template>
+<srai>REEXAMINATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ACTION</pattern>
+    <template>
+    Section 2260 of the MPEP - Office Actions:
+		It is intended that the examiner’s first ex parte action on the merits be the primary action to establish the issues which exist between the examiner and the patent owner insofar as the patent is concerned. At the time the first action is issued in reexaminations ordered under 35 U.S.C. 304, the patent owner has already been permitted to file a statement and an amendment pursuant to 37 CFR 1.530; and the reexamination requester, if the requester is not the patent owner, has been permitted to reply thereto pursuant to 37 CFR 1.535. In any case, thus, at this point, the issues should be sufficiently focused to enable the examiner to make a definitive first ex parte action on the merits which should clearly establish the issues which exist between the examiner and the patent owner insofar as the patent is concerned
+    </template>
+</category>
+<category>
+<pattern>_ ACTION</pattern>
+<template>
+<srai>ACTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ ACTION *</pattern>
+<template>
+<srai>ACTION</srai>
+</template>
+</category>
+<category>
+    <pattern>OA</pattern>
+    <template>
+        <srai>ACTION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ OA</pattern>
+<template>
+<srai>ACTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ OA *</pattern>
+<template>
+<srai>ACTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FINAL</pattern>
+    <template>
+    Section 2271 of the MPEP - Final Action:
+		Before a final action is in order, a clear issue should be developed between the examiner and the patent owner. To bring the prosecution to a speedy conclusion and at the same time deal justly with the patent owner and the public, the examiner will twice provide the patent owner with such information and references as may be useful in defining the position of the Office as to unpatentability before the action is made final. 
+
+		In making the final rejection, all outstanding grounds of rejection of record should be carefully reviewed and any grounds or rejection relied on should be reiterated. The grounds of rejection must (in the final rejection) be clearly developed to such an extent that the patent owner may readily judge the advisability of an appeal.
+    </template>
+</category>
+<category>
+<pattern>_ FINAL</pattern>
+<template>
+<srai>FINAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ FINAL *</pattern>
+<template>
+<srai>FINAL</srai>
+</template>
+</category>
+<category>
+    <pattern>FINAL ACTION</pattern>
+    <template>
+        <srai>FINAL</srai>
+    </template>
+</category>
+<category>
+<pattern>_ FINAL ACTION</pattern>
+<template>
+<srai>FINAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ FINAL ACTION *</pattern>
+<template>
+<srai>FINAL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>IPS</pattern>
+    <template>
+    Section 2302 of the MPEP - Consult an Interference Practice Specialist:
+		Every Technology Center (TC) has at least one Interference Practice Specialist (IPS), who must be consulted when suggesting an interference to the Board of Patent Appeals and Interferences (Board).
+
+		Less than one percent of all applications become involved in an interference. Consequently, examiners are not expected to become experts in interference practices. Instead, examiners are expected to be proficient in identifying potential interference and to consult with an IPS in their TC on interference matters. The IPS, in turn, is knowledgeable about when and how to suggest interferences, how to handle inquiries to and from the Board before and during interferences, and how to handle applications after interferences are completed.
+    </template>
+</category>
+<category>
+<pattern>_ IPS</pattern>
+<template>
+<srai>IPS</srai>
+</template>
+</category>
+<category>
+<pattern>_ IPS *</pattern>
+<template>
+<srai>IPS</srai>
+</template>
+</category>
+<category>
+    <pattern>SPECIALIST</pattern>
+    <template>
+        <srai>IPS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SPECIALIST</pattern>
+<template>
+<srai>IPS</srai>
+</template>
+</category>
+<category>
+<pattern>_ SPECIALIST *</pattern>
+<template>
+<srai>IPS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>NASA</pattern>
+    <template>
+    Section 2302 of the MPEP - Consult an Interference Practice Specialist:
+		Ownership of an invention made pursuant to a U.S. government contract may be vested in the contracting government agency. The Board of Patent Appeals and Interferences (Board) determines two such ownership contests using interference procedures: for the National Aeronautics and Space Administration (NASA), 42 U.S.C. 2457 (inventions having significant utility in aeronautical or space activity), and for the Department of Energy (DoE), 42 U.S.C. 2182 (inventions relating to special nuclear material or atomic energy).
+		An applicant with an application covered by these Acts must file a statement regarding the making or conception of the invention and any relation to a contract with NASA or DoE. See MPEP § 150 and § 151. The examiner should work in coordination with Licensing and Review and one of the Technology Centers Interference Practice Specialists in suggesting these cases to the Board. Although these cases are not interferences, the interference practices in this chapter generally apply to NASA and DoE ownership contests as well.
+    </template>
+</category>
+<category>
+<pattern>_ NASA</pattern>
+<template>
+<srai>NASA</srai>
+</template>
+</category>
+<category>
+<pattern>_ NASA *</pattern>
+<template>
+<srai>NASA</srai>
+</template>
+</category>
+<category>
+    <pattern>SPACE</pattern>
+    <template>
+        <srai>NASA</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SPACE</pattern>
+<template>
+<srai>NASA</srai>
+</template>
+</category>
+<category>
+<pattern>_ SPACE *</pattern>
+<template>
+<srai>NASA</srai>
+</template>
+</category>
+<category>
+    <pattern>DOE</pattern>
+    <template>
+        <srai>NASA</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DOE</pattern>
+<template>
+<srai>NASA</srai>
+</template>
+</category>
+<category>
+<pattern>_ DOE *</pattern>
+<template>
+<srai>NASA</srai>
+</template>
+</category>
+<category>
+    <pattern>ENERGY</pattern>
+    <template>
+        <srai>NASA</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ENERGY</pattern>
+<template>
+<srai>NASA</srai>
+</template>
+</category>
+<category>
+<pattern>_ ENERGY *</pattern>
+<template>
+<srai>NASA</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DEPOSIT</pattern>
+    <template>
+    Section 2402 of the MPEP - The Deposit Rules:
+		Courts have recognized the necessity and desirability of permitting an applicant for a patent to supplement the written disclosure in an application with a deposit of biological material which is essential to meet some requirement of the statute with respect to the claimed invention.
+
+		To facilitate the recognition of deposited biological material in patent applications throughout the world, the Budapest Treaty on the International Recognition of the Deposit of Microorganisms for the Purposes of Patent Procedure was established in 1977, and became operational in 1981. The Treaty requires signatory countries, like the United States, to recognize a deposit with any depository which has been approved by the World Intellectual Property Organization (WIPO). 
+
+		The deposit rules (37 CFR 1.801  - 1.809 ) set forth examining procedures and conditions of deposit which must be satisfied in the event a deposit is required. The rules do not address the substantive issue of whether See PCT Rule 13bis  and MPEP § 1823.01 for the requirements under the PCT for a reference to a deposited biological material in an international application.a deposit is required under any particular set of facts. See PCT Rule 13bis  and MPEP § 1823.01 for the requirements under the PCT for a reference to a deposited biological material in an international application.
+    </template>
+</category>
+<category>
+<pattern>_ DEPOSIT</pattern>
+<template>
+<srai>DEPOSIT</srai>
+</template>
+</category>
+<category>
+<pattern>_ DEPOSIT *</pattern>
+<template>
+<srai>DEPOSIT</srai>
+</template>
+</category>
+<category>
+    <pattern>BIO</pattern>
+    <template>
+        <srai>DEPOSIT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ BIO</pattern>
+<template>
+<srai>DEPOSIT</srai>
+</template>
+</category>
+<category>
+<pattern>_ BIO *</pattern>
+<template>
+<srai>DEPOSIT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REPLACE</pattern>
+    <template>
+    Section 2407 of the MPEP - Replacement or Supplement of Deposit:
+		37 CFR 1.805  relates to the deposit of a biological material to replace or supplement a previous deposit. The term "replacement" is directed to those situations where one deposit is being substituted for another. An applicant may have greater latitude in replacing a deposit during the pendency of an application than after the patent is granted. Replacement will typically take place where the earlier deposit is no longer viable.
+    </template>
+</category>
+<category>
+<pattern>_ REPLACE</pattern>
+<template>
+<srai>REPLACE</srai>
+</template>
+</category>
+<category>
+<pattern>_ REPLACE *</pattern>
+<template>
+<srai>REPLACE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SEQUENCE</pattern>
+    <template>
+    Section 2407 of the MPEP - Replacement or Supplement of Deposit:
+		The sequence rules (37 CFR 1.821  -1.825 ) set forth the requirements pertaining to patent applications containing nucleotide sequence and/or amino acid sequence disclosures. See also MPEP § 608.05 and § 2422.03.
+	37 CFR 1.821(e)  requires that a copy of the sequence listing referred to in 37 CFR 1.821(c)  must also be submitted in computer readable form (CRF) as an ASCII text file in accordance with the requirements of 37 CFR 1.824  (hereinafter "CRF of the sequence listing" or "CRF"). The computer readable form may be submitted on the electronic media permitted by 37 CFR 1.824, or may be submitted as an ASCII text file via EFS-Web. See MPEP § 2422.04 for additional information.
+    </template>
+</category>
+<category>
+<pattern>_ SEQUENCE</pattern>
+<template>
+<srai>SEQUENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ SEQUENCE *</pattern>
+<template>
+<srai>SEQUENCE</srai>
+</template>
+</category>
+<category>
+    <pattern>NUCLEOTIDE</pattern>
+    <template>
+        <srai>SEQUENCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ NUCLEOTIDE</pattern>
+<template>
+<srai>SEQUENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ NUCLEOTIDE *</pattern>
+<template>
+<srai>SEQUENCE</srai>
+</template>
+</category>
+<category>
+    <pattern>AMINO</pattern>
+    <template>
+        <srai>SEQUENCE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ AMINO</pattern>
+<template>
+<srai>SEQUENCE</srai>
+</template>
+</category>
+<category>
+<pattern>_ AMINO *</pattern>
+<template>
+<srai>SEQUENCE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>VARIANT</pattern>
+    <template>
+    Section 2422.01 of the MPEP - Nucleotide and/or Amino Acids Disclosures Requiring a Sequence Listing:
+		It is generally acceptable to present a single, primary sequence in the specification and sequence listing by enumeration of its residues in accordance with the sequence rules ("primary sequence") and to discuss and/or claim variants of that primary sequence without presenting each variant as a separate sequence in the sequence listing. However, the primary sequence should be annotated in the sequence listing to reflect such variants. The Office's database will only contain the unmodified sequence. It is strongly recommended that any sequences appearing in the claims, or sequences that are considered essential to understanding the invention, be included in the sequence listing as a separate sequence.
+    </template>
+</category>
+<category>
+<pattern>_ VARIANT</pattern>
+<template>
+<srai>VARIANT</srai>
+</template>
+</category>
+<category>
+<pattern>_ VARIANT *</pattern>
+<template>
+<srai>VARIANT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MAINTENANCE FEE</pattern>
+    <template>
+    Section 2501 of the MPEP - Maintenance Fees:
+		(1) IN GENERAL. — The Director shall charge the following fees for maintaining in force all patents based on applications filed on or after December 12, 1980:
+			(A) Three years and 6 months after grant, $980.
+			(B) Seven years and 6 months after grant, $2,480.
+			(C) Eleven years and 6 months after grant, $4,110.
+		(2) GRACE PERIOD; SURCHARGE. — Unless payment of the applicable maintenance fee under paragraph (1) is received in the Office on or before the date the fee is due or within a grace period of 6 months thereafter, the patent shall expire as of the end of such grace period. The Director may require the payment of a surcharge as a condition of accepting within such 6-month grace period the payment of an applicable maintenance fee.
+		(3) NO MAINTENANCE FEE FOR DESIGN OR PLANT PATENT. — No fee may be established for maintaining a design or plant patent in force.
+    </template>
+</category>
+<category>
+<pattern>_ MAINTENANCE FEE</pattern>
+<template>
+<srai>MAINTENANCE FEE</srai>
+</template>
+</category>
+<category>
+<pattern>_ MAINTENANCE FEE *</pattern>
+<template>
+<srai>MAINTENANCE FEE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DISCOUNT</pattern>
+    <template>
+    Section 2550 of the MPEP - Entity Status Discounts:
+		Reduced maintenance fees are available for patentees that can establish entitlement to small or micro entity status. 
+
+		In order to establish small entity status for the purpose of paying a maintenance fee, a written assertion of entitlement to small entity status must be filed prior to or with the maintenance fee paid as a small entity. 37 CFR 1.27(c)(2)  specifies who can sign and file the written assertion of small entity status. A written assertion of small entity status is only required to be filed once and will remain effective until changed. See MPEP §§ 509.02 and 509.03 regarding the requirements for qualifying as a small entity and the requirements for making an assertion of small entity status. 
+    </template>
+</category>
+<category>
+<pattern>_ DISCOUNT</pattern>
+<template>
+<srai>DISCOUNT</srai>
+</template>
+</category>
+<category>
+<pattern>_ DISCOUNT *</pattern>
+<template>
+<srai>DISCOUNT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REMINDER</pattern>
+    <template>
+    Section 2575 of the MPEP - Notices:
+		Since patentees are expected to maintain their own record and docketing systems and since it is expected that most patentees will pay their maintenance fees during the window period to avoid payment of a surcharge, the Office will not send any reminder notices to the patentee until after the grace period has begun. This will reduce and simplify the mailing of notices but still give patentees an opportunity to pay their maintenance fee with surcharge during the grace period before expiration of their patents. The Office will mail any Maintenance Fee Reminder to the fee address as set forth in 37 CFR 1.363. See MPEP § 2540.
+    </template>
+</category>
+<category>
+<pattern>_ REMINDER</pattern>
+<template>
+<srai>REMINDER</srai>
+</template>
+</category>
+<category>
+<pattern>_ REMINDER *</pattern>
+<template>
+<srai>REMINDER</srai>
+</template>
+</category>
+
+<category>
+    <pattern>EXPIRATION</pattern>
+    <template>
+    Section 2575 of the MPEP - Notices:
+		The Office will mail a Notice of Patent Expiration to the fee address as set forth in 37 CFR 1.363  when Office records indicate that a patent has expired for failure to pay a required maintenance fee.
+    </template>
+</category>
+<category>
+<pattern>_ EXPIRATION</pattern>
+<template>
+<srai>EXPIRATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ EXPIRATION *</pattern>
+<template>
+<srai>EXPIRATION</srai>
+</template>
+</category>
+<category>
+    <pattern>EXPIRE</pattern>
+    <template>
+        <srai>EXPIRATION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ EXPIRE</pattern>
+<template>
+<srai>EXPIRATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ EXPIRE *</pattern>
+<template>
+<srai>EXPIRATION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TERM</pattern>
+    <template>
+    Section 2701 of the MPEP - Patent Term:
+		For applications filed on or after June 8, 1995, Section 532(a)(1) of the Uruguay Round Agreements Act (Public Law 103-465, 108 Stat. 4809 (1994)) amended 35 U.S.C. 154  to provide that the term of a patent (other than a design patent) begins on the date the patent issues and ends on the date that is twenty years from the date on which the application for the patent was filed in the United States or, if the application contains a specific reference to an earlier filed application or applications under 35 U.S.C. 120, 121, or 365(c), twenty years from the filing date of the earliest of such application(s). 
+    </template>
+</category>
+<category>
+<pattern>_ TERM</pattern>
+<template>
+<srai>TERM</srai>
+</template>
+</category>
+<category>
+<pattern>_ TERM *</pattern>
+<template>
+<srai>TERM</srai>
+</template>
+</category>
+<category>
+    <pattern>DURATION</pattern>
+    <template>
+        <srai>TERM</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DURATION</pattern>
+<template>
+<srai>TERM</srai>
+</template>
+</category>
+<category>
+<pattern>_ DURATION *</pattern>
+<template>
+<srai>TERM</srai>
+</template>
+</category>
+
+
+<category>
+    <pattern>EXTENSION</pattern>
+    <template>
+    Section 2710 of the MPEP -  Term Extensions or Adjustments for Delays Within the USPTO Under 35 U.S.C. 154:
+		Utility and plant patents issuing on applications filed on or after June 8, 1995, but before May 29, 2000, are eligible for the patent term extension provisions of former 35 U.S.C. 154(b)  and 37 CFR 1.701. See MPEP § 2720. Utility and plant patents issuing on applications filed on or after May 29, 2000 are eligible for the patent term adjustment provisions of 35 U.S.C. 154(b) (effective May 29, 2000 and amended thereafter) and 37 CFR 1.702  -1.705. See MPEP § 2730. See Thomas D. Sykes v. Jon W. Dudas, 573 F.Supp2d 191, 89 USPQ2d 1423 (D.D.C. 2008).
+
+		Since the term of a design patent is not affected by the length of time prosecution takes place, there are no patent term adjustment provisions for design patents. The term "design patents" includes patents issued from design applications filed under 35 U.S.C. 111  and international design applications filed under 35 U.S.C. 385.
+    </template>
+</category>
+<category>
+<pattern>_ EXTENSION</pattern>
+<template>
+<srai>EXTENSION</srai>
+</template>
+</category>
+<category>
+<pattern>_ EXTENSION *</pattern>
+<template>
+<srai>EXTENSION</srai>
+</template>
+</category>
+
+
+
+<category>
+    <pattern>ADJUSTMENT</pattern>
+    <template>
+    Section 2731 of the MPEP -  Period of Adjustment:
+		37 CFR 1.703  specifies the period of adjustment if a patent is entitled to patent term adjustment under 35 U.S.C. 154(b)(1)  and 37 CFR 1.702. When a period is indicated (in 37 CFR 1.703  or 1.704 ) as "beginning" on a particular day, that day is included in the period, in that such day is "day one" of the period and not "day zero." For example, a period beginning on April 1 and ending on April 10 is ten (and not nine) days in length.  This period of adjustment of patent term is due to examination delay.
+    </template>
+</category>
+<category>
+<pattern>_ ADJUSTMENT</pattern>
+<template>
+<srai>ADJUSTMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ ADJUSTMENT *</pattern>
+<template>
+<srai>ADJUSTMENT</srai>
+</template>
+</category>
+<category>
+    <pattern>DELAY</pattern>
+    <template>
+        <srai>ADJUSTMENT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DELAY</pattern>
+<template>
+<srai>ADJUSTMENT</srai>
+</template>
+</category>
+<category>
+<pattern>_ DELAY *</pattern>
+<template>
+<srai>ADJUSTMENT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REDUCTION</pattern>
+    <template>
+    Section 2732 of the MPEP -  Reduction of Period of Adjustment of Patent Term:
+		37 CFR 1.704  implements the provisions of 35 U.S.C. 154(b)(2)(C)  which provides that the period of patent term adjustment under 35 U.S.C. 154(b)(1)  "shall be reduced by a period equal to the period of time during which the applicant failed to engage in reasonable efforts to conclude prosecution (processing or examination) of the application," and specifies certain circumstances as constituting a failure of an applicant to engage in reasonable efforts to conclude processing or examination of an application. Further, 35 U.S.C. 154(b)(2)(C)(iii)  gives the Office the authority to prescribe regulations establishing circumstances that constitute "a failure of an applicant to engage in reasonable efforts to conclude processing or examination of an application." 35 U.S.C. 154(b)(2)(C)  does not require the applicant’s action or inaction (that amounts to a failure to engage in reasonable efforts to conclude prosecution of the application) to have caused or contributed to patent term adjustment for the period of adjustment to be reduced due to such action or inaction.
+    </template>
+</category>
+<category>
+<pattern>_ REDUCTION</pattern>
+<template>
+<srai>REDUCTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ REDUCTION *</pattern>
+<template>
+<srai>REDUCTION</srai>
+</template>
+</category>
+<category>
+    <pattern>REDUCE</pattern>
+    <template>
+        <srai>REDUCTION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ REDUCE</pattern>
+<template>
+<srai>REDUCTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ REDUCE *</pattern>
+<template>
+<srai>REDUCTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DUE CARE</pattern>
+    <template>
+    Section 2734 of the MPEP -  Application for Patent Term Adjustment; Due Care Showing:
+		The Office "shall reinstate all or part of the cumulative period of time of an adjustment reduced under [35 U.S.C. 154(b)(2)(C) ] if the applicant… makes a showing that, in spite of all due care, the applicant was unable to respond within the 3-month period…." See 35 U.S.C. 154(b)(3)(C). The "due care" of a reasonably prudent person standard has been applied in deciding petitions under the "unavoidable delay" standard of 35 U.S.C. 133. See In re Mattullath, 38 App. D.C. 497, 514-15 (1912) ("the word ‘unavoidable’ … is applicable to ordinary human affairs, and requires no more or greater care or diligence than is generally used and observed by prudent and careful men in relation to their most important business") (quoting and adopting Ex parte Pratt, 1887 Dec. Comm’r Pat. 31, 32-33); see also Ray v. Lehman, 55 F.3d 606, 609, 34 USPQ2d 1786, 1787 (Fed. Cir. 1995) ("in determining whether a delay…was unavoidable, one looks to whether the party…exercised the due care of a reasonably prudent person").
+    </template>
+</category>
+<category>
+<pattern>_ DUE CARE</pattern>
+<template>
+<srai>DUE CARE</srai>
+</template>
+</category>
+<category>
+<pattern>_ DUE CARE *</pattern>
+<template>
+<srai>DUE CARE</srai>
+</template>
+</category>
+<category>
+    <pattern>CARE</pattern>
+    <template>
+        <srai>DUE CARE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CARE</pattern>
+<template>
+<srai>DUE CARE</srai>
+</template>
+</category>
+<category>
+<pattern>_ CARE *</pattern>
+<template>
+<srai>DUE CARE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>EXTENSION</pattern>
+    <template>
+    Section 2750 of the MPEP -  Patent Term Extension for Delays at other Agencies under 35 U.S.C. 156:
+		The part of the act codified as 35 U.S.C. 156  was designed to create new incentives for research and development of certain products subject to premarket government approval by a regulatory agency. The statute enables the owners of patents on certain human drugs, food or color additives, medical devices, animal drugs, and veterinary biological products to restore to the terms of those patents some of the time lost while awaiting premarket government approval from a regulatory agency. The rights derived from extension of the patent term under 35 U.S.C. 156(a)  are defined in 35 U.S.C. 156(b), but are not limited to a claim-by-claim basis. Rather, subsection(a) of 156  indicates that "[t]he term of a patent which claims a product, a method of using a product, or a method of manufacturing a product shall be extended." ).
+    </template>
+</category>
+<category>
+<pattern>_ EXTENSION</pattern>
+<template>
+<srai>EXTENSION</srai>
+</template>
+</category>
+<category>
+<pattern>_ EXTENSION *</pattern>
+<template>
+<srai>EXTENSION</srai>
+</template>
+</category>
+<category>
+    <pattern>INCENTIVE</pattern>
+    <template>
+        <srai>EXTENSION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INCENTIVE</pattern>
+<template>
+<srai>EXTENSION</srai>
+</template>
+</category>
+<category>
+<pattern>_ INCENTIVE *</pattern>
+<template>
+<srai>EXTENSION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PRODUCT</pattern>
+    <template>
+    Section 2750 of the MPEP -  MEANING OF "PRODUCT" AS DEFINED IN 35 U.S.C. 156(f):
+		Essentially, a "product" is a "drug product," medical device, food additive, or color additive requiring Food and Drug Administration or Department of Agriculture (Plant and Animal Inspection Service) approval of an order or regulation prior to commercial marketing or use. "Drug product" is the active ingredient of a human drug, animal drug (excluding those primarily manufactured using recombinant DNA, recombinant RNA, hybridoma technology, or other processes including site specific genetic manipulation techniques), or biological product (as defined by the Federal Food, Drug and Cosmetics Act and the Public Health Service Act) including any salt or ester of the active ingredient, as a single entity or in combination with another active ingredient. Animal biological products are approved by the Plant and Animal Inspection Service of the Department of Agriculture.
+    </template>
+</category>
+<category>
+<pattern>_ PRODUCT</pattern>
+<template>
+<srai>PRODUCT</srai>
+</template>
+</category>
+<category>
+<pattern>_ PRODUCT *</pattern>
+<template>
+<srai>PRODUCT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PRODUCT</pattern>
+    <template>
+    Section 2750 of the MPEP -  MEANING OF "PRODUCT" AS DEFINED IN 35 U.S.C. 156(f):
+		Essentially, a "product" is a "drug product," medical device, food additive, or color additive requiring Food and Drug Administration or Department of Agriculture (Plant and Animal Inspection Service) approval of an order or regulation prior to commercial marketing or use. "Drug product" is the active ingredient of a human drug, animal drug (excluding those primarily manufactured using recombinant DNA, recombinant RNA, hybridoma technology, or other processes including site specific genetic manipulation techniques), or biological product (as defined by the Federal Food, Drug and Cosmetics Act and the Public Health Service Act) including any salt or ester of the active ingredient, as a single entity or in combination with another active ingredient. Animal biological products are approved by the Plant and Animal Inspection Service of the Department of Agriculture.
+    </template>
+</category>
+<category>
+<pattern>_ PRODUCT</pattern>
+<template>
+<srai>PRODUCT</srai>
+</template>
+</category>
+<category>
+<pattern>_ PRODUCT *</pattern>
+<template>
+<srai>PRODUCT</srai>
 </template>
 </category>
 
