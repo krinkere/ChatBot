@@ -89,6 +89,8 @@ def chat():
 
 
 if __name__ == "__main__":
+    # Run this for development
     http_server.listen(5000)
     IOLoop.instance().start()
-    # app.run(host='0.0.0.0', debug=True)
+    # Run this on production to get gunicorn going. Make sure to displace debug, it would cache stuff?
+    # app.run(host='0.0.0.0', debug=False)

@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve chatbot
+After=printer.target network.target multi-user.target
+
+[Service]
+User=ekrinker
+Group=nginx
+WorkingDirectory=/var/www/ChatBot
+Environment="PATH=/var/www/ChatBot/chatbotenv/bin"
+ExecStart=/var/www/ChatBot/chatbotenv/bin/gunicorn --workers 3 --bind unix:chatbot.sock -m 007 wsgi
+
+[Install]
+WantedBy=multi-user.target

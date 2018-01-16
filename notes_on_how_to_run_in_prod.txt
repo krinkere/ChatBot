@@ -1,0 +1,16 @@
+1. navigate to /var/www/ChatBot and run git pull to get the latest and greatest
+2. delete old brain.brn file
+3. stop chatbot service
+    sudo systemctl stop chatbot
+4. start it back up
+    sudo systemctl start chatbot
+5. (The service is located in /etc/systemd/system/multi-user.target.wants/chatbot.service)
+6. Restart nginx for a good measure
+    sudo systemctl restart nginx
+7. test new chatbot
+    gunicorn --bind 0.0.0.0:8000 wsgi
+8. To test it via command line interface
+    chatbotenv/bin/python chatbot-cli.py
+9. Nginx file is located in /etc/nginx/nginx.conf
+10. Instructions on how to set up nginx and gunicorn to work with flask
+    https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-centos-7
