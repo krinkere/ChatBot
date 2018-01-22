@@ -8149,6 +8149,578 @@
 </template>
 </category>
 
+<category>
+    <pattern>ECONOMIC</pattern>
+    <template>
+    Eligibility of FUNDAMENTAL ECONOMIC PRACTICES:
+    A. Concepts Relating To Agreements Between People Or Performance Of Financial Transactions 
+        (1) Billing insurance companies and organizing patient health information (Salwan)† 
+        (2) Conditioning and controlling access to data based on payment (Smartflash)† 
+        (3) Coordinating loans (LendingTree)† 
+        (4) Creating a contractual relationship (BuySAFE) 
+        (5) Hedging (Bilski claims 1-3 and 9) 
+        (6) Local processing of payments for remotely purchased goods (Inventor Holdings) 
+        (7) Offer-based price optimization (OIP Tech) 
+        (8) Processing an application for financing a purchase (Credit Acceptance) 
+        (9) Rules for conducting a wagering game (Smith) 
+
+    B. Concepts Relating To Mitigating Risks 
+        (1) Financial instruments that are designed to protect against the risk of investing in financial instruments (Chorna)† 
+        (2) Mitigating settlement risk (Alice)
+        (3) Hedging (Bilski claims 1-3 and 9) 
+    NOTE: "†" indicates a non-precedential decision that was issued with a written opinion
+    </template>
+</category>
+<category>
+<pattern>_ ECONOMIC</pattern>
+<template>
+<srai>ECONOMIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ ECONOMIC *</pattern>
+<template>
+<srai>ECONOMIC</srai>
+</template>
+</category>
+<category>
+    <pattern>FINANCE</pattern>
+    <template>
+        <srai>ECONOMIC</srai>
+    </template>
+</category>
+<category>
+<pattern>_ FINANCE</pattern>
+<template>
+<srai>ECONOMIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ FINANCE *</pattern>
+<template>
+<srai>ECONOMIC</srai>
+</template>
+</category>
+<category>
+    <pattern>ECONOMY</pattern>
+    <template>
+        <srai>ECONOMIC</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ECONOMY</pattern>
+<template>
+<srai>ECONOMIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ ECONOMY *</pattern>
+<template>
+<srai>ECONOMIC</srai>
+</template>
+</category>
+<category>
+    <pattern>FINANCIAL</pattern>
+    <template>
+        <srai>ECONOMIC</srai>
+    </template>
+</category>
+<category>
+<pattern>_ FINANCIAL</pattern>
+<template>
+<srai>ECONOMIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ FINANCIAL *</pattern>
+<template>
+<srai>ECONOMIC</srai>
+</template>
+</category>
+<category>
+    <pattern>RISK</pattern>
+    <template>
+        <srai>ECONOMIC</srai>
+    </template>
+</category>
+<category>
+<pattern>_ RISK</pattern>
+<template>
+<srai>ECONOMIC</srai>
+</template>
+</category>
+<category>
+<pattern>_ RISK *</pattern>
+<template>
+<srai>ECONOMIC</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ORGANIZE</pattern>
+    <template>
+    Eligibility of CERTAIN METHODS OF ORGANIZING HUMAN ACTIVITY:
+    A. CONCEPTS RELATING TO MANAGING RELATIONSHIPS OR TRANSACTIONS BETWEEN PEOPLE, OR SATISFYING OR AVOIDING A LEGAL OBLIGATION
+        (1) Arbitration (Comiskey)
+        (2) Creating a contractual relationship (BuySAFE)
+        (3) Generating rule-based tasks for processing an insurance claim (Accenture)
+        (4) Hedging (Bilski claims 1-3 and 9)
+        (5) Managing a stable value protected life insurance policy (Bancorp)
+        (6) Mitigating settlement risk (Alice)
+        (7) Processing loan information (Dealertrack)
+        (8) Tax-free investing (Fort Properties)
+
+    B. CONCEPTS RELATING TO ADVERTISING, MARKETING, AND SALES ACTIVITIES OR BEHAVIORS
+        (1) Generating menus on a computer (Ameranth)
+        (2) Structuring a sales force or marketing company (Ferguson)
+        (3) Using advertising as an exchange or currency (Ultramercial)
+        (4) Using an algorithm for determining the optimal number of visits by a business representative to a client (Maucorps)
+
+    C. CONCEPTS RELATING TO MANAGING HUMAN BEHAVIOR
+        (1) Budgeting (Int. Ventures v. Cap One Bank ‘137 patent)
+        (2) Filtering content (BASCOM)
+        (3) Managing a game of bingo (Planet Bingo)†
+        (4) Mental process that a neurologist should follow when testing a patient for nervous system malfunctions (Meyer)
+
+    D. CONCEPTS RELATING TO TRACKING OR ORGANIZING INFORMATION
+        (1) Billing insurance companies and organizing patient health information (Salwan)†
+        (2) Cataloging labor data (Shortridge)†
+        (3) Classifying and storing digital images in an organized manner (TLI Comms.)
+        (4) Collecting information, analyzing it, and displaying certain
+        results of the collection and analysis (Electric Power Group)
+        (5) Creating an index, and using that index to search for and
+        retrieve data (Int. Ventures v. Erie Indemnity I: ‘434 patent)
+        (6) Encoding and decoding image data (RecogniCorp)
+        (7) Filtering content (BASCOM)
+        (8) Identification of unwanted files in a particular field (Int. Ventures v. Erie Indemnity II) †
+        (9) Measuring delivery of real-time information for commercial purposes (Two-Way Media ‘686 patent)
+        (10) Monitoring delivery of real-time information to users (Two-Way Media ‘622 patent)
+        (11) Organizing and manipulating information through mathematical correlations (Digitech)
+        (12) Providing a vehicle valuation through the collection and use of vehicle information (Audatex N. America)†
+        (13) Receiving, authenticating, and publishing data (Easyweb Innovations)†
+        (14) Receiving, screening, and distributing e-mail (Int. Ventures v. Symantec ‘050 patent)
+        (15) Selecting and sorting information by user interest or subject matter (Evolutionary Intelligence)†
+        (16) Sending information, directing sent information, and monitoring and accumulating records about receipt of sent information (Two-Way Media ‘187 and ‘005 patents)
+        (17) Tailoring content based on information about the user (Int. Ventures v. Cap One Bank ‘382 patent)
+        (18) Using a marking affixed to the outside of a mail object to communicate information about the mail object (Secured Mail Solutions)
+
+    E. OTHER CONCEPTS
+        (1) Relaying mailing address data (Return Mail)
+        (2) Testing operators of any kind of moving equipment for any kind of physical or mental impairment (Vehicle Intelligence)†
+        (3) Virus screening (Int. Ventures v. Symantec ‘610 patent)
+    NOTE: "†" indicates a non-precedential decision that was issued with a written opinion
+    </template>
+</category>
+<category>
+<pattern>_ ORGANIZE</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ORGANIZE *</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+    <pattern>BEHAVOIR</pattern>
+    <template>
+        <srai>ORGANIZE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ BEHAVOIR</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+<pattern>_ BEHAVOIR *</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+    <pattern>ACTIVITY</pattern>
+    <template>
+        <srai>ORGANIZE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ACTIVITY</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ACTIVITY *</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+    <pattern>TRACKING</pattern>
+    <template>
+        <srai>ORGANIZE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ TRACKING</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+<pattern>_ TRACKING *</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+    <pattern>MANAGING</pattern>
+    <template>
+        <srai>ORGANIZE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ MANAGING</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+<pattern>_ MANAGING *</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+    <pattern>ACTIVITIES</pattern>
+    <template>
+        <srai>ORGANIZE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ACTIVITIES</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ACTIVITIES *</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+    <pattern>ORGANIZING</pattern>
+    <template>
+        <srai>ORGANIZE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ORGANIZING</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ORGANIZING *</pattern>
+<template>
+<srai>ORGANIZE</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MENTAL</pattern>
+    <template>
+    Eligibility of "An Idea 'Of Itself'":
+    A. CONCEPTS RELATING TO DATA COMPARISONS THAT CAN BE PERFORMED MENTALLY OR ARE ANALOGOUS TO HUMAN MENTAL WORK
+        (1) Anonymous loan shopping (Mortgage Grader)
+        (2) Collecting and comparing known information (Classen)
+        (3) Comparing data to determine a risk level (Perkin-Elmer)†
+        (4) Comparing information regarding a sample or test subject to a control or target data (Ambry/Myriad CAFC)
+        (5) Comparing new and stored information and using rules to identify options (Smartgene)†
+        (6) Diagnosing an abnormal condition by performing clinical tests and thinking about the results (Grams)
+        (7) Obtaining and comparing intangible data (CyberSource)
+    B. CONCEPTS RELATING TO ORGANIZING OR ANALYZING INFORMATION IN A WAY THAT CAN BE PERFORMED MENTALLY OR IS ANALOGOUS TO HUMAN MENTAL WORK
+        (1) Collecting and analyzing information to detect misuse and notifying a user when misuse is detected (FairWarning)
+        (2) Collecting, displaying, and manipulating data (Int. Ventures v. Cap One Financial)
+        (3) Collecting information, analyzing it, and displaying certain results of the collection and analysis (Electric Power Group; West View†)
+        (4) Collection, storage, and recognition of data (Smart Systems Innovations)
+        (5) Creating an index, and using that index to search for and retrieve data (Int. Ventures v. Erie Indemnity I: ‘434 patent)
+        (6) Data recognition and storage (Content Extraction)
+        (7) Determining a price, using organizational and product group hierarchies (Versata)
+        (8) Encoding and decoding image data (RecogniCorp)
+        (9) Identification of unwanted files in a particular field (Int. Ventures v. Erie Indemnity II) †
+        (10) Mental process for logic circuit design (Synopsys)
+        (11) Organizing and manipulating information through mathematical correlations (Digitech)
+        (12) Relaying mailing address data (Return Mail)
+        (13) Retaining information in navigation of online forms (Internet Patents)
+        (14) Storing, gathering, and analyzing data (TDE Petroleum)†
+        (15) Using categories to organize, store and transmit information (Cyberfone)†
+    C. CONCEPTS DESCRIBED AS IDEAS HAVING NO PARTICULAR CONCRETE OR TANGIBLE FORM
+        (1) Assigning hair designs to balance head shape (Brown)†
+        (2) Determining a price, using organizational and product group hierarchies (Versata)
+        (3) Displaying an advertisement in exchange for access to copyrighted media (Ultramercial)
+    D. OTHER CONCEPTS
+        (1) Delivering user-selected media content to portable devices (Affinity Labs v. Amazon.com)
+        (2) Gathering financial information of potential borrowers (Clarilogic)†
+        (3) Generating a second menu from a first menu and sending the second menu to another location (Ameranth)
+        (4) Migration or transitioning of settings (Tranxition)†
+        (5) Providing out-of-region access to regional broadcast content
+        (Affinity Labs. v. DirecTV)
+        (5) Providing restricted access to resources (Prism Techs.) †
+        (6) Remotely accessing and retrieving user-specified information
+        (Int. Ventures v. Erie Indemnity I: ‘002 patent)
+    NOTE: "†" indicates a non-precedential decision that was issued with a written opinion
+    </template>
+</category>
+<category>
+<pattern>_ MENTAL</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ MENTAL *</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+<category>
+    <pattern>IDEA</pattern>
+    <template>
+        <srai>MENTAL</srai>
+    </template>
+</category>
+<category>
+<pattern>_ IDEA</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ IDEA *</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+<category>
+    <pattern>ITSELF</pattern>
+    <template>
+        <srai>MENTAL</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ITSELF</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ ITSELF *</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+<category>
+    <pattern>INTANGIBLE</pattern>
+    <template>
+        <srai>MENTAL</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INTANGIBLE</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTANGIBLE *</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+<category>
+    <pattern>THINKING</pattern>
+    <template>
+        <srai>MENTAL</srai>
+    </template>
+</category>
+<category>
+<pattern>_ THINKING</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ THINKING *</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+<category>
+    <pattern>KNOWN</pattern>
+    <template>
+        <srai>MENTAL</srai>
+    </template>
+</category>
+<category>
+<pattern>_ KNOWN</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+<category>
+<pattern>_ KNOWN *</pattern>
+<template>
+<srai>MENTAL</srai>
+</template>
+</category>
+
+<category>
+    <pattern>MATH</pattern>
+    <template>
+    Eligibility of "MATHEMATICAL RELATIONSHIPS / FORMULAS":
+    A. CONCEPTS RELATING TO MATHEMATICAL RELATIONSHIPS OR FORMULAS
+        (1) The Arrhenius equation (Diehr)
+        (2) An algorithm for converting binary coded decimal to pure binary (Benson)
+        (3) An algorithm for calculating and comparing regions in space (Coffelt)†
+        (4) A formula describing certain electromagnetic standing wave phenomena (Mackay Radio)
+        (5) A formula for computing an alarm limit (Flook)
+        (6) A mathematical formula for hedging (Bilski claims 4-8, 10, 11)
+    B. CONCEPTS RELATING TO PERFORMING MATHEMATICAL CALCULATIONS
+        (1) An algorithm for calculating parameters indicating an abnormal condition (Grams)
+        (2) Calculating the difference between local and average data values (Abele)
+        (3) Managing a stable value protected life insurance policy (Bancorp)
+        (4) Organizing and manipulating information through mathematical correlations (Digitech)
+        (5) Using an algorithm for determining the optimal number of visits by a business representative to a client (Maucorps)
+    NOTE: "†" indicates a non-precedential decision that was issued with a written opinion
+    </template>
+</category>
+<category>
+<pattern>_ MATH</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+<pattern>_ MATH *</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+    <pattern>MATHEMATICAL</pattern>
+    <template>
+        <srai>MATH</srai>
+    </template>
+</category>
+<category>
+<pattern>_ MATHEMATICAL</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+<pattern>_ MATHEMATICAL *</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+    <pattern>FORMULA</pattern>
+    <template>
+        <srai>MATH</srai>
+    </template>
+</category>
+<category>
+<pattern>_ FORMULA</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+<pattern>_ FORMULA *</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+    <pattern>FORMULAS</pattern>
+    <template>
+        <srai>MATH</srai>
+    </template>
+</category>
+<category>
+<pattern>_ FORMULAS</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+<pattern>_ FORMULAS *</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+    <pattern>ALGORITHM</pattern>
+    <template>
+        <srai>MATH</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ALGORITHM</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+<pattern>_ ALGORITHM *</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+    <pattern>RELATIONSHIP</pattern>
+    <template>
+        <srai>MATH</srai>
+    </template>
+</category>
+<category>
+<pattern>_ RELATIONSHIP</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+<pattern>_ RELATIONSHIP *</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+    <pattern>RELATIONSHIPS</pattern>
+    <template>
+        <srai>MATH</srai>
+    </template>
+</category>
+<category>
+<pattern>_ RELATIONSHIPS</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+<category>
+<pattern>_ RELATIONSHIPS *</pattern>
+<template>
+<srai>MATH</srai>
+</template>
+</category>
+
 </aiml>
 
 

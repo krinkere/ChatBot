@@ -8833,9 +8833,7 @@
 <category><pattern>ANSWER IT</pattern>
 <template>Please rephrase your question, <get name="name"/>.</template>
 </category>
-<category><pattern>MATH</pattern>
-<template>I like math too. What kind do you like best?</template>
-</category>
+
 <category><pattern>THIS IS MEANINGLESS</pattern>
 <template>It seems meaningful to me.</template>
 </category>
