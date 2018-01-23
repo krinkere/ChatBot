@@ -7259,66 +7259,6 @@
 </category>
 
 <category>
-    <pattern>ELIGIBLE</pattern>
-    <template>
-    Section 2106 of the MPEP - 2103 Patent Subject Matter Eligibility:
-      There are two criteria for determining subject matter eligibility under 35 U.S.C. 101  and both must be satisfied. The claimed invention (1) must be directed to one of the four statutory categories, and (2) must not be wholly directed to subject matter encompassing a judicially recognized exception, as defined below. THE FOUR CATEGORIES OF STATUTORY SUBJECT MATTER:
-      	i. Process – an act, or a series of acts or steps.
-      	ii. Machine – a concrete thing, consisting of parts, or of certain devices and combination of devices.
-      	iii. Manufacture – an article produced from raw or prepared materials by giving to these materials new forms, qualities, properties, or combinations, whether by hand labor or by machinery.
-      	iv. Composition of matter – all compositions of two or more substances and all composite articles, whether they be the results of chemical union, or of mechanical mixture, or whether they be gases, fluids, powders or solids, for example
-    </template>
-</category>
-<category>
-<pattern>_ ELIGIBLE</pattern>
-<template>
-<srai>ELIGIBLE</srai>
-</template>
-</category>
-<category>
-<pattern>_ ELIGIBLE *</pattern>
-<template>
-<srai>ELIGIBLE</srai>
-</template>
-</category>
-<category>
-    <pattern>SUBJECT</pattern>
-    <template>
-        <srai>ELIGIBLE</srai>
-    </template>
-</category>
-<category>
-<pattern>_ SUBJECT</pattern>
-<template>
-<srai>ELIGIBLE</srai>
-</template>
-</category>
-<category>
-<pattern>_ SUBJECT *</pattern>
-<template>
-<srai>LIVING</srai>
-</template>
-</category>
-<category>
-    <pattern>ELIGIBILITY</pattern>
-    <template>
-        <srai>ELIGIBLE</srai>
-    </template>
-</category>
-<category>
-<pattern>_ ELIGIBILITY</pattern>
-<template>
-<srai>ELIGIBLE</srai>
-</template>
-</category>
-<category>
-<pattern>_ ELIGIBILITY *</pattern>
-<template>
-<srai>ELIGIBLE</srai>
-</template>
-</category>
-
-<category>
     <pattern>UTILITY</pattern>
     <template>
     Section 2107 of the MPEP - Guidelines for Examination of Applications for Compliance with the Utility Requirement:
@@ -8720,6 +8660,183 @@
 <srai>MATH</srai>
 </template>
 </category>
+
+<category>
+    <pattern>2A</pattern>
+    <template>
+    Claims eligible in Step 2A:
+    A. CLAIM IS NOT DIRECTED TO AN ABSTRACT IDEA
+        (1) DDR Holdings (matching website “look and feel”) see Example 2
+        (2) Enfish (self-referential data table) see May 19, 2016 Memo
+        (3) McRO (rules for lip sync and facial expression animation) see Nov 2016 Memo
+        (4) Thales Visionix (using sensors to more efficiently track an object on a moving platform)
+        (5) Trading Tech. v. CQG † (GUI that prevents order entry at a changed price)
+        (6) Visual Memory (enhanced computer memory system)
+    B. CLAIM IS NOT DIRECTED TO A LAW OF NATURE OR NATURAL PHENOMENON
+        (1) Eibel Process (gravity-fed paper machine) see Example 32
+        (2) Rapid Lit. Mgmt. v. CellzDirect (cryopreserving liver cells) see July 14, 2016 Memo
+        (3) Tilghman (method of hydrolyzing fat) see Example 33
+    C. CLAIM IS NOT DIRECTED TO A PRODUCT OF NATURE (BECAUSE THE CLAIMED NATUREBASED PRODUCT HAS MARKEDLY DIFFERENT CHARACTERISTICS)
+        (1) Chakrabarty (genetically modified bacterium) see Example 13 (NBP-5)
+        (2) Myriad (cDNA with modified nucleotide sequence) see Example 15 (NBP-7)
+    NOTE: "†" indicates a non-precedential decision that was issued with a written opinion
+    </template>
+</category>
+<category>
+<pattern>_ 2A</pattern>
+<template>
+<srai>2A</srai>
+</template>
+</category>
+<category>
+<pattern>_ 2A *</pattern>
+<template>
+<srai>2A</srai>
+</template>
+</category>
+<category>
+    <pattern>2 A</pattern>
+    <template>
+        <srai>2A</srai>
+    </template>
+</category>
+<category>
+<pattern>_ 2 A</pattern>
+<template>
+<srai>2A</srai>
+</template>
+</category>
+<category>
+<pattern>_ 2 A *</pattern>
+<template>
+<srai>2A</srai>
+</template>
+</category>
+<category>
+    <pattern>2 A</pattern>
+    <template>
+        <srai>2A</srai>
+    </template>
+</category>
+<category>
+<pattern>_ 2 A</pattern>
+<template>
+<srai>2A</srai>
+</template>
+</category>
+<category>
+<pattern>_ 2 A *</pattern>
+<template>
+<srai>2A</srai>
+</template>
+</category>
+
+<category>
+    <pattern>2B</pattern>
+    <template>
+    CLAIMS ELIGIBLE IN STEP 2B (CLAIM AS A WHOLE AMOUNTS TO SIGNIFICANTLY MORE THAN THE RECITED JUDICIAL EXCEPTION, I.E., THE CLAIM RECITES AN INVENTIVE CONCEPT):
+    (1) Abele (tomographic scanning)
+    (2) Amdocs (field enhancement in distributed network)
+    (3) BASCOM (filtering Internet content) see Nov 2016 Memo and Example 34
+    (4) Classen (processing data about vaccination schedules and then vaccinating)
+    (5) Diehr (rubber manufacturing) see Example 25
+    (6) Mackay Radio (antenna)
+    (7) Myriad CAFC (screening method using transformed cells)
+    (8) RCT (digital image processing) see Example 3
+    (9) SiRF Tech (GPS system) see Example 4
+    </template>
+</category>
+<category>
+<pattern>_ 2B</pattern>
+<template>
+<srai>2B</srai>
+</template>
+</category>
+<category>
+<pattern>_ 2B *</pattern>
+<template>
+<srai>2B</srai>
+</template>
+</category>
+<category>
+    <pattern>2 B</pattern>
+    <template>
+        <srai>2B</srai>
+    </template>
+</category>
+<category>
+<pattern>_ 2 B</pattern>
+<template>
+<srai>2B</srai>
+</template>
+</category>
+<category>
+<pattern>_ 2 B *</pattern>
+<template>
+<srai>2B</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ELIGIBLE</pattern>
+    <template>
+    Section 2106 of the MPEP - 2103 Patent Subject Matter Eligibility:
+      There are two criteria for determining subject matter eligibility under 35 U.S.C. 101  and both must be satisfied. The claimed invention (1) must be directed to one of the four statutory categories, and (2) must not be wholly directed to subject matter encompassing a judicially recognized exception, as defined below. THE FOUR CATEGORIES OF STATUTORY SUBJECT MATTER:
+        i. Process – an act, or a series of acts or steps.
+        ii. Machine – a concrete thing, consisting of parts, or of certain devices and combination of devices.
+        iii. Manufacture – an article produced from raw or prepared materials by giving to these materials new forms, qualities, properties, or combinations, whether by hand labor or by machinery.
+        iv. Composition of matter – all compositions of two or more substances and all composite articles, whether they be the results of chemical union, or of mechanical mixture, or whether they be gases, fluids, powders or solids, for example
+    </template>
+</category>
+<category>
+<pattern>_ ELIGIBLE</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ELIGIBLE *</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+    <pattern>SUBJECT</pattern>
+    <template>
+        <srai>ELIGIBLE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SUBJECT</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUBJECT *</pattern>
+<template>
+<srai>LIVING</srai>
+</template>
+</category>
+<category>
+    <pattern>ELIGIBILITY</pattern>
+    <template>
+        <srai>ELIGIBLE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ELIGIBILITY</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ELIGIBILITY *</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+
 
 </aiml>
 
