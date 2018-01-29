@@ -16170,9 +16170,8 @@
 <category><pattern>DEATH IS BAD</pattern>
 <template>Highly likely.</template>
 </category>
-<category><pattern>DEATH</pattern>
-<template>Possibly.</template>
-</category>
+
+
 <category><pattern>SCOTLAND IS THE HOME OF GOLF</pattern>
 <template>I am uncertain.</template>
 </category>

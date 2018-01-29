@@ -535,6 +535,83 @@
 </category>
 
 <category>
+    <pattern>FOREIGN FILING LICENSE</pattern>
+    <template>
+        Section 140 of the MPEP: Foreign Filing Licenses 
+            In the interests of national security, the United States government imposes restrictions on the export of technical information. These restrictions are administered by the Departments of Commerce, State, and/or Energy depending on the subject matter involved. For the filing of patent applications and registrations of industrial designs in foreign countries, the authority for export control has been delegated to the Commissioner for Patents.
+
+            There are two ways in which permission to file an application abroad may be obtained: either a petition for a foreign filing license may be granted (37 CFR 5.12 ) or an applicant may wait 6 months after filing an application in the USPTO (35 U.S.C. 184 ) at which time a license on that subject matter is no longer required as long as no Secrecy Order has been imposed. 37 CFR 5.11(e)(2). 
+    </template>
+</category>
+<category>
+<pattern>_ FOREIGN FILING LICENSE</pattern>
+<template>
+<srai>FOREIGN FILING LICENSE</srai>
+</template>
+</category>
+<category>
+<pattern>_ FOREIGN FILING LICENSE *</pattern>
+<template>
+<srai>FOREIGN FILING LICENSE</srai>
+</template>
+</category>
+<category>
+    <pattern>FOREIGN LICENSE</pattern>
+    <template>
+        <srai>FOREIGN FILING LICENSE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ FOREIGN LICENSE</pattern>
+<template>
+<srai>FOREIGN FILING LICENSE</srai>
+</template>
+</category>
+<category>
+<pattern>_ FOREIGN LICENSE *</pattern>
+<template>
+<srai>FOREIGN FILING LICENSE</srai>
+</template>
+</category>
+<category>
+    <pattern>INTERNATIONAL LICENSE</pattern>
+    <template>
+        <srai>FOREIGN FILING LICENSE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INTERNATIONAL LICENSE</pattern>
+<template>
+<srai>FOREIGN FILING LICENSE</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTERNATIONAL LICENSE *</pattern>
+<template>
+<srai>FOREIGN FILING LICENSE</srai>
+</template>
+</category>
+<category>
+    <pattern>INTERNATIONAL FILING LICENSE</pattern>
+    <template>
+        <srai>FOREIGN FILING LICENSE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INTERNATIONAL FILING LICENSE</pattern>
+<template>
+<srai>FOREIGN FILING LICENSE</srai>
+</template>
+</category>
+<category>
+<pattern>_ INTERNATIONAL FILING LICENSE *</pattern>
+<template>
+<srai>FOREIGN FILING LICENSE</srai>
+</template>
+</category>
+
+
+<category>
     <pattern>PATENTABLE</pattern>
     <template>
         Section 101 of title 35, United States Code, provides: "Whoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title." <![CDATA[<a target="_new" href="https://mpep.uspto.gov/RDMS/MPEP/current#/current/d0e197004.html">MPEP 2103</a>]]>
@@ -907,6 +984,120 @@
 </category>
 
 <category>
+    <pattern>CROSS-NOTING</pattern>
+    <template>
+    Section 202 of the MPEP -  Cross-Noting:   
+        The front page of a printed patent identifies all prior applications for which benefits are claimed under 35 U.S.C. 119(e), 120, 121, 365(c), or 386(c)  in continuation-in-part, continuation, divisional, and reissue applications. Therefore, the identifying data of all prior applications for which benefits are claimed should be reviewed by the examiner to ensure that the data is accurate and provided in an application data sheet for applications filed on or after September 16, 2012, or provided in either the first sentence(s) of the specification or in an application data sheet for applications filed prior to September 16, 2012. See 37 CFR 1.78(a)(3)  and (d)(2)  and MPEP § 211 et seq. For example, the reference to a prior nonprovisional application must include the appropriate relationship (e.g., continuation, divisional, or continuation-in-part) between the nonprovisional applications.
+    </template>
+</category>
+<category>
+<pattern>_ CROSS-NOTING</pattern>
+<template>
+<srai>CROSS-NOTING</srai>
+</template>
+</category>
+<category>
+<pattern>_ CROSS-NOTING *</pattern>
+<template>
+<srai>CROSS-NOTING</srai>
+</template>
+</category>
+<category>
+    <pattern>CROSSNOTING</pattern>
+    <template>
+        <srai>CROSS-NOTING</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CROSSNOTING</pattern>
+<template>
+<srai>CROSS-NOTING</srai>
+</template>
+</category>
+<category>
+<pattern>_ CROSSNOTING *</pattern>
+<template>
+<srai>CROSS-NOTING</srai>
+</template>
+</category>
+<category>
+    <pattern>NOTATION</pattern>
+    <template>
+        <srai>CROSS-NOTING</srai>
+    </template>
+</category>
+<category>
+<pattern>_ NOTATION</pattern>
+<template>
+<srai>CROSS-NOTING</srai>
+</template>
+</category>
+<category>
+<pattern>_ NOTATION *</pattern>
+<template>
+<srai>CROSS-NOTING</srai>
+</template>
+</category>
+<category>
+    <pattern>CROSS-NOTATION</pattern>
+    <template>
+        <srai>CROSS-NOTING</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CROSS-NOTATION</pattern>
+<template>
+<srai>CROSS-NOTING</srai>
+</template>
+</category>
+<category>
+<pattern>_ CROSS-NOTATION *</pattern>
+<template>
+<srai>CROSS-NOTING</srai>
+</template>
+</category>
+<category>
+    <pattern>NOTING</pattern>
+    <template>
+        <srai>CROSS-NOTING</srai>
+    </template>
+</category>
+<category>
+<pattern>_ NOTING</pattern>
+<template>
+<srai>CROSS-NOTING</srai>
+</template>
+</category>
+<category>
+<pattern>_ NOTING *</pattern>
+<template>
+<srai>CROSS-NOTING</srai>
+</template>
+</category>
+
+<category>
+    <pattern>TRAVERSE</pattern>
+    <template>
+    Section 818.01(d) of the MPEP -  Cross-Noting:   
+        When two or more independent and distinct inventions are presented for examination, the examiner may make a restriction requirement if a serious burden exists. In the reply to the restriction requirement, applicant must elect one invention for examination. If applicant wishes to traverse the restriction requirement, the reply must also include a traversal with specific reasons why applicant believes the restriction requirement is in error.
+
+        Regardless of the presence of a linking claim, a proper traverse must include a written statement of the reasons for traverse, distinctly and specifically pointing out the supposed errors upon which the applicant relies for his or her conclusion that the requirement is in error. If restriction is made final following consideration of a traverse, the right to petition is preserved even if all linking claims are canceled. When a final restriction requirement is contingent on the nonallowability of the linking claims, applicant may petition from the requirement under 37 CFR 1.144  without waiting for a final action on the merits of the linking claims or applicant may defer his or her petition until the linking claims have been finally rejected, but not later than the notice of appeal. See 37 CFR 1.144  and MPEP § 818.01(c).
+    </template>
+</category>
+<category>
+<pattern>_ TRAVERSE</pattern>
+<template>
+<srai>TRAVERSE</srai>
+</template>
+</category>
+<category>
+<pattern>_ TRAVERSE *</pattern>
+<template>
+<srai>TRAVERSE</srai>
+</template>
+</category>
+
+<category>
     <pattern>NEW</pattern>
     <template>
     Section 203.01 of the MPEP -  Status of Applications - New:   
@@ -1189,40 +1380,556 @@
 </category>
 
 <category>
+    <pattern>TITLE REPORT</pattern>
+    <template>
+    Section 320 of the MPEP -  Title Reports:   
+        The "title report" is a form which can be used under certain circumstances by the Assignment Division to report to someone within the Office the name of the owner of an application or patent as shown by the Assignment Division records on the date the title report is made. For example, a title report is requested by the Reexamination Preprocessing Staff when a request for reexamination is filed. Title reports may not be ordered by applicants or attorneys. 
+
+        Information as to the title is not normally required by the examiner to examine an application. It is only in limited circumstances when the ownership becomes an issue and an examiner needs a title report. See MPEP § 303. Examiners may obtain a title report using the PALM Intranet (select "General Information," insert the appropriate application number, select "Search," select "Assignments"). The screen resulting from the search may be printed to yield the copy of the title report.
+    </template>
+</category>
+<category>
+<pattern>_ TITLE REPORT</pattern>
+<template>
+<srai>TITLE REPORT</srai>
+</template>
+</category>
+<category>
+<pattern>_ TITLE REPORT *</pattern>
+<template>
+<srai>TITLE REPORT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>CORRECTION</pattern>
+    <template>
+    Section 323 of the MPEP -  Procedures for Correcting Errors in Recorded Assignment Document:   
+        An error in a recorded assignment document will be corrected by Assignment Division provided a "corrective document" is submitted. The "corrective document" must include the following:
+            (A) A copy of the original assignment document with the corrections made therein. The corrections must be initialed and dated by the party conveying the interest; and
+            (B) A new Recordation Form Cover Sheet (form PTO-1595) (See MPEP § 302.07).  
+    </template>
+</category>
+<category>
+<pattern>_ CORRECTION</pattern>
+<template>
+<srai>CORRECTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ CORRECTION *</pattern>
+<template>
+<srai>CORRECTION</srai>
+</template>
+</category>
+<category>
+    <pattern>CORRECTED</pattern>
+    <template>
+        <srai>CORRECTION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CORRECTED</pattern>
+<template>
+<srai>CORRECTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ CORRECTED *</pattern>
+<template>
+<srai>CORRECTION</srai>
+</template>
+</category>
+<category>
+    <pattern>TYPO</pattern>
+    <template>
+        <srai>CORRECTION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ TYPO</pattern>
+<template>
+<srai>CORRECTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ TYPO *</pattern>
+<template>
+<srai>CORRECTION</srai>
+</template>
+</category>
+<category>
+    <pattern>EDIT</pattern>
+    <template>
+        <srai>CORRECTION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ EDIT</pattern>
+<template>
+<srai>CORRECTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ EDIT *</pattern>
+<template>
+<srai>CORRECTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>PRACTITIONER SELECTION</pattern>
+    <template>
+    Section 401 of the MPEP -  U.S. Patent and Trademark Office Cannot Aid in Selection of Patent Practitioner:   
+        An applicant who is a juristic entity must be represented by a patent practitioner. An applicant for patent, other than a juristic entity (e.g., organizational assignee), may file and prosecute his or her own application, and thus act as his or her own representative (pro se) before the Office. See 37 CFR 1.31. In presenting (whether by signing, filing, submitting, or later advocating) papers to the Office, a pro se applicant is making the certifications under 37 CFR 11.18(b), and may be subject to sanctions under 37 CFR 11.18(c)  for violations of 37 CFR 11.18(b)(2). See 37 CFR 1.4(d)(4). See also MPEP §§ 402.03 and 410.
+        If patentable subject matter appears to be disclosed in a pro se application and it is apparent that the applicant is unfamiliar with the proper preparation and prosecution of patent applications, the examiner may suggest to the applicant that it may be desirable to employ a registered patent attorney or agent. It is suggested that form paragraph 4.10 be incorporated in an Office action if the use of an attorney or agent is considered desirable and if patentable subject matter exists in the application
+    </template>
+</category>
+<category>
+<pattern>_ PRACTITIONER SELECTION</pattern>
+<template>
+<srai>PRACTITIONER SELECTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ PRACTITIONER SELECTION *</pattern>
+<template>
+<srai>PRACTITIONER SELECTION</srai>
+</template>
+</category>
+<category>
+    <pattern>ATTORNEY SELECTION</pattern>
+    <template>
+        <srai>PRACTITIONER SELECTION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ATTORNEY SELECTION</pattern>
+<template>
+<srai>PRACTITIONER SELECTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ ATTORNEY SELECTION *</pattern>
+<template>
+<srai>PRACTITIONER SELECTION</srai>
+</template>
+</category>
+
+<category>
+    <pattern>POWER OF ATTORNEY</pattern>
+    <template>
+    Section 402 of the MPEP -  Power of Attorney; Naming Representative:   
+        An applicant may give a power of attorney to one or more patent practitioners or one or more joint inventors. A power of attorney to a joint inventor will be recognized even though the one to whom it is given is not a registered practitioner.
+        For a power of attorney to be valid, the attorney or agent appointed must be registered to practice before the U.S. Patent and Trademark Office in accordance with 37 CFR 11.6. Note that under 37 CFR 11.6(c), certain foreigners who are in good standing before the patent office of the country in which they reside and practice may be registered as a patent agent to practice before the Office for the limited purpose of presenting and prosecuting patent applications of applicants located in such country.
+    </template>
+</category>
+<category>
+<pattern>_ POWER OF ATTORNEY</pattern>
+<template>
+<srai>POWER OF ATTORNEY</srai>
+</template>
+</category>
+<category>
+<pattern>_ POWER OF ATTORNEY *</pattern>
+<template>
+<srai>POWER OF ATTORNEY</srai>
+</template>
+</category>
+<category>
+    <pattern>REPRESENTATIVE</pattern>
+    <template>
+        <srai>POWER OF ATTORNEY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ REPRESENTATIVE</pattern>
+<template>
+<srai>POWER OF ATTORNEY</srai>
+</template>
+</category>
+<category>
+<pattern>_ REPRESENTATIVE *</pattern>
+<template>
+<srai>POWER OF ATTORNEY</srai>
+</template>
+</category>
+<category>
+    <pattern>LAWYER</pattern>
+    <template>
+        <srai>POWER OF ATTORNEY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ LAWYER</pattern>
+<template>
+<srai>POWER OF ATTORNEY</srai>
+</template>
+</category>
+<category>
+<pattern>_ LAWYER *</pattern>
+<template>
+<srai>POWER OF ATTORNEY</srai>
+</template>
+</category>
+<category>
+    <pattern>ATTORNEY</pattern>
+    <template>
+        <srai>POWER OF ATTORNEY</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ATTORNEY</pattern>
+<template>
+<srai>POWER OF ATTORNEY</srai>
+</template>
+</category>
+<category>
+<pattern>_ ATTORNEY *</pattern>
+<template>
+<srai>POWER OF ATTORNEY</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DEATH</pattern>
+    <template>
+    Section 406 of the MPEP -  Death of Patent Practitioner:   
+        The power of attorney of a patent practitioner will be revoked or terminated by his or her death. The patent practitioner may not appoint a "substitute" and any attempt by the patent practitioner to appoint a "substitute" patent practitioner whose power is intended to survive his or her own will not be recognized by the Office.
+        If notification of the death of the sole practitioner of record is received by the Office, correspondence continues to be held with the office of the deceased practitioner but a copy of the Office action is also mailed to the person who originally appointed the practitioner. In such an Office action, the examiner should add form paragraph
+    </template>
+</category>
+<category>
+<pattern>_ DEATH</pattern>
+<template>
+<srai>DEATH</srai>
+</template>
+</category>
+<category>
+<pattern>_ DEATH *</pattern>
+<template>
+<srai>DEATH</srai>
+</template>
+</category>
+<category>
+    <pattern>DEAD</pattern>
+    <template>
+        <srai>DEATH</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DEAD</pattern>
+<template>
+<srai>DEATH</srai>
+</template>
+</category>
+<category>
+<pattern>_ DEAD *</pattern>
+<template>
+<srai>DEATH</srai>
+</template>
+</category>
+<category>
+    <pattern>DIED</pattern>
+    <template>
+        <srai>DEATH</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DIED</pattern>
+<template>
+<srai>DEATH</srai>
+</template>
+</category>
+<category>
+<pattern>_ DIED *</pattern>
+<template>
+<srai>DEATH</srai>
+</template>
+</category>
+
+<category>
+    <pattern>SUSPENDED</pattern>
+    <template>
+    Section 407 of the MPEP -  Suspended or Excluded Patent Practitioner:   
+        Any power of attorney given to a practitioner who has been suspended or disbarred by the Office is ineffective, and does not authorize the person to practice before the Office or to represent applicants or patentees in patent matters.
+    Form paragraphs 4.07, and 4.08 should be used where power of attorney is given to an attorney or agent who has been suspended from practice before the Office.
+    </template>
+</category>
+<category>
+<pattern>_ SUSPENDED</pattern>
+<template>
+<srai>SUSPENDED</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUSPENDED *</pattern>
+<template>
+<srai>DESUSPENDEDATH</srai>
+</template>
+</category>
+<category>
+    <pattern>SUSPENSION</pattern>
+    <template>
+        <srai>SUSPENDED</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SUSPENSION</pattern>
+<template>
+<srai>SUSPENDED</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUSPENSION *</pattern>
+<template>
+<srai>SUSPENDED</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ADDRESS</pattern>
+    <template>
+    Section 501 of the MPEP -  Filing Papers With the U.S. Patent and Trademark Office:   
+        The U.S. Patent and Trademark Office (Office) has three separate general mailing addresses. The addresses are as follows:
+        Correspondence in patent-related matters under the direction of the Commissioner for Patents should be addressed to:
+            COMMISSIONER FOR PATENTS
+            P.O. BOX 1450
+            ALEXANDRIA, VIRGINIA 22313-1450
+        Correspondence in trademark-related matters under the direction of the Commissioner for Trademarks or the Trademark Trial and Appeal Board should be addressed to:
+            COMMISSIONER FOR TRADEMARKS
+            P.O. BOX 1451
+            ALEXANDRIA, VA 22313-1451
+        Patent and trademark documents sent to the Assignment Division for recordation (Mail Stop Assignment Recordation Services), requests for certified or uncertified copies of patent and trademark documents (Mail Stop Document Services), and for correspondence for which an address is not otherwise specified in 37 CFR 1.1  or 2.190, should be addressed to:
+            DIRECTOR OF THE UNITED STATES PATENT AND TRADEMARK OFFICE
+            P.O. BOX 1450
+            ALEXANDRIA, VA 22313-1450
+    </template>
+</category>
+<category>
+<pattern>_ ADDRESS</pattern>
+<template>
+<srai>ADDRESS</srai>
+</template>
+</category>
+<category>
+<pattern>_ ADDRESS *</pattern>
+<template>
+<srai>ADDRESS</srai>
+</template>
+</category>
+<category>
+    <pattern>MAIL</pattern>
+    <template>
+        <srai>ADDRESS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ MAIL</pattern>
+<template>
+<srai>ADDRESS</srai>
+</template>
+</category>
+<category>
+<pattern>_ MAIL *</pattern>
+<template>
+<srai>ADDRESS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>DISTRIBUTION</pattern>
+    <template>
+    Section 508 of the MPEP -  Distribution:   
+        All applications are electronically scanned and loaded into the Image File Wrapper (IFW) system upon filing. Once documents are loaded into the IFW system, examiners, technical support staff, and other Office personnel will perform further processing and examination using the IFW system.
+        For handling of models, exhibits, and specimen, see MPEP §§ 608.03 and 608.03(a).
+    </template>
+</category>
+<category>
+<pattern>_ DISTRIBUTION</pattern>
+<template>
+<srai>DISTRIBUTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ DISTRIBUTION *</pattern>
+<template>
+<srai>DISTRIBUTION</srai>
+</template>
+</category>
+<category>
+    <pattern>SAVE</pattern>
+    <template>
+        <srai>DISTRIBUTION</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SAVE</pattern>
+<template>
+<srai>DISTRIBUTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ SAVE *</pattern>
+<template>
+<srai>DISTRIBUTION</srai>
+</template>
+</category>
+
+
+
+<category>
+    <pattern>SMALL</pattern>
+    <template>
+        Section 509.02 of the MPEP - Small Entity Status: 
+           Under 35 U.S.C. 41(h)(1), fees charged under 35 U.S.C. 41(a), (b)  and (d)(1)  shall be reduced by 50 percent with respect to their application to any small business concern as defined under section 3 of the Small Business Act, and to any independent inventor or nonprofit organization as defined in regulations issued by the Director.
+           Small entity status may be established by the submission of a simple written assertion of entitlement to small entity status. The assertion must be signed, clearly identifiable, and convey the concept of entitlement to small entity status. 37 CFR 1.27(c)(1). The written assertion is not required to be presented in any particular form. Written assertions of small entity status or references to small entity fees will be liberally interpreted to represent the required assertion. The written assertion can be made in any paper filed in or with the application and need be no more than a simple sentence or a box checked on an application transmittal letter.
+    </template>
+</category>
+<category>
+<pattern>_ SMALL</pattern>
+<template>
+<srai>SMALL</srai>
+</template>
+</category>
+<category>
+<pattern>_ SMALL *</pattern>
+<template>
+<srai>SMALL</srai>
+</template>
+</category>
+<category>
+    <pattern>SMALLENTITY</pattern>
+    <template>
+        <srai>SMALL</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SMALLENTITY</pattern>
+<template>
+<srai>SMALL</srai>
+</template>
+</category>
+<category>
+<pattern>_ SMALLENTITY *</pattern>
+<template>
+<srai>SMALL</srai>
+</template>
+</category>
+
+
+<category>
+    <pattern>MICRO</pattern>
+    <template>
+        Section 509.04 of the MPEP - Micro Entity Status: 
+            The fees which are reduced by 75% for micro entities include filing fees (nonprovisional and provisional), search fees, examination fees, issue fees, and appeal fees for utility, design, plant, and reissue patent applications. Also included are patent maintenance fees including the maintenance fee grace period surcharges as well as the surcharge for a petition to accept a delayed maintenance fee payment in order to reinstate an expired patent. 
+            There are two separate bases for establishing micro entity status referred to as the "gross income basis" under 35 U.S.C. 123(a)  and the "institution of higher education basis" under 35 U.S.C. 123(d).  For new application filings not previously assigned a patent application number, providing the first named inventor and the title of the invention at the top of the certification form(s) in the spaces provided will be sufficient to identify the application. It is strongly recommended that the following document descriptions in EFS-Web be used as appropriate:
+                • Certification of Micro Entity (Gross Income Basis)
+                • Certification of Micro Entity (Education Basis)
+    </template>
+</category>
+<category>
+<pattern>_ MICRO</pattern>
+<template>
+<srai>MICRO</srai>
+</template>
+</category>
+<category>
+<pattern>_ MICRO *</pattern>
+<template>
+<srai>MICRO</srai>
+</template>
+</category>
+<category>
+    <pattern>MICROENTITY</pattern>
+    <template>
+        <srai>MICRO</srai>
+    </template>
+</category>
+<category>
+<pattern>_ MICROENTITY</pattern>
+<template>
+<srai>MICRO</srai>
+</template>
+</category>
+<category>
+<pattern>_ MICROENTITY *</pattern>
+<template>
+<srai>MICRO</srai>
+</template>
+</category>
+
+<category>
+    <pattern>APPLICANT</pattern>
+    <template>
+        Section 605.01 of the MPEP - Applicant for Application filed on or after September 16, 2012: 
+            37 CFR 1.42  defines who is the applicant for a patent. The word "applicant" when used in title 37 refers to the inventor or all joint inventors, or to the person applying for a patent as provided in 37 CFR 1.43, 1.45, or 1.46. If a person is applying for a patent as provided in 37 CFR 1.46, the word "applicant" refers to the assignee, the person to whom the inventor is under an obligation to assign, or the person who otherwise shows sufficient proprietary interest in the matter, who is applying for the patent under 37 CFR 1.46  and not the inventor. If fewer than all joint inventors are applying for the patent as provided in 37 CFR 1.45, the phrase "the applicant" means the joint inventors who are applying for the patent without the omitted inventor(s).
+    </template>
+</category>
+<category>
+<pattern>_ APPLICANT</pattern>
+<template>
+<srai>APPLICANT</srai>
+</template>
+</category>
+<category>
+<pattern>_ APPLICANT *</pattern>
+<template>
+<srai>APPLICANT</srai>
+</template>
+</category>
+<category>
+    <pattern>INVENTOR</pattern>
+    <template>
+        <srai>APPLICANT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ INVENTOR</pattern>
+<template>
+<srai>APPLICANT</srai>
+</template>
+</category>
+<category>
+<pattern>_ INVENTOR *</pattern>
+<template>
+<srai>APPLICANT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FILING</pattern>
+    <template>
+    Section 702 of the MPEP -  Requisites of the Application:   
+        Except for design applications, the filing date for nonprovisional applications filed on or after December 18, 2013 is the date on which a specification, with or without claims, is received in the Office. Similarly, provisional applications filed on or after December 18, 2013 may receive a filing date even if the application is filed without drawings. The filing date for a design application, except for a continued prosecution application (CPA) under 37 CFR 1.53(d), is the date on which the specification as required by 35 U.S.C. 112, including at least one claim, and any required drawings are received in the Office. Also, for applications filed on or after December 18, 2013, an application (other than an application for a design patent) is not required to include any drawings to be entitled to a filing date. It should be noted, however, 35 U.S.C. 111(a)(2)  continues to require the application to include a drawing as prescribed by 35 U.S.C. 113, which requires a drawing where necessary for the understanding of the subject matter sought to be patented. Therefore, any drawings necessary for the understanding of the invention should be submitted with the application on filing
+    </template>
+</category>
+<category>
+<pattern>_ FILING</pattern>
+<template>
+<srai>FILING</srai>
+</template>
+</category>
+<category>
+<pattern>_ FILING *</pattern>
+<template>
+<srai>FILING</srai>
+</template>
+</category>
+
+
+
+
+<category>
     <pattern>INFORMATION REASONABLY REQUIRED</pattern>
     <template>
-        37 CFR 1.105(a)(1)(i)-(viii)  list specific examples of information that may be reasonably required. Other examples, not meant to be exhaustive, of information that may be reasonably required for examination of an application include:
+    Section 704.11 of the MPEP - Requirements for Information:
 
-        (A) The name and citation of any particularly relevant indexed journal, or treatise.
-        (B) The trade name of any goods or services the claimed subject matter is embodied in.
-        (C) The citation for, the dates initially published and copies of any advertising and promotional literature prepared for any goods or services the claimed subject matter has been embodied in.
-        (D) The citation for and copies of any journal articles describing any goods or services the claimed subject matter has been embodied in.
-        (E) The trade names and providers of any goods or services in competition with the goods or services the claimed subject matter has been embodied in.
-        (F) Any written descriptions or analyses, prepared by any of the inventors or assignees, of goods or services in competition with the goods or services the claimed subject matter has been embodied in.
-        (G) Identification of pending or abandoned applications filed by at least one of the inventors or assigned to the same assignee as the current application that disclose similar subject matter that are not otherwise identified in the current application. Regarding the identification of applications filed before June 8, 1995, 35 U.S.C. 122(a)  requires the identified applications to be kept in confidence by the Office and no information concerning the same is to be given without authority of the applicant or owner unless necessary to carry out the provisions of an Act of Congress or in such special circumstances as may be determined by the Director. See MPEP § 103 and Hyatt v. United States Patent and Trademark Office, No. 1:13-cv-1535 (E.D. Va., May 29, 2014) (2014 WL 2446176).
-        (H) A reply to a matter raised in a protest under 37 CFR 1.291.
-        (I) An explanation of technical material in a publication, such as one of the inventor’s publications.
-        (J) The identification of changes made in a reformatted continuing application filed under 37 CFR 1.53(b).
-        (K) A mark-up for a continuation-in-part application showing the subject matter added where there is an intervening reference.
-        (L) Comments on a new decision by the Federal Circuit that appears on point.
-        (M) The publication date of an undated document mentioned by applicant that may qualify as printed publication prior art (35 U.S.C. 102(a)  or pre-AIA 35 U.S.C. 102(a)  or (b) ).
-        (N) Comments on information of record which raises a question of whether applicant derived the invention from another under 35 U.S.C. 101  and 115, and pre-AIA 35 U.S.C. 102(f).
-        (O) Art related to applicant’s invention, applicant’s disclosure, or the claimed subject matter.
-        (P) Other factual information pertinent to patentability.
-        (Q) The accuracy of the examiner’s stated analysis of such items.
-        (R) Clarification of the correlation and identification of what structure, material, or acts set forth in the specification would be capable of carrying out a function recited in a means or steps plus function claim limitation. If it is not apparent to the examiner where in the specification and drawings there is support for a particular claim limitation reciting a means to accomplish a function, and if an inquiry by the examiner for such support is met by a stated lack of knowledge thereof by the applicant, the examiner could very well conclude that there is no such support and make appropriate rejections under, for example, 35 U.S.C. 112(a)  or pre-AIA 35 U.S.C. 112, first paragraph (written description) and 35 U.S.C. 112(b)  or pre-AIA 35 U.S.C. 112, second paragraph.
-        (S) Interrogatories or Stipulations.
-            (1) Of the common technical features shared among all claims, or admission that certain groups of claims do not share any common technical features,
-            (2) About the support found in the disclosure for means or steps plus function claims (35 U.S.C. 112(f)  or pre-AIA 35 U.S.C. 112, paragraph 6),
-            (3) Of precisely which portion(s) of the disclosure provide the written description and enablement support for specific claim element(s),
-            (4) Of the meaning of claim limitations or terms used in the claims, such as what teachings in the prior art would be covered by particular limitations or terms in a claim and which dictionary definitions would define a particular claim term, particularly where those terms are not used per se in the specification,
-            (5) Of which portions of each claim correspond to any admitted prior art in the specification,
-            (6) Of the specific utility provided by the claimed subject matter on a claim-by-claim basis,
-            (7) As to whether a dependent claim element is known in the prior art based on the examiner having a reasonable basis for believing so,
-            (8) Of support for added limitations in an amended claim,
-            (9) Of facts related to public use or sale situations.
-        (T) Information from the applicant regarding a third party submission under 37 CFR 1.290. In no circumstance may an examiner direct a requirement for information to the third party that submitted the paper under 37 CFR 1.290. See MPEP § 1134.
-        (U) Information from the applicant regarding rescission of a statement under 37 CFR 1.55  or 1.78. See MPEP § 704.14(a) for form paragraph 7.104.02.
+        The criteria stated in 37 CFR 1.105  for making a requirement for information is that the information be reasonably necessary to the examination or treatment of a matter in an application. The information required would typically be that necessary for finding prior art or for resolving an issue arising from the results of the search for art or from analysis of the application file. A requirement for information necessary for finding prior art is not a substitute for the examiner performing a search of the relevant prior art; the examiner must make a search of the art according to MPEP §§ 704.01 and 904 – 904.03.
+
+        The criteria of reasonable necessity is generally met, e.g., where:
+            (A) the examiner’s search and preliminary analysis demonstrates that the claimed subject matter cannot be adequately searched by class or keyword among patents and typical sources of non-patent literature, or
+            (B) either the application file or the lack of relevant prior art found in the examiner’s search justifies asking the applicant if he or she has information that would be relevant to the patentability determination.
     </template>
 </category>
 <category>
@@ -1450,6 +2157,47 @@
 </template>
 </category>
 
+
+
+
+<category>
+    <pattern>INCOMPLETE</pattern>
+    <template>
+        Section 704.12(c) of the MPEP - Treatment of an Incomplete Reply: 
+            An incomplete reply to a 37 CFR 1.105  requirement in a pending application or reexamination proceeding is handled in the same manner as an amendment not fully responsive to a non-final Office action. See 37 CFR 1.135(c)  and MPEP § 714.03. Where the reply is a bona fide reply, form paragraph 7.95 may be used. Note that a 37 CFR 1.105  requirement, even absent an action on the merits, is an Office action.
+    </template>
+</category>
+<category>
+<pattern>_ INCOMPLETE</pattern>
+<template>
+<srai>INCOMPLETE</srai>
+</template>
+</category>
+<category>
+<pattern>_ INCOMPLETE *</pattern>
+<template>
+<srai>INCOMPLETE</srai>
+</template>
+</category>
+<category>
+    <pattern>UNFINISHED</pattern>
+    <template>
+        <srai>INCOMPLETE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ UNFINISHED</pattern>
+<template>
+<srai>INCOMPLETE</srai>
+</template>
+</category>
+<category>
+<pattern>_ UNFINISHED *</pattern>
+<template>
+<srai>INCOMPLETE</srai>
+</template>
+</category>
+
 <category>
     <pattern>PATENTABILITY REPORT</pattern>
     <template>
@@ -1488,6 +2236,137 @@
 <srai>PATENTABILITY REPORT</srai>
 </template>
 </category>
+<category>
+    <pattern>REPORT</pattern>
+    <template>
+        <srai>PATENTABILITY REPORT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ REPORT</pattern>
+<template>
+<srai>PATENTABILITY REPORT</srai>
+</template>
+</category>
+<category>
+<pattern>_ REPORT *</pattern>
+<template>
+<srai>PATENTABILITY REPORT</srai>
+</template>
+</category>
+<category>
+    <pattern>MISCLASSIFICATION</pattern>
+    <template>
+        <srai>PATENTABILITY REPORT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ REPORT</pattern>
+<template>
+<srai>MISCLASSIFICATION</srai>
+</template>
+</category>
+<category>
+<pattern>_ REPORT *</pattern>
+<template>
+<srai>MISCLASSIFICATION</srai>
+</template>
+</category>
+<category>
+    <pattern>MISCLASS</pattern>
+    <template>
+        <srai>PATENTABILITY REPORT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ REPORT</pattern>
+<template>
+<srai>MISCLASS</srai>
+</template>
+</category>
+<category>
+<pattern>_ REPORT *</pattern>
+<template>
+<srai>MISCLASS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>REJECTION OF CLAIMS</pattern>
+    <template>
+        Section 706 of the MPEP - Rejection of Claims:
+            After the application has been read and the claimed invention understood, a prior art search for the claimed invention is made. With the results of the prior art search, including any references provided by the applicant, the patent application should be reviewed and analyzed in conjunction with the state of the prior art to determine whether the claims define a useful, novel, nonobvious, and enabled invention that has been clearly described in the specification. The goal of examination is to clearly articulate any rejection early in the prosecution process so that the applicant has the opportunity to provide evidence of patentability and otherwise reply completely at the earliest opportunity. The examiner then reviews all the evidence, including arguments and evidence responsive to any rejection, before issuing the next Office action. Where the examiner determines that information reasonably necessary for the examination should be required from the applicant under 37 CFR 1.105, such a requirement should generally be made either prior to or with the first Office action on the merits and should follow the procedures in MPEP § 704.10 et seq.
+    </template>
+</category>
+<category>
+<pattern>_ REJECTION OF CLAIMS</pattern>
+<template>
+<srai>REJECTION OF CLAIMS</srai>
+</template>
+</category>
+<category>
+<pattern>_ REJECTION OF CLAIMS *</pattern>
+<template>
+<srai>REJECTION OF CLAIMS</srai>
+</template>
+</category>
+<category>
+    <pattern>CLAIM REJECTION</pattern>
+    <template>
+        <srai>REJECTION OF CLAIMS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CLAIM REJECTION</pattern>
+<template>
+<srai>REJECTION OF CLAIMS</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLAIM REJECTION *</pattern>
+<template>
+<srai>REJECTION OF CLAIMS</srai>
+</template>
+</category>
+<category>
+    <pattern>CLAIMS REJECTION</pattern>
+    <template>
+        <srai>REJECTION OF CLAIMS</srai>
+    </template>
+</category>
+<category>
+<pattern>_ CLAIMS REJECTION</pattern>
+<template>
+<srai>REJECTION OF CLAIMS</srai>
+</template>
+</category>
+<category>
+<pattern>_ CLAIMS REJECTION *</pattern>
+<template>
+<srai>REJECTION OF CLAIMS</srai>
+</template>
+</category>
+
+<category>
+    <pattern>FINAL REJECTION</pattern>
+    <template>
+        Section 706.07 of the MPEP - Final Rejection:
+            Before final rejection is in order a clear issue should be developed between the examiner and applicant. To bring the prosecution to as speedy conclusion as possible and at the same time to deal justly by both the applicant and the public, the invention as disclosed and claimed should be thoroughly searched in the first action and the references fully applied; and in reply to this action the applicant should amend with a view to avoiding all the grounds of rejection and objection. Switching from one subject matter to another in the claims presented by applicant in successive amendments, or from one set of references to another by the examiner in rejecting in successive actions claims of substantially the same subject matter, will alike tend to defeat attaining the goal of reaching a clearly defined issue for an early termination, i.e., either an allowance of the application or a final rejection.
+    </template>
+</category>
+<category>
+<pattern>_ FINAL REJECTION</pattern>
+<template>
+<srai>FINAL REJECTION</srai>
+</template>
+</category>
+<category>
+<pattern>_ FINAL REJECTION *</pattern>
+<template>
+<srai>FINAL REJECTION</srai>
+</template>
+</category>
+
 
 <category>
     <pattern>PROVISIONAL REJECTION</pattern>
@@ -5132,6 +6011,25 @@
 <srai>REJECTION AFTER</srai>
 </template>
 </category>
+<category>
+    <pattern>AFTER ALLOWANCE</pattern>
+    <template>
+        <srai>REJECTION AFTER</srai>
+    </template>
+</category>
+<category>
+<pattern>_ AFTER ALLOWANCE</pattern>
+<template>
+<srai>REJECTION AFTER</srai>
+</template>
+</category>
+<category>
+<pattern>_ AFTER ALLOWANCE *</pattern>
+<template>
+<srai>REJECTION AFTER</srai>
+</template>
+</category>
+
 
 <category>
     <pattern>ISSUE</pattern>
@@ -6495,19 +7393,19 @@
 </template>
 </category>
 <category>
-    <pattern>REPORT</pattern>
+    <pattern>REPORTS</pattern>
     <template>
         <srai>PALM</srai>
     </template>
 </category>
 <category>
-<pattern>_ REPORT</pattern>
+<pattern>_ REPORTS</pattern>
 <template>
 <srai>PALM</srai>
 </template>
 </category>
 <category>
-<pattern>_ REPORT *</pattern>
+<pattern>_ REPORTS *</pattern>
 <template>
 <srai>PALM</srai>
 </template>
@@ -7436,7 +8334,7 @@
 </category>
 
 <category>
-    <pattern>FINAL</pattern>
+    <pattern>FINAL ACTION</pattern>
     <template>
     Section 2271 of the MPEP - Final Action:
 		Before a final action is in order, a clear issue should be developed between the examiner and the patent owner. To bring the prosecution to a speedy conclusion and at the same time deal justly with the patent owner and the public, the examiner will twice provide the patent owner with such information and references as may be useful in defining the position of the Office as to unpatentability before the action is made final. 
@@ -7445,35 +8343,18 @@
     </template>
 </category>
 <category>
-<pattern>_ FINAL</pattern>
-<template>
-<srai>FINAL</srai>
-</template>
-</category>
-<category>
-<pattern>_ FINAL *</pattern>
-<template>
-<srai>FINAL</srai>
-</template>
-</category>
-<category>
-    <pattern>FINAL ACTION</pattern>
-    <template>
-        <srai>FINAL</srai>
-    </template>
-</category>
-<category>
 <pattern>_ FINAL ACTION</pattern>
 <template>
-<srai>FINAL</srai>
+<srai>FINAL ACTION</srai>
 </template>
 </category>
 <category>
 <pattern>_ FINAL ACTION *</pattern>
 <template>
-<srai>FINAL</srai>
+<srai>FINAL ACTION</srai>
 </template>
 </category>
+
 
 <category>
     <pattern>IPS</pattern>
@@ -8066,6 +8947,140 @@
 <pattern>_ PRODUCT *</pattern>
 <template>
 <srai>PRODUCT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ABSTRACT</pattern>
+    <template>
+    Section 711.06 of the MPEP -  Abstracts, Abbreviatures, and Defensive Publications:
+        Abstracts were prepared and published in accordance with the Notice of January 25, 1949, 619 OG 258. Each abstract includes a summary of the disclosure of the abandoned application, and in applications having drawings, a figure of the drawing. The publication of such abstracts was discontinued in 1953.
+        Abbreviatures were prepared and published in accordance with the procedure indicated in the Notice of October 13, 1964, 808 OG 1. Each abbreviature contains a specific portion of the disclosure of the abandoned application, preferably a detailed representative claim, and, in applications having drawings, a figure of the drawing. The publication of such abbreviatures was discontinued in 1965.
+        Distinct numbers are assigned to all Defensive Publications published December 16, 1969 through October 1980, for example.Defensive Publications are included in subclass lists and subscription orders. The distinct numbers are used for all official reference and document copy requirements.
+        A conversion table from the application serial number to the distinct number for all Defensive Publications published before December 16, 1969 appears at 869 OG 687
+    </template>
+</category>
+<category>
+<pattern>_ ABSTRACT</pattern>
+<template>
+<srai>ABSTRACT</srai>
+</template>
+</category>
+<category>
+<pattern>_ ABSTRACT *</pattern>
+<template>
+<srai>ABSTRACT</srai>
+</template>
+</category>
+<category>
+    <pattern>ABBREVIATURE</pattern>
+    <template>
+        <srai>ABSTRACT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ABBREVIATURE</pattern>
+<template>
+<srai>ABSTRACT</srai>
+</template>
+</category>
+<category>
+<pattern>_ ABBREVIATURE *</pattern>
+<template>
+<srai>ABSTRACT</srai>
+</template>
+</category>
+<category>
+    <pattern>DEFENSIVE</pattern>
+    <template>
+        <srai>ABSTRACT</srai>
+    </template>
+</category>
+<category>
+<pattern>_ DEFENSIVE</pattern>
+<template>
+<srai>ABSTRACT</srai>
+</template>
+</category>
+<category>
+<pattern>_ DEFENSIVE *</pattern>
+<template>
+<srai>ABSTRACT</srai>
+</template>
+</category>
+
+<category>
+    <pattern>ADVANTAGE</pattern>
+    <template>
+    Section 707.07(f) of the MPEP -  Answer All Material Traversed :
+        In order to provide a complete application file history and to enhance the clarity of the prosecution history record, an examiner must provide clear explanations of all actions taken by the examiner during prosecution of an application.
+        After an Office action, the reply (in addition to making amendments, etc.) may frequently include arguments and affidavits to the effect that the prior art cited by the examiner does not teach how to obtain or does not inherently yield one or more advantages (new or improved results, functions or effects), which advantages are urged to warrant issue of a patent on the allegedly novel subject matter claimed.
+    </template>
+</category>
+<category>
+<pattern>_ ADVANTAGE</pattern>
+<template>
+<srai>ADVANTAGE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ADVANTAGE *</pattern>
+<template>
+<srai>ADVANTAGE</srai>
+</template>
+</category>
+<category>
+    <pattern>IMPROVE</pattern>
+    <template>
+        <srai>ADVANTAGE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ IMPROVE</pattern>
+<template>
+<srai>ADVANTAGE</srai>
+</template>
+</category>
+<category>
+<pattern>_ IMPROVE *</pattern>
+<template>
+<srai>ADVANTAGE</srai>
+</template>
+</category>
+<category>
+    <pattern>ADVANTAGES</pattern>
+    <template>
+        <srai>ADVANTAGE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ADVANTAGES</pattern>
+<template>
+<srai>ADVANTAGE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ADVANTAGES *</pattern>
+<template>
+<srai>ADVANTAGE</srai>
+</template>
+</category>
+<category>
+    <pattern>IMPROVEMENT</pattern>
+    <template>
+        <srai>ADVANTAGE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ IMPROVEMENT</pattern>
+<template>
+<srai>ADVANTAGE</srai>
+</template>
+</category>
+<category>
+<pattern>_ IMPROVEMENT *</pattern>
+<template>
+<srai>ADVANTAGE</srai>
 </template>
 </category>
 
@@ -8837,7 +9852,62 @@
 </template>
 </category>
 
+<category>
+    <pattern>SUPPLEMENTAL</pattern>
+    <template>
+    Section 2800 of the MPEP -  Supplemental Examiniation:
+      Supplemental examination provisions of the AIA provide a patent owner with a mechanism to request that the Office consider, reconsider, or correct information believed to be relevant to the patent.
+      Unlike ex parte reexamination practice, the information that the patent owner may request to be considered, reconsidered, or corrected in a supplemental examination proceeding is not limited to patents and printed publications. The "information" may include any information that the patent owner believes to be relevant to the patent. For example, the information may include not only a patent or a journal article, but also a sales invoice, or a transcript of an audio or video recording. In addition, the information submitted as part of a request for supplemental examination may involve any ground of patentability, such as, for example, patent eligible subject matter, anticipation, public use or sale, obviousness, written description, enablement, indefiniteness, and double-patenting.
+    </template>
+</category>
+<category>
+<pattern>_ ELIGIBLE</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ELIGIBLE *</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+    <pattern>SUBJECT</pattern>
+    <template>
+        <srai>ELIGIBLE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ SUBJECT</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ SUBJECT *</pattern>
+<template>
+<srai>LIVING</srai>
+</template>
+</category>
+<category>
+    <pattern>ELIGIBILITY</pattern>
+    <template>
+        <srai>ELIGIBLE</srai>
+    </template>
+</category>
+<category>
+<pattern>_ ELIGIBILITY</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+<category>
+<pattern>_ ELIGIBILITY *</pattern>
+<template>
+<srai>ELIGIBLE</srai>
+</template>
+</category>
+
 
 </aiml>
-
-
